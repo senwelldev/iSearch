@@ -1,0 +1,67 @@
+.blogBody2{
+    color: black;
+    padding-bottom: 10%;
+}
+
+.blogBody2 .blogHeading{
+    margin-top: -100px;
+    padding: 15% 15% 5% 15%;
+    color: white;
+    background: url("../../Images/Blogs/BlogImage2.png");
+    background-size: cover;
+    position: static;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+}
+.blogHeading h1{
+    font-size: 60px !important;
+}
+
+.blogHeading h1 a{
+    color: white;
+}
+
+.blogsContent{
+    padding: 5% 15% 5% 15%;
+    /* padding: 3%; */
+    background: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.movedLists{
+    margin-left: -35px;
+}
+@media (min-width:768px) and (max-width:991px) {
+    .blogHeading h1{
+        padding-top: 5%;
+        font-size: 40px !important;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .blogBody2{
+        /* padding-top: 25%; */
+        color: black;
+    }
+
+    .blogHeading{
+        margin-top: -100px;
+        padding: 30% 15% 15% 15%;
+        /* background: blue; */
+        color: white;
+        background-size: contain;
+        position: static;
+        background-position: top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        /* border: 1px solid red; */
+    }
+    .blogHeading h1{
+        font-size: 30px !important;
+    }
+}
+.blogHeading h1{
+    font-size: 30px !important;
+}

@@ -1,0 +1,122 @@
+.navbarBody {
+  height: 60px;
+  /* background: #000 !important; */
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  /* background: white !important; */
+  /* border: 1px solid red; */
+}
+
+.navLogo {
+  width: 170px;
+  height: 100%;
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+  margin-left: 5%;
+  object-fit: fill;
+  /* border: 1px solid red; */
+}
+
+.navLogo img {
+  height: 100%;
+  background: transparent;
+  border: none;
+  /* border: 1px solid blue; */
+}
+
+.toggleContainer {
+  display: none;
+}
+
+.menuContainer {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* color: white; */
+}
+
+.menuContainer div:hover {
+  border-bottom: 1px solid transparent;
+}
+
+.navbarBody div {
+  cursor: pointer;
+}
+
+.navCollapsed {
+  display: none;
+}
+.menuContainer div.active {
+  border-bottom: 2px solid blue;
+}
+
+/* Add your other styles as needed */
+
+@media screen and (max-width: 991px) {
+  .navbarBody {
+    height: auto;
+    width: 100%;
+    /* background: black !important; */
+    /* border: 1px solid red; */
+  }
+
+  .navLogo {
+    width: 120px;
+    height: 100%;
+    margin-left: 5px;
+  }
+
+  .toggleContainer {
+    height: 40px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 30px;
+    padding-right: 8px;
+  }
+
+  .menuContainer {
+    display: none;
+    flex-direction: column;
+  }
+
+  .navCollapsed {
+    background: black;
+    color: white;
+    height: auto;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    position: fixed;
+    /* top: 40px; */
+    z-index: 1000;
+    /* border: 1px solid blue; */
+  }
+
+  .navCollapsed-Logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+  }
+
+  .navCollapsed-Logo .navLogo {
+    margin: 0px;
+    /* border: 1px solid red; */
+  }
+
+  .navCollapsed div {
+    padding: 7px;
+  }
+}

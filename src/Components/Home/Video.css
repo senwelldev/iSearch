@@ -1,0 +1,71 @@
+.vido{
+    height: auto;
+    position: relative;
+    top: 0;
+    margin-top: 0px !important;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    /* overflow-x: auto; */
+    /* width: 100vw; */
+    /* border: 1px solid red; */
+    object-fit: cover;
+}
+
+.vdointernal{
+    width: 100%;
+    object-fit: cover;
+    /* border:1px solid red; */
+}
+
+.vdointernal video{
+    width: 100%;
+}
+
+/* #mute, #unMute{
+    height: 30px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+} */
+
+
+.mute, .unMute {
+    height: 30px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 1%;
+    top: 10%;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    color: white;
+}
+  
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 991px)
+{
+    .vido{
+        /* width: 99%; */
+        margin-top: 0px !important;
+        object-fit: contain;
+    }
+
+    .mute, .unMute {
+        right: 3%;
+        top: 20%;    
+    }
+    
+}

@@ -1,0 +1,102 @@
+.serviceBandsBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceBands-row{
+    height: 270px;
+    /* border: 1px solid black; */
+    color: white;
+    background: #FF7274;
+    display: flex;
+
+    &:nth-of-type(2){
+        background: #FEE163;
+        flex-direction: row-reverse;
+    }
+    &:nth-of-type(3){
+        background: #E37F89;
+    }
+    &:nth-of-type(4){
+    background: #4EB652;
+    flex-direction: row-reverse;
+    }
+    &:nth-of-type(5){
+    background: #FF894F;
+    }
+    &:nth-of-type(6){
+    background: #127FBE;
+    flex-direction: row-reverse;
+    }
+}
+
+.serviceBands-row-Left{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviceBands-row-Left{
+    object-fit: fill;
+}
+.serviceBands-row-Left video{
+    /* border: 1px solid white; */
+
+}
+
+.serviceBands-row-Right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Services-Bands-btn{
+    padding: 10px 20px 10px 20px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-top: 10px;
+    background: linear-gradient(-19deg, rgba(255, 255, 255, 0.578) 50% ,transparent 50%);
+    background-size: 300% 100%;  
+    transition: background-position 0.5s ease;
+}
+
+.Services-Bands-btn:hover{
+    background-position: 50% 0;
+    /* color: black; */
+}
+
+@media screen and (max-width:991px) {
+    .serviceBands-row{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    
+        &:nth-of-type(2){
+            flex-direction: column;
+        }
+        &:nth-of-type(3){
+            flex-direction: column;
+            text-align: center;
+        }
+        &:nth-of-type(4){
+        flex-direction: column;
+        }
+        &:nth-of-type(5){
+        flex-direction: column;
+        }
+        &:nth-of-type(6){
+        flex-direction: column;
+        }
+    }    
+    .serviceBands-row-Left{
+        width: 100%;
+    }
+    .serviceBands-row-Right{
+        width: 100%;
+        padding: 5% 0 5% 0;
+    }
+}

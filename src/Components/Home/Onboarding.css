@@ -1,0 +1,29 @@
+.onboardingBody{
+    padding: 5%;
+    display: flex;
+    font-family: "fraunces",serif;
+}
+
+.pieChartBody{
+    width: 50%;
+}
+
+.accordionBody{
+    width: 50%;
+    font-family: "fraunces",serif;
+}
+
+@media screen and (max-width: 768px) {
+    .onboardingBody{
+        padding: 5%;
+        flex-direction: column;
+    }
+    
+    .pieChartBody{
+        width: 100%;
+    }
+    
+    .accordionBody{
+        width: 100%;
+    }    
+}

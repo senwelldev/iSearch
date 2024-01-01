@@ -1,0 +1,118 @@
+.visionBody{
+    padding-top: 2%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.visionContainer{
+    width: 98%;
+    display: flex;
+    /* border: 2px solid black; */
+    /* border-radius: 20px 20px 0px 0px; */
+    margin: 5px;
+}
+
+.visionContainerLeft{
+    width: 40%;
+    color: black;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: flex-end;
+    &:nth-of-type(2){
+        justify-content: flex-start;
+    }
+    /* border: 1px solid red; */
+}
+
+.vissionImg, .MissionImg{
+    /* height: 50%; */
+    width: 35%;
+}
+
+.vissionImg img, .MissionImg img{
+    height: 100%;
+    width: 100%;
+}
+.visionContainerLeft h1{
+    /* color: blue; */
+    font-size: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 2px solid blue; */
+}
+
+.visionContainerRight{
+    width: 60%;
+    padding: 5%;
+    font-size: 18px;
+    /* font-weight: -100; */
+    color: black;
+    text-align: justify;
+}
+
+.missionContainer{
+    width: 98%;
+    display: flex;
+    /* border: 2px solid black; */
+    /* border-radius: 0px 0px 20px 20px; */
+    margin: 10px;
+}
+
+.missionContainerLeft{
+    width: 50%;
+    /* background: black; */
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.missionContainerLeft h1{
+    /* color: blue; */
+    font-size: 60px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 2px solid blue; */
+}
+
+.missionContainerRight{
+    width: 50%;
+    padding: 5%;
+    font-size: 18px;
+    color: white;
+    border: 1px solid red;
+}
+
+
+@media screen and (max-width:768px) {
+    .visionBody{
+        padding-bottom: 20%;
+    }
+
+    .visionContainer{
+        flex-direction: column;
+    }
+
+    .missionContainer{
+        flex-direction: column-reverse;
+    }
+
+    .visionContainerLeft, .visionContainerRight, .missionContainerRight, .missionContainerLeft{
+        width: 100%;
+    }
+
+    .visionContainerLeft{
+        justify-content: center;
+    }
+    .visionContainerLeft h1{
+        margin-top: 25px;
+    }
+
+}

@@ -1,0 +1,49 @@
+.GreetBody{
+    /* padding-top: 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+
+.GreetLeftContainer{
+    width: 40%;
+    padding: 5%;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: right;
+    /* border: 1px solid red; */
+}
+
+.boldWords{
+    font-size: 50px !important;
+    color: #0070c0;
+}
+.GreetRightComtainer{
+    width: 60%;
+    padding: 5%;
+    background: white;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    /* letter-spacing: 2px; */
+}
+
+@media screen and (max-width:768px) {
+    .GreetBody{
+        padding: 2%;
+        flex-direction: column;
+    }
+
+    .GreetLeftContainer{
+        width: 100%;
+        padding: 2%;
+        justify-content: center;
+    }
+
+    .GreetRightComtainer{
+        width: 100%;
+        padding: 2%;
+    }
+}

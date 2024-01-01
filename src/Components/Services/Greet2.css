@@ -1,0 +1,46 @@
+.Greet2Body{
+    /* padding-top: 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Greet2LeftContainer{
+    width: 40%;
+    padding: 5%;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: right;
+    text-align: justify;
+}
+
+.Greet2RightComtainer{
+    width: 60%;
+    padding: 5%;
+    background: white;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+}
+
+@media screen and (max-width:768px) {
+    .Greet2Body{
+        /* padding-top: 20%; */
+        padding: 5%;
+        flex-direction: column-reverse;
+        /* border: 1px solid red; */
+    }
+
+    .Greet2LeftContainer{
+        width: 100%;
+        padding: 2%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Greet2RightComtainer{
+        width: 100%;
+        padding: 2%;
+    }
+}

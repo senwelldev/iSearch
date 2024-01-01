@@ -1,0 +1,72 @@
+.Social-media-Body {
+  padding: 0;
+  /* border: 2px solid red; */
+}
+
+.Social-media-Body .first-Row {
+  /* margin-top: -50px; */
+  padding: 130px 0px 40px 0px;
+  /* background: yellow; */
+  background: linear-gradient(#fee163, white);
+  /* border: 1px solid red; */
+  color: black;
+}
+
+
+/* ------------------------- */
+
+.smm-solutions{
+  margin: 0 1rem 0 1rem ;
+}
+.cards {
+  border: 0.1px solid rgb(226, 224, 224);
+  color: black !important;
+  padding: 1.5rem;
+  width: 100%;
+  height: 100%;
+}
+.icon {
+  width: 100%;
+  
+}
+.cards .icon img {
+  border: none;
+  width: 20%;
+  height: 10%;
+  transition: transform 0.3s ease;
+}
+
+.cards .icon img:hover {
+  transform: scale(1.05);
+}
+
+.col-md-4:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+.col-md-4 {
+  transition: transform 0.3s ease;
+}
+
+/* ------------------------------ */
+
+@media screen and (max-width:760px) {
+  .social-rp h3{
+      font-size: 4vh;
+      padding: 0 !important;
+      margin: 0 !important;
+  }
+  .social-lp h4 ,.stats{
+      font-size: 4vh;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .heading-right {
+    width: 100%;
+  }
+  .heading-left {
+    width: 100%;
+  }
+}

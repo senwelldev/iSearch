@@ -1,0 +1,80 @@
+.JobApplicationFormBody1{
+    background: linear-gradient(#b8eff9, #ddf4f9 , white);
+}
+
+.is-job-form{
+    background-color: #FFFFFF;
+    margin: 70px 75px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    padding: 40px 40px 40px 40px;
+    border-radius: 15px;
+ }
+ .isA-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+ }
+ .form-control{
+    margin-bottom: 21px;
+     width: 100%;
+     height: 52px;
+     border: 2px solid #f5f5f5;
+     font-weight: 400;
+     outline: 0;
+     transition: all 0.3s linear;
+     border-radius: 6px;
+     background-color: #f4f5f7;
+     font-size: 15px;
+ }
+ 
+ .mob-tel{
+    margin-bottom: 21px;
+     width: 100%;
+     height: 52px;
+     border: 2px solid #f5f5f5;
+     font-weight: 400;
+     outline: 0;
+     transition: all 0.3s linear;
+     border-radius: 6px;
+     background-color: #f4f5f7;
+     font-size: 15px;
+ }
+ .mob-tel .form-control{
+    height: 50px;
+    background: none;
+    border: none;
+ }
+ 
+ 
+ .is-uppername{
+    margin-bottom: 10px;
+    margin-left: 4px;
+ }
+ 
+ .is-contantForm{
+    padding: 50px 0px;
+ }
+ 
+ .JobApplicationFormBody1 button{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red !important; */
+ }
+ @media screen and (max-width:768px){
+      .is-job-form{
+       background-color: #FFFFFF;
+       margin: -7px 4px;
+       box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+       padding: 20px 6px 6px 6px;
+       border-radius: 15px;
+      }
+      .isA-header{
+         margin-right: 38px;
+         font-weight: 600;
+         margin-bottom: -7px;
+         margin-top: 20px;
+      }
+ }

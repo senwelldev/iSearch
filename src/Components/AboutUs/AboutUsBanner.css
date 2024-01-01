@@ -1,0 +1,36 @@
+.BannerBody{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../Images//CoreValues//AboutUsBanner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed;   */
+}
+
+.AboutUsbannerContent{
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .BannerBody{
+        margin-top: -5px;
+        background-size: cover;
+        height: 350px;
+        /* border: 1px solid red; */
+    }
+
+    .AboutUsbannerContent{
+        padding: 25% 0% 15% 0%;
+        /* border: 1px solid red; */
+    }
+
+    .AboutUsbannerContent h1{
+        font-size: 22px;
+    }
+}

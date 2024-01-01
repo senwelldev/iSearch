@@ -1,0 +1,115 @@
+body {
+    position: relative;
+  }
+  
+  .scrollspy-parent{
+    margin-top: -8px;
+    padding: 6% 0 2% 0;
+    z-index: 10;
+    background: url("../../Images//ScrollSpy//ScrollImg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* border: 2px solid red; */
+    border-top: 15px solid black;
+    border-bottom: 2px solid black;
+}
+
+.container-Scroll{
+  background: transparent !important;
+  /* border: 2px solid red; */
+}
+
+.list-group{
+  background: transparent !important;
+}
+
+  .scrollspy-example {
+    position: relative;
+    overflow: auto;
+    height: 300px; 
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    /* border: 1px solid red; */
+  }
+
+  .scrollspy-example h4{
+    font-size: 30px;
+  }
+  
+  /* .scrollspy-example p, h4{
+    background: white;
+    color: black;
+    &:nth-of-type(2){
+      background: black;
+      color: white;
+    }
+  } */
+
+  .scrollspy-example::-webkit-scrollbar {
+    width: 5px; 
+  }
+  
+  .scrollspy-example::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+  .list-group-item{
+    color: rgb(168, 168, 168) !important;
+    background: transparent !important;
+  }
+  
+  .list-group-item.active{
+    color: white !important;
+    /* text-decoration: underline ; */
+  }
+
+  .list-group{
+    width: 55%;
+  }
+
+  .list-group a{
+    font-size: 25px;
+  }
+
+  /* #list-item-1{
+    background: url("../../Images//ScrollSpy//Scroll1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20%;
+  }
+
+  #list-item-2{
+    background: url("../../Images//ScrollSpy//Scroll2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20%;
+  }
+
+  #list-item-3{
+    background: url("../../Images//ScrollSpy//Scroll3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20%;
+  }
+  #list-item-4{
+    background: url("../../Images//ScrollSpy//Scroll4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20%;
+  } */
+
+@media screen and (max-width: 991px){
+    .list-group{
+        width: 100%;
+    }    
+    .list-group a{
+        font-size: 15px;
+
+        /* background: linear-gradient(90deg, white, black); */
+    }    
+}

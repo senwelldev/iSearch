@@ -1,0 +1,302 @@
+.WebBody{
+    padding: 0;
+}
+
+.WebBody .firstRow{
+/* margin-top: -50px; */
+padding: 130px 0px 40px 0px;
+/* background: yellow; */
+background: linear-gradient( #127FBE, white);
+/* border: 1px solid red; */
+color: black;
+}
+  
+
+
+
+.ExxonD-img {
+    width: 8vh;
+    height: auto;
+}
+
+.card .icon .webDesignCardIcon {
+    height: 100%;
+}
+
+
+
+@media screen and (max-width:769px) {
+    .main-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Is-webdesign-header {
+        margin-bottom: 25px;
+    }
+
+    .Isearch-service-title {
+        font-size: 33px !important;
+        line-height: 45px !important;
+        margin: 0 0 20px 0 !important;
+    }
+
+    .section-2 {
+        padding: 0rem 0rem !important;
+    }
+
+    .Isearch-title-tech {
+        font-size: 25px !important;
+        line-height: 42px !important;
+    }
+
+    .ValueOfferSection {
+        background-color: #fbfbff !important;
+        padding: 17px 30px !important;
+    }
+
+    .iserach-Offer-title {
+        font-size: 28px !important;
+        margin-bottom: 25px !important;
+        font-weight: 700;
+    }
+
+    .Is-GlobalC-right {
+        text-align: center !important;
+        font-size: 2rem !important;
+    }
+}
+
+
+
+.list {
+    text-decoration: none !important;
+}
+
+/* / New css /  */
+.section-2 {
+    padding: 10rem 10rem;
+    background-color: #f9f9ff;
+}
+
+.Isearch-Services {
+    margin-top: 20px;
+    position: sticky;
+    top: 185px;
+}
+
+.Isearch-service-title {
+    font-size: 38px;
+    line-height: 50px;
+    margin: 0 0 20px 0;
+}
+
+.Iserach-Services-content p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4c5a67;
+    margin: 20px 0;
+}
+
+
+.Isearch-widget {
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(162, 182, 212, .1);
+    border-radius: 10px;
+    padding: 20px;
+    transition: ease-in-out .5s;
+}
+
+.ihead {
+    display: flex;
+    align-items: center;
+}
+
+.i-icon {
+    box-shadow: 25.27px 31.5875px 88.4449px rgba(227, 240, 254, .7);
+    border-radius: 10px;
+    margin-right: 15px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.i-s-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4C5A67;
+    margin: 10px 0 10px 0;
+}
+
+.technology-section {
+    padding: 65px 0;
+}
+
+.Isearch-title-tech {
+    font-size: 38px;
+    line-height: 50px;
+    margin: 0 0 20px 0;
+    font-weight: 700;
+}
+
+.technology-section .nav-item {
+    justify-content: center;
+}
+
+.technology-section .nav-tabs {
+    justify-content: center;
+}
+
+.technology-section .nav-item .nav-link {
+    border: none !important;
+    color: #828282 !important;
+    cursor: pointer !important;
+    font-size: 17px !important;
+    line-height: 30px !important;
+    padding: 0.5rem 1rem !important;
+    transition: color .3s linear !important;
+    text-transform: uppercase;
+}
+
+.technology-section .nav-item .nav-link.active,
+.industry-section .nav-item .nav-link:hover {
+    background-color: initial !important;
+    color: #343434 !important;
+}
+
+.technology-section .tab-content {
+    padding: 50px 0 30px !important;
+}
+
+.technology-section .tab-content ul li {
+    align-items: center;
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 15px;
+    max-width: 108px;
+    padding: 18px 13px;
+    text-align: center;
+}
+
+.technology-section .tab-content ul {
+    column-gap: 75px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    list-style: none !important;
+    padding-left: 0 !important;
+}
+
+.industry-section .tab-content ul li {
+    background: transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
+    max-width: 108px;
+    padding: 18px 13px;
+    flex-wrap: wrap;
+}
+
+.technology-section .tab-content ul li img {
+    max-width: 60px;
+}
+
+.technology-section .tab-content ul li span {
+    color: #343434 !important;
+    display: block !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    line-height: 16px !important;
+    margin: auto !important;
+    padding-top: 8px !important;
+}
+
+.ValueOfferSection {
+    background-color: #fbfbff;
+    padding: 60px 60px;
+}
+
+.iserach-Offer-title {
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.Offer-sebsection {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--grey-color);
+    max-width: 935px;
+    margin: 0 auto 60px;
+    width: 100%;
+}
+
+.Isearch-Asked {
+    padding: 70px 70px;
+}
+
+/* / The Value We Offer Css / */
+.icon {
+    width: 10%;
+}
+
+.text p {
+    font-size: 16px;
+}
+
+
+.col-md-6:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.col-md-6 {
+
+    transition: transform 0.3s ease;
+}
+
+.card {
+    border: 0.1px solid rgb(227, 225, 225);
+    width: 100%;
+}
+
+
+.icon {
+    width: 10%;
+
+}
+
+.text p {
+    font-size: 16px;
+}
+
+
+.col-md-6:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.col-md-6 {
+
+    transition: transform 0.3s ease;
+}
+
+.card {
+    border: 0.1px solid rgb(227, 225, 225);
+    width: 100%;
+
+}

@@ -1,0 +1,293 @@
+.Contact-Section{
+    background-color: #151823;
+    padding: 7% 2% 2% 2%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+  }
+
+  .IsearchLeft{
+    height: 100%;
+    width: 49.8%;
+    /* border: 1px solid red; */
+  }
+
+  .IsearchOutside{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+
+  .IsearchOutside img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* border: 1px solid red !important; */
+  }
+
+  .calenderBox{
+    height: 100%;
+    width: 48%;
+  }
+
+  .isearch30header{
+    font-size: 28px;
+    color: #fff;
+    line-height: 32px;
+    font-weight: 700;
+  }
+  
+  .Left-Exxon-head{
+    margin-bottom: 24px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: 25px;
+    /* border-right: 1px solid var(--text-color-level3,rgba(26,26,26,0.1)); */
+    height: 100vh;
+  }
+  
+  .Left-Exxon-head img {
+    max-width: 220px;
+    max-height: 60px;
+    margin-bottom: 15px;
+  }
+  .Left-Exxon-head p{
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--text-color-level3,rgba(26,26,26,0.1));
+  }
+  
+  .Business-Head-logo{
+  max-height: 170px !important;
+  max-width: 40vh !important; 
+  
+  }
+  .Left-Exxon-head .Icon-SubHead{
+    color: gray;
+    font-weight: 700;
+    font-size: 16px;
+    border-bottom: none;
+  }
+  .Exxon-30M{
+    margin: 0;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .Exxon-Business-Head{
+    margin-top: 185px;
+  }
+  
+  .ExxonCalender-Section {
+    max-width: 900px;
+    height: 90%;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: white;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .ExxonCalender-Section .container {
+    width: 100%;
+  }
+  
+  .ExxonCalender-Section .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .calnder-left-logo {
+    max-width: 100%; 
+  }
+  
+  .Exxon-right-Calnder {
+    position: relative;
+    overflow: hidden;
+    max-height: 100%;
+    overflow-y: auto; 
+    width: 100%; 
+    border-radius: 15px;
+  }
+  
+  .Exxon-right-Calnder iframe {
+    width: 100%;
+    height: 100%;
+    border: none; 
+  }
+  
+  /* Close Button CSS */
+  .min-Close-Button{
+    margin-top: 10px;
+    height: 35px;
+    width: 35px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    display: none;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #8888885e;
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+    border-radius: 1px;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background-color: #f1f1f1; 
+  }
+  
+  
+  
+  /* ----------------------- Form css-------------------- */
+  
+  .sendMessageForm h3{
+    margin: 0px 0 30px;
+    text-transform: none;
+    font-size: 35px;
+    line-height: 32px;
+    color: #2194db;
+    font-weight: 600;
+  }
+  
+  .contactArea-Section{
+    padding: 50px 30px;
+  }
+  
+  .medium-input{
+    border: 1px solid #dfdfdf;
+    color: #828282;
+    outline: 0;
+    resize: none;
+    width: 100%;
+    font-size: 14px;
+    height: 49px;
+    max-width: 100%;
+    padding: 15px 20px!important;
+  }
+  
+  .phone-input{
+    border: 1px solid #dfdfdf;
+    color: #828282;
+    outline: 0;
+    resize: none;
+    width: 100%;
+    font-size: 14px;
+    height: 49px;
+    max-width: 100%;
+    padding: 15px 20px 15px 50px !important; 
+    box-sizing: border-box; 
+  }
+  
+  .medium-textarea{
+    border: 1px solid #dfdfdf;
+    color: #828282;
+    outline: 0;
+    resize: none;
+    width: 100%;
+    height: 73px;
+    line-height: normal;
+    margin: 0 0 11px;
+    max-width: 100%;
+    padding: 10px 15px;
+  }
+  .Exxon-Contactus{
+    row-gap: 28px;
+  }
+  
+  .Isearch-Reach h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 32px;
+    color: #2194db;
+    margin-top: 30px !important;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  ul{
+    list-style: none;
+  }
+
+  .text-box a{
+    text-decoration: none;
+  }
+  
+  .Isearch-logo{
+    margin-left: -23px;
+    font-size: 18px;
+    margin-right: 10px;
+    color: #2194db !important;
+  }
+  .contact-info{
+    padding-left: 20px;
+      margin-bottom: 5px;
+      line-height: 24px;
+  }
+  .contact-info li{
+    margin-bottom: 7px;
+  }
+  
+  .Isearch-Submit{
+    background-color: #2194db;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0 2px 7px rgba(0,0,0,.1);
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+  }  
+
+  @media screen and (max-width:768px) {
+    .Contact-Section{
+      padding: 7% 2% 2% 2%;
+      flex-direction: column;
+      justify-content: space-between;
+      border: none;
+      /* border: 1px solid red; */
+    }
+
+    .IsearchLeft{
+      width: 100%;
+      padding-top: 15px;
+      /* border: 1px solid red; */
+    }
+
+    .IsearchOutside img{
+      width: 100%;
+      height: 100%;
+      /* border: 1px solid red; */
+    }
+  
+    .calenderBox{
+      height: 100%;
+      width: 100%;
+      margin-top: 10px;
+      /* border: 1px solid red; */
+    }
+  
+  }

@@ -1,0 +1,78 @@
+.seoBody{
+    color: black !important;
+    padding-top: 5%;
+    margin-top: -80px;
+}
+
+.img-section .img{
+    /* / border: 1px solid blue; / */
+    width: auto;
+}
+.img-section .img img{
+    border: none;
+  height: 70vh;
+  width: 90%;
+  /* / border-radius: 5%; / */
+}
+
+
+/* / blog section start / */
+
+.card {
+    border: 0.1px solid rgb(226, 224, 224);
+    width: 100%;
+
+}
+.icon{
+    width: 100%;
+}
+.card .icon img {
+    border: none;
+    width: 20%;
+    height: 10%;
+    transition: transform 0.3s ease;
+}
+
+.card .icon img:hover {
+    transform: scale(1.05);
+}
+
+/* .col-md-4:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+} */
+
+.col-md-4 {
+    transition: transform 0.3s ease;
+}
+
+
+
+/* / backround section :start / */
+
+.background-result{
+    /* background-image: url("https://media.istockphoto.com/id/1274423250/photo/digital-online-marketing-businessman-using-tablet-and-analysis-sale-data-graph-growth-on.jpg?s=612x612&w=0&k=20&c=cwZNi9YURksqU9SnnHTsilK-3vSUUa0vmmZed8ssLOw=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    height: 50vh;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .img-section .img img{
+        border: none;
+      height: 100%;
+      width: 100%;
+      border-radius: 5%;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .seo-Images-Container img{
+    height: 350px !important;
+  }
+}

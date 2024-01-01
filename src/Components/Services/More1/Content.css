@@ -1,0 +1,15 @@
+.contentBody {
+  padding: 0;
+  /* border: 2px solid red; */
+}
+
+.firstRow {
+  /* margin-top: -50px; */
+  padding: 130px 0px 40px 0px;
+  /* background: yellow; */
+  background: linear-gradient(rgb(248, 166, 137), white);
+  /* border: 1px solid red; */
+  color: black;
+}
+
+

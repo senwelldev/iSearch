@@ -1,0 +1,69 @@
+.ourCoreValuesBody{
+ padding: 0% 5% 0% 5%;
+ /* margin-bottom: 8%; */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background: white;
+ /* height: 900px; */
+ /* border: 1px solid red; */
+}
+
+.corevaluesHeading h1{
+    font-size: 60px;
+}
+
+.coreValues-Row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.coreValuesRow-Card{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2% 0% 2% 0%;
+    /* border: 1px solid red; */
+}
+
+.coreValues-Row-Card-Img{
+    width: 30%;
+    /* border: 1px solid red; */
+}
+
+.coreValues-Row-Card-Content{
+    width: 70%;
+}
+
+.coreValues-Row-Card-Content h3{
+    color: #780583;
+}
+@media screen and (max-width: 991px) {
+    .coreValues-Row{
+        flex-direction: column;
+    }
+
+    .coreValuesRow-Card{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .coreValues-Row-Card-Img{
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5%;
+        /* border: 1px solid red; */
+    }
+    
+    .coreValues-Row-Card-Content{
+        width: 95%;
+    }
+    
+}

@@ -1,0 +1,183 @@
+.ourServicesBody{
+    padding: 2% 0% 5% 0%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+    background: url('../../Images//Services//ServiceCardContainerBG1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* border: 2px solid blue; */
+}
+
+.ourServicesHeading{
+  font-family: montserrat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ourServicesBody h1{
+    /* color: white; */
+    /* margin-bottom: 5%; */
+    padding: 3% 0% 10px 0%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.flipBoxesContainer1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+  .flip-box {
+    background: transparent;
+    width: 270px;
+    height: 350px;
+    border: 1px solid white;
+    perspective: 1000px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+    position: relative;
+    /* animation: moveUpDown 1s infinite ,7s ease; */
+  }
+
+  .flip-box:hover {
+    animation: none;
+  }
+
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(5%);
+    }
+  }
+  
+  .flip-box:nth-last-of-type(2), .flip-box:nth-last-of-type(5) {
+    /* transform: translateY(12%); */
+  }
+
+  .flip-box h3{
+    font-size: 22px;
+    color: white;
+  }
+
+  .flip-box .btn{
+    position: absolute;
+    bottom: 10px;
+    left: 25%;
+    background: transparent;
+    color: white;
+  }
+  
+  .flip-box-inner{
+    position: relative;
+    width: 99.7%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 5px;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    color: white;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    /* background: url('../../Images/Services//ServiceCardBG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+  }
+  
+  .flip-box-front {
+    /* background: linear-gradient(30deg, blue, rgb(173, 173, 245), rgb(183, 183, 243), purple); */
+    color: black;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .flip-box-back {
+    /* background-color: black; */
+    color: white;
+    transform: rotateY(180deg);
+    padding: 5%;
+    text-align: left;
+  }
+
+  .flip-box-back p{
+    border-bottom: 1px solid white;
+  }
+
+@media screen and (max-width: 450px){
+  .flipBoxesContainer1{
+    flex-direction: column;
+}
+.flip-box{
+  margin: 5px;
+  width: 90%;
+  height: 430px;
+  border: 2px solid white;
+}
+}
+@media (min-width: 450px) and (max-width: 768px){
+    .ourServicesBody{
+        flex-direction: column;
+        padding: 5% 0% 5% 0%;
+        /* border: 1px solid red; */
+    }
+
+    .flipBoxesContainer1{
+        /* flex-direction: column; */
+    }
+
+    .flip-box{
+      margin: 5px;
+      width: 45%;
+      height: 430px;
+      border: 2px solid white;
+    }
+
+    .flip-box:nth-last-of-type(2), .flip-box:nth-last-of-type(5) {
+      transform: translateY(0%);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .flip-box:nth-last-of-type(2), .flip-box:nth-last-of-type(5) {
+    transform: translateY(0%);
+  }
+  .flip-box{
+    margin: 5px;
+    width: 45%;
+    height: 430px;
+    border: 2px solid white;
+  }
+
+}
