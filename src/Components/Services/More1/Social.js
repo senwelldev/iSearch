@@ -1,5 +1,5 @@
 import "./Social.css";
-import "./Structure.css"
+import "./Structure.css";
 import React, { useEffect, useRef, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Accordion, AccordionItem } from "react-bootstrap";
@@ -165,29 +165,27 @@ function Paid() {
         <div class="row  d-flex justify-content-between">
           <div className="col-md-12 social-rp">
             <h3 className=" mb-4">
-              “Our Paid Ads Services are Cost-Effective, Reliable and
-              Satisfactory as we help increase awareness amongst the targeted
-              markets. At iSearch, you will get assurance that every dollar
-              invested will be converted into several dollars of profit.”
+              “iSearch's team possesses a varied set of skills to cater to our
+              requirements and objectives. They exhibit strong technical
+              expertise, employ data-driven strategies, and demonstrate a robust
+              understanding of content marketing and PR.”
             </h3>
           </div>
           <div className="col-md-12 social-lp ">
-            <h4 className=" text-center">
-              Here is our historic achievements so far
-            </h4>
+            <h4 className=" text-center">What people are saying</h4>
 
             <div className="stats row">
               <div className="d-flex flex-column align-items-center col-md-4 text-center">
-                <strong>40Lakhs+</strong>
-                <p className="fs-5">Wasted Budget Saved</p>
+                <strong>80%+</strong>
+                <p className="fs-5">revenue on Facebook Ads</p>
               </div>
               <div className="d-flex flex-column align-items-center col-md-4 text-center">
-                <strong>130%+</strong>
-                <p className="fs-5">Average Engagement Increase</p>
+                <strong>60%+</strong>
+                <p className="fs-5">revenue year-over-year</p>
               </div>
               <div className="d-flex flex-column align-items-center col-md-4 text-center">
-                <strong>100+</strong>
-                <p className="fs-5">Happy Customers</p>
+                <strong>25%+</strong>
+                <p className="fs-5">new customers year-over-year</p>
               </div>
             </div>
           </div>
@@ -224,7 +222,6 @@ function Paid() {
             </div>
           </div>
           <div className="col-md-5 planet-side ">
-          
             <Planet img={analytic} />
           </div>
         </div>
@@ -304,126 +301,127 @@ function Paid() {
                 </div>
               </div>
             </div>
-          
 
-          <div class="col-md-4 col-sm-6 my-2">
-            <div class="cards ">
-              <div class="icon ">
-                <img src={Advertising} class="img-thumbnail" alt="..." />
-                <div class="text mt-3">
-                  <h4>Social Media Brand Management</h4>
-                  <p>
-                    What is social media management without effective brand
-                    oversight? Whether it's overseeing Facebook or TikTok,
-                    iSearch strategically plans, implements, and oversees both
-                    organic and paid brand campaigns across various platforms.
-                    Our tailored solutions as a social media management company
-                    empower you to cultivate a positive brand image, expand your
-                    outreach, and enhance both sales and profits.
-                  </p>
+            <div class="col-md-4 col-sm-6 my-2">
+              <div class="cards ">
+                <div class="icon ">
+                  <img src={Advertising} class="img-thumbnail" alt="..." />
+                  <div class="text mt-3">
+                    <h4>Social Media Brand Management</h4>
+                    <p>
+                      What is social media management without effective brand
+                      oversight? Whether it's overseeing Facebook or TikTok,
+                      iSearch strategically plans, implements, and oversees both
+                      organic and paid brand campaigns across various platforms.
+                      Our tailored solutions as a social media management
+                      company empower you to cultivate a positive brand image,
+                      expand your outreach, and enhance both sales and profits.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 my-2">
-            <div class="cards ">
-              <div class="icon ">
-                <img src={Follower} class="img-thumbnail" alt="..." />
-                <div class="text mt-3">
-                  <h4>Social Media Advertising:</h4>
-                  <p>
-                    Opt for the social strategy that captures the attention of
-                    63 percent of consumers: paid social advertising! Harness
-                    the potential of this profitable trend and formulate an
-                    effective social media management strategy with the
-                    expertise of iSearch professionals. We identify platforms
-                    where your target audience is active and craft tailor-made
-                    ads that resonate with them. Our ad campaigns are tailored
-                    to your budget, transforming clicks into conversions and
-                    optimizing your return on ad spend (ROAS).
-                  </p>
+            <div class="col-md-4 col-sm-6 my-2">
+              <div class="cards ">
+                <div class="icon ">
+                  <img src={Follower} class="img-thumbnail" alt="..." />
+                  <div class="text mt-3">
+                    <h4>Social Media Advertising:</h4>
+                    <p>
+                      Opt for the social strategy that captures the attention of
+                      63 percent of consumers: paid social advertising! Harness
+                      the potential of this profitable trend and formulate an
+                      effective social media management strategy with the
+                      expertise of iSearch professionals. We identify platforms
+                      where your target audience is active and craft tailor-made
+                      ads that resonate with them. Our ad campaigns are tailored
+                      to your budget, transforming clicks into conversions and
+                      optimizing your return on ad spend (ROAS).
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 my-2">
-            <div class="cards ">
-              <div class="icon ">
-                <img src={Writing} class="img-thumbnail" alt="..." />
-                <div class="text mt-3">
-                  <h4>Social Media Content Writing</h4>
-                  <p>
-                    Studies indicate that more than 50 percent of consumers turn
-                    to social media for product research. Grab their interest
-                    with compelling and valuable posts created by the social
-                    media content management and creation experts at iSearch. We
-                    create organic social content that captivates your
-                    followers, influencing their decisions, while paid social
-                    content directs traffic and potential leads to your site.
-                  </p>
+            <div class="col-md-4 col-sm-6 my-2">
+              <div class="cards ">
+                <div class="icon ">
+                  <img src={Writing} class="img-thumbnail" alt="..." />
+                  <div class="text mt-3">
+                    <h4>Social Media Content Writing</h4>
+                    <p>
+                      Studies indicate that more than 50 percent of consumers
+                      turn to social media for product research. Grab their
+                      interest with compelling and valuable posts created by the
+                      social media content management and creation experts at
+                      iSearch. We create organic social content that captivates
+                      your followers, influencing their decisions, while paid
+                      social content directs traffic and potential leads to your
+                      site.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 my-2">
-            <div class="cards ">
-              <div class="icon ">
-                <img src={Design} class="img-thumbnail" alt="..." />
-                <div class="text mt-3">
-                  <h4>Website Design and Development</h4>
-                  <p>
-                    When directing individuals from your social pages to your
-                    website, ensure that they experience ease of use and
-                    seamless navigation. As we oversee social media accounts, we
-                    also assess the compliance of your site with the Americans
-                    with Disabilities Act (ADA), ensuring functionality and
-                    optimization in line with best practices. Our web design and
-                    development team establishes a responsive and mobile-first
-                    digital home to enhance conversions.
-                  </p>
+            <div class="col-md-4 col-sm-6 my-2">
+              <div class="cards ">
+                <div class="icon ">
+                  <img src={Design} class="img-thumbnail" alt="..." />
+                  <div class="text mt-3">
+                    <h4>Website Design and Development</h4>
+                    <p>
+                      When directing individuals from your social pages to your
+                      website, ensure that they experience ease of use and
+                      seamless navigation. As we oversee social media accounts,
+                      we also assess the compliance of your site with the
+                      Americans with Disabilities Act (ADA), ensuring
+                      functionality and optimization in line with best
+                      practices. Our web design and development team establishes
+                      a responsive and mobile-first digital home to enhance
+                      conversions.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 my-2">
-            <div class="cards ">
-              <div class="icon ">
-                <img src={Production} class="img-thumbnail" alt="..." />
-                <div class="text mt-3">
-                  <h4>Video Production</h4>
-                  <p>
-                    Showcase videos across your accounts to help users grasp
-                    your product or service. Videos are a valuable addition to
-                    your marketing toolkit, and our in-house team is available
-                    to manage the entire production process, a task that other
-                    YouTube management companies typically delegate. We have
-                    experts in the field who can conceptualize, shoot, edit, and
-                    complete your ad, demo, explainer, event highlights, or
-                    testimonials.
-                  </p>
+            <div class="col-md-4 col-sm-6 my-2">
+              <div class="cards ">
+                <div class="icon ">
+                  <img src={Production} class="img-thumbnail" alt="..." />
+                  <div class="text mt-3">
+                    <h4>Video Production</h4>
+                    <p>
+                      Showcase videos across your accounts to help users grasp
+                      your product or service. Videos are a valuable addition to
+                      your marketing toolkit, and our in-house team is available
+                      to manage the entire production process, a task that other
+                      YouTube management companies typically delegate. We have
+                      experts in the field who can conceptualize, shoot, edit,
+                      and complete your ad, demo, explainer, event highlights,
+                      or testimonials.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 my-2">
-            <div class="cards ">
-              <div class="icon ">
-                <img src={Internet} class="img-thumbnail" alt="..." />
-                <div class="text mt-3">
-                  <h4>Social Media SEO</h4>
-                  <p>
-                    Direct your website visitors or ensure visibility for your
-                    links in social search results with effective social media
-                    optimization. With the assistance of your dedicated social
-                    media manager, website links are shared across your social
-                    profiles, enhancing visibility and prolonging their
-                    lifespan. Social media management firms can assist you in
-                    capitalizing on the fact that search engines can index your
-                    organic posts if they align with people's queries.
-                  </p>
+            <div class="col-md-4 col-sm-6 my-2">
+              <div class="cards ">
+                <div class="icon ">
+                  <img src={Internet} class="img-thumbnail" alt="..." />
+                  <div class="text mt-3">
+                    <h4>Social Media SEO</h4>
+                    <p>
+                      Direct your website visitors or ensure visibility for your
+                      links in social search results with effective social media
+                      optimization. With the assistance of your dedicated social
+                      media manager, website links are shared across your social
+                      profiles, enhancing visibility and prolonging their
+                      lifespan. Social media management firms can assist you in
+                      capitalizing on the fact that search engines can index
+                      your organic posts if they align with people's queries.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
             </div>
           </div>
         </div>
