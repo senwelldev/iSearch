@@ -18,10 +18,9 @@ import Icon6 from "../../../Images/Services/Seo/icon6.png";
 import Seo1 from "../../../Images/Services/Seo/Seo.png";
 import { useNavigate } from "react-router-dom";
 import { Accordion, AccordionItem } from "react-bootstrap";
-
+import HelpYouWin from "../../Home/LetsFind";
 
 const Seo = () => {
-
   const navigate = useNavigate();
 
   const [isScrolled, setIsScrolled] = useState(false);
@@ -80,14 +79,16 @@ const Seo = () => {
               Climb Search Rankings: Unlock Premium Traffic with Organic SEO.
             </h1>
             <h6 className="mt-3 mb-4  ">
-            Are you aiming to boost your visibility on Google and other search
-            engines? Desire a surge in organic website traffic? Elevate your
-            business with iSearch's Search Engine Optimization services –
-            transforming stagnation into thriving success.
+              Are you aiming to boost your visibility on Google and other search
+              engines? Desire a surge in organic website traffic? Elevate your
+              business with iSearch's Search Engine Optimization services –
+              transforming stagnation into thriving success.
             </h6>
 
-            <button type="button" className="btn button "
-            onClick={() => navigate("/contact")}
+            <button
+              type="button"
+              className="btn button "
+              onClick={() => navigate("/contact")}
             >
               Schedule a meeting
             </button>
@@ -107,9 +108,7 @@ const Seo = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <h2 className="mt-2">
-                Keyword Research
-              </h2>
+              <h2 className="mt-2">Keyword Research</h2>
               <p className="mt-5">
                 iSearch, as an SEO agency, comprehends your niche and possesses
                 the expertise to enhance your website's ranking for targeted
@@ -123,9 +122,7 @@ const Seo = () => {
           </div>
           <div className="row mt-5 d-flex align-items-center ServicesImagesContainer-odd">
             <div className="col-md-6">
-              <h2 className="mt-2">
-                Onpage & Offpage SEO
-              </h2>
+              <h2 className="mt-2">Onpage & Offpage SEO</h2>
               <p className="mt-5">
                 Enhance your online visibility and attract high-quality traffic
                 with iSearch. Our commitment is to align our SEO services with
@@ -163,9 +160,7 @@ const Seo = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <h2 className="mt-2">
-                Backlinking
-              </h2>
+              <h2 className="mt-2">Backlinking</h2>
               <p className="mt-5">
                 Backlinks play a crucial role in achieving higher search result
                 rankings, but the quality of the links matters. That is why it's
@@ -179,9 +174,7 @@ const Seo = () => {
           </div>
           <div className="row mt-5 d-flex align-items-center ServicesImagesContainer-odd">
             <div className="col-md-6">
-              <h2 className="mt-2">
-                Local SEO
-              </h2>
+              <h2 className="mt-2">Local SEO</h2>
               <p className="mt-5">
                 Data indicates that 70% of potential customers seek local
                 businesses online. Elevate your company's local SEO standings
@@ -209,9 +202,7 @@ const Seo = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <h2 className="mt-2">
-                Ecommerce SEO
-              </h2>
+              <h2 className="mt-2">Ecommerce SEO</h2>
               <p className="mt-5">
                 Enhance customer satisfaction by offering a seamless 24/7
                 shopping experience, leading to higher client retention rates.
@@ -225,9 +216,7 @@ const Seo = () => {
           </div>
           <div className="row mt-5 d-flex align-items-center ServicesImagesContainer-odd">
             <div className="col-md-6">
-              <h2 className="mt-2">
-                Guest Posting
-              </h2>
+              <h2 className="mt-2">Guest Posting</h2>
               <p className="mt-5">
                 Expand and strengthen your website by building a network of
                 powerful links. iSearch Company's guest post service is designed
@@ -265,11 +254,7 @@ const Seo = () => {
             <div className="col-md-4 my-2">
               <div className="card d-flex">
                 <div className="icon">
-                  <img
-                    src={Icon3}
-                    className="img-thumbnail"
-                    alt="..."
-                  />
+                  <img src={Icon3} className="img-thumbnail" alt="..." />
                   <div className="text mt-3">
                     <h4>Dedicated SEO Professionals</h4>
                     <p>
@@ -289,11 +274,7 @@ const Seo = () => {
             <div className="col-md-4 my-2 ">
               <div className="card ">
                 <div className="icon">
-                  <img
-                    src={Icon1}
-                    className="img-thumbnail"
-                    alt="..."
-                  />
+                  <img src={Icon1} className="img-thumbnail" alt="..." />
                   <div className="text mt-3">
                     <h4>Experience Matters</h4>
                     <p>
@@ -313,11 +294,7 @@ const Seo = () => {
             <div className="col-md-4 my-2">
               <div className="card d-flex">
                 <div className="icon ">
-                  <img
-                    src={Icon2}
-                    className="img-thumbnail"
-                    alt="..."
-                  />
+                  <img src={Icon2} className="img-thumbnail" alt="..." />
                   <div className="text mt-3">
                     <h4>Relationships & Results</h4>
                     <p>
@@ -339,11 +316,7 @@ const Seo = () => {
             <div className="col-md-4 my-2">
               <div className="card d-flex">
                 <div className="icon">
-                  <img
-                    src={Icon5}
-                    className="img-thumbnail"
-                    alt="..."
-                  />
+                  <img src={Icon5} className="img-thumbnail" alt="..." />
                   <div className="text mt-3">
                     <h4>We Play Fair</h4>
                     <p>
@@ -363,11 +336,7 @@ const Seo = () => {
             <div className="col-md-4 my-2">
               <div className="card ">
                 <div className="icon">
-                  <img
-                    src={Icon4}
-                    className="img-thumbnail"
-                    alt="..."
-                  />
+                  <img src={Icon4} className="img-thumbnail" alt="..." />
                   <div className="text mt-3">
                     <h4>We’re Always Getting Better</h4>
                     <p>
@@ -387,11 +356,7 @@ const Seo = () => {
             <div className="col-md-4  my-2">
               <div className="card d-flex">
                 <div className="icon">
-                  <img
-                    src={Icon6}
-                    className="img-thumbnail"
-                    alt="..."
-                  />
+                  <img src={Icon6} className="img-thumbnail" alt="..." />
                   <div className="text mt-3">
                     <h4>Transparent Reporting</h4>
                     <p>
@@ -433,11 +398,10 @@ const Seo = () => {
             </Accordion.Header>
             <Accordion.Body>
               <p className="text-left">
-              SEO is crucial for increasing online visibility,
-                      attracting relevant traffic, andimproving the user
-                      experience. It helps websites rank higher on search engine
-                      results pages (SERPs), leading to more clicks and
-                      potential conversions.
+                SEO is crucial for increasing online visibility, attracting
+                relevant traffic, andimproving the user experience. It helps
+                websites rank higher on search engine results pages (SERPs),
+                leading to more clicks and potential conversions.
               </p>
             </Accordion.Body>
           </AccordionItem>
@@ -448,10 +412,10 @@ const Seo = () => {
             </Accordion.Header>
             <Accordion.Body>
               <p className="text-left">
-              Keywords are essential in SEO as they reflect the terms
-              users use to search for information. Strategic keyword
-              placement in content helps search engines understand the
-              relevance of a page to specific queries.
+                Keywords are essential in SEO as they reflect the terms users
+                use to search for information. Strategic keyword placement in
+                content helps search engines understand the relevance of a page
+                to specific queries.
               </p>
             </Accordion.Body>
           </AccordionItem>
@@ -462,158 +426,35 @@ const Seo = () => {
             </Accordion.Header>
             <Accordion.Body>
               <p className="text-left">
-              Backlinks, or inbound links from other websites,
-              contribute to a website's authority and trustworthiness.
-              High-quality backlinks can positively impact search
-              rankings.
+                Backlinks, or inbound links from other websites, contribute to a
+                website's authority and trustworthiness. High-quality backlinks
+                can positively impact search rankings.
               </p>
             </Accordion.Body>
           </AccordionItem>
 
           <AccordionItem eventKey="3">
             <Accordion.Header>
-              <h4>What is the difference between organic and paid search results?</h4>
+              <h4>
+                What is the difference between organic and paid search results?
+              </h4>
             </Accordion.Header>
             <Accordion.Body>
               <p className="text-left">
-              Organic search results are natural listings that appear
-              based on relevance to the user's query, while paid
-              search results are advertisements that appear at the top
-              or bottom of the search results page based on bidding
-              for specific keywords.
+                Organic search results are natural listings that appear based on
+                relevance to the user's query, while paid search results are
+                advertisements that appear at the top or bottom of the search
+                results page based on bidding for specific keywords.
               </p>
             </Accordion.Body>
           </AccordionItem>
         </Accordion>
       </div>
-      {/* <section className="faq">
-        <div className="container mt-4">
-          <div className="text">
-            <h2 className="fw-bold text-center">
-              Search Engine Optimization FAQs
-            </h2>
-          </div>
-          <div className="row mt-5">
-            <div className="col-md-12">
-              <div className="accordion" id="accordionExample">
-                <div className="accordion-item">
-                  <h2 className="accordion-header">
-                    <button
-                      className="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
-                      aria-expanded="true"
-                      aria-controls="collapseOne"
-                    >
-                      Why is SEO important for a website?
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseOne"
-                    className="accordion-collapse collapse show"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body">
-                      SEO is crucial for increasing online visibility,
-                      attracting relevant traffic, andimproving the user
-                      experience. It helps websites rank higher on search engine
-                      results pages (SERPs), leading to more clicks and
-                      potential conversions.
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h2 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
-                    >
-                      What is the importance of keywords in SEO?
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseTwo"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body">
-                      <p className="text-left">
-                        Keywords are essential in SEO as they reflect the terms
-                        users use to search for information. Strategic keyword
-                        placement in content helps search engines understand the
-                        relevance of a page to specific queries.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h2 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
-                      aria-expanded="false"
-                      aria-controls="collapseThree"
-                    >
-                      What is the role of backlinks in SEO?
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseThree"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body">
-                      <p className="text-left">
-                        Backlinks, or inbound links from other websites,
-                        contribute to a website's authority and trustworthiness.
-                        High-quality backlinks can positively impact search
-                        rankings.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h2 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseFour"
-                      aria-expanded="false"
-                      aria-controls="collapseFour"
-                    >
-                      What is the difference between organic and paid search
-                      results?
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseFour"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body">
-                      <p className="text-left">
-                        Organic search results are natural listings that appear
-                        based on relevance to the user's query, while paid
-                        search results are advertisements that appear at the top
-                        or bottom of the search results page based on bidding
-                        for specific keywords.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+      <br />
+      <br />
+      <HelpYouWin />
+      <br />
+      <br />
     </div>
   );
 };

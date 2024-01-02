@@ -4,8 +4,8 @@ import { Accordion, AccordionItem } from "react-bootstrap";
 import image from "../../../Images/Services/Branding/BrandingServices.png";
 import image1 from "../../../Images/Services/Branding/BrandingServices.png";
 import "./Branding.css";
-import "./Structure.css"
-import HelpYouWin from '../../Home/LetsFind';
+import "./Structure.css";
+import HelpYouWin from "../../Home/LetsFind";
 import { useNavigate } from "react-router-dom";
 import Broucher from "../../../Images/Services/Branding/Broucher.png";
 import Logo from "../../../Images/Services/Branding/Logo.png";
@@ -13,7 +13,6 @@ import ProductCatalog from "../../../Images/Services/Branding/ProductCatalog.png
 import NewsLetter from "../../../Images/Services/Branding/NewsLetter.png";
 
 function App() {
-
   const navigate = useNavigate();
 
   const [isScrolled, setIsScrolled] = useState(false);
@@ -68,11 +67,11 @@ function App() {
         <div className="col-md-6 main-container">
           <div className="text-container ">
             <h1 className="mb-2">
-            Branding that makes your product stand out from the ordinary.
+              Branding that makes your product stand out from the ordinary.
             </h1>
             <h6 className="mt-3 mb-4  ">
-            Want to change the way people look at your products? Check out our branding services today!
-
+              Want to change the way people look at your products? Check out our
+              branding services today!
             </h6>
 
             <button
@@ -149,17 +148,15 @@ function App() {
 
       <div className="container-fluid  pt-5 pb-5 achievement ">
         <div class="row  d-flex justify-content-between">
-        <div className="col-md-12 social-rp">
+          <div className="col-md-12 social-rp">
             <h3 className=" mb-4">
               “The results have been incredible. With Power Digital, it feels
               like they’re in our trench, supporting and understanding us.
               They’re like a partner and mentor in helping us get where we want
               to be.”
             </h3>
-           
           </div>
-          
-          
+
           <div className="col-md-12 social-lp ">
             <h4 className=" text-center">
               Here is our historic achievements so far
@@ -167,16 +164,16 @@ function App() {
 
             <div className="stats row">
               <div className="d-flex flex-column align-items-center col-md-4 text-center">
-              <strong>250+</strong>
+                <strong>250+</strong>
                 <p className="fs-5">Brochures Prepared</p>
               </div>
               <div className="d-flex flex-column align-items-center col-md-4 text-center">
-              <strong>80+</strong>
-              <p className="fs-5">Logos Designed</p>
+                <strong>80+</strong>
+                <p className="fs-5">Logos Designed</p>
               </div>
               <div className="d-flex flex-column align-items-center col-md-4 text-center">
-              <strong>200%+</strong>
-              <p className="fs-5"> Increase in Sales ROI</p>
+                <strong>200%+</strong>
+                <p className="fs-5"> Increase in Sales ROI</p>
               </div>
             </div>
           </div>
@@ -206,14 +203,12 @@ function App() {
             </div>
           </div>
           <div className="col-md-5 content-left ">
-          <div className="Services-RightConatiner-Img">
+            <div className="Services-RightConatiner-Img">
               <img src={Broucher} alt=".." />
             </div>
-          
           </div>
         </div>
       </div>
-
 
       <div className="container-fluid  mt-5  pt-5">
         <div className="row d-flex justify-content-between ServicesImagesContainer">
@@ -223,7 +218,7 @@ function App() {
             </div>
           </div>
           <div className="col-md-6 content-left column">
-          <h2 className="heading mb-5">Product Catalogue</h2>
+            <h2 className="heading mb-5">Product Catalogue</h2>
             <div className="content-wrap sub-heading ">
               <p>
                 Product catalogue design services play a crucial role for
@@ -259,7 +254,10 @@ function App() {
             </Accordion.Header>
             <Accordion.Body>
               <p className="text-left">
-                Branding is essential as it helps build recognition, trust, and loyalty. A strong brand identity sets a business apart from competitors, attracts customers, and contributes to long-term success.
+                Branding is essential as it helps build recognition, trust, and
+                loyalty. A strong brand identity sets a business apart from
+                competitors, attracts customers, and contributes to long-term
+                success.
               </p>
             </Accordion.Body>
           </AccordionItem>
@@ -273,7 +271,10 @@ function App() {
             </Accordion.Header>
             <Accordion.Body>
               <p className="text-left">
-                Maintain consistency across all brand touchpoints, including visual elements, messaging, and customer interactions. Develop brand guidelines to ensure everyone in the organization follows a unified approach.
+                Maintain consistency across all brand touchpoints, including
+                visual elements, messaging, and customer interactions. Develop
+                brand guidelines to ensure everyone in the organization follows
+                a unified approach.
               </p>
             </Accordion.Body>
           </AccordionItem>
@@ -283,13 +284,14 @@ function App() {
               {/* <button className="accordion-button">
                 Do you respond to followers questions or comments on my posts?
               </button> */}
-              <h4>
-                How can branding influence customer loyalty?
-              </h4>
+              <h4>How can branding influence customer loyalty?</h4>
             </Accordion.Header>
             <Accordion.Body>
               <p className="text-left">
-                Consistent and positive branding creates trust and emotional connections with customers. When customers resonate with a brand's values and experiences positive interactions, they are more likely to become loyal advocates.
+                Consistent and positive branding creates trust and emotional
+                connections with customers. When customers resonate with a
+                brand's values and experiences positive interactions, they are
+                more likely to become loyal advocates.
               </p>
             </Accordion.Body>
           </AccordionItem>
@@ -303,20 +305,22 @@ function App() {
             </Accordion.Header>
             <Accordion.Body>
               <p className="text-left">
-                Rebranding is the process of updating or changing a brand's identity. It may be necessary when a business undergoes significant changes, such as a shift in values, target audience, or products/services.
+                Rebranding is the process of updating or changing a brand's
+                identity. It may be necessary when a business undergoes
+                significant changes, such as a shift in values, target audience,
+                or products/services.
               </p>
             </Accordion.Body>
           </AccordionItem>
         </Accordion>
       </div>
-      <br/>
-      <br/>
-      <HelpYouWin/>
+      <br />
+      <br />
+      <HelpYouWin />
+      <br />
+      <br />
     </div>
   );
 }
 
 export default App;
-
-
-

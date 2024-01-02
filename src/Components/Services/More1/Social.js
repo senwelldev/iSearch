@@ -18,6 +18,7 @@ import Media from "../../../Images/Services/Social/CardIcons/Social Media Market
 import Design from "../../../Images/Services/Social/CardIcons/Website Design and Development.png";
 import Production from "../../../Images/Services/Social/CardIcons/Video Production.png";
 import Internet from "../../../Images/Services/Social/CardIcons/Social Media SEO    Social Media Management Services _ Thrive Internet Marketing Agency https___thriveagency.com.png";
+import HelpYouWin from "../../Home/LetsFind";
 
 function Paid() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -492,6 +493,11 @@ function Paid() {
           </AccordionItem>
         </Accordion>
       </div>
+      <br />
+      <br />
+      <HelpYouWin />
+      <br />
+      <br />
     </div>
   );
 }

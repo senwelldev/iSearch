@@ -4,14 +4,13 @@ import { Accordion, AccordionItem } from "react-bootstrap";
 // import image from "../../../Images/Services/ServiceImg2.png";
 import ContentImage from "../../../Images/Services/Content/Content & PR.png";
 import "./Content.css";
-import "./Structure.css"
+import "./Structure.css";
 import { useNavigate } from "react-router-dom";
-import HelpYouWin from '../../Home/LetsFind';
+import HelpYouWin from "../../Home/LetsFind";
 import ContentCreation from "../../../Images/Services/Content/ContentCreation.png";
 import CrisisManagement from "../../../Images/Services/Content/CrisisManagement.png";
 import EmailMarketing from "../../../Images/Services/Content/EmailMarketing.png";
 import LeadGeneration from "../../../Images/Services/Content/LeadGeneration.png";
-
 
 function Content() {
   const navigate = useNavigate();
@@ -152,8 +151,7 @@ function Content() {
 
       <div className="container-fluid  pt-5 pb-5 achievement">
         <div class="row  d-flex justify-content-between">
-
-        <div className="col-md-12 social-rp">
+          <div className="col-md-12 social-rp">
             <h3 className="text-white mb-5">
               “At iSearch, we involve managing and enhancing the reputation of a
               brand or individual through strategic communication and
@@ -164,28 +162,25 @@ function Content() {
 
           <div className="col-md-12 social-lp ">
             <h4 className=" text-center">
-            Here's our teams we have partnered with and the output we have
+              Here's our teams we have partnered with and the output we have
               had:
             </h4>
 
             <div className="stats row">
               <div className="d-flex flex-column align-items-center col-md-4 text-center">
-              <strong>50+</strong>
-              <p className="fs-5"> Social Media Influencers</p>
+                <strong>50+</strong>
+                <p className="fs-5"> Social Media Influencers</p>
               </div>
               <div className="d-flex flex-column align-items-center col-md-4 text-center">
-              <strong>1200+ </strong>
-              <p className="fs-5">Leads Generated Every Week</p>
+                <strong>1200+ </strong>
+                <p className="fs-5">Leads Generated Every Week</p>
               </div>
               <div className="d-flex flex-column align-items-center col-md-4 text-center">
-              <strong>120+</strong>
-              <p className="fs-5"> Overall Blogs Written</p>
+                <strong>120+</strong>
+                <p className="fs-5"> Overall Blogs Written</p>
               </div>
             </div>
           </div>
-
-         
-          
         </div>
       </div>
 
@@ -322,9 +317,11 @@ function Content() {
           </AccordionItem>
         </Accordion>
       </div>
-      <br/>
-      <br/>
-      <HelpYouWin/>
+      <br />
+      <br />
+      <HelpYouWin />
+      <br />
+      <br />
     </div>
   );
 }

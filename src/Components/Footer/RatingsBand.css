@@ -102,19 +102,25 @@
     /* border: 1px solid red; */
 }
 
+.ExxonUnderImg{
+    width: 100%;
+    margin-left: -5px;
+    /* border: 1px solid red; */
+}
+
 .RatingsBandBody-row2{
     /* display: none; */
     /* margin: 20px; */
     padding-top: 15px;
     /* height: 40px; */
     display: flex !important;
-    justify-content: space-between;
+    justify-content: flex-start;
     /* flex-wrap: wrap !important; */
     /* border: 1px solid red; */
 }
 
 .RatingsBandBody-row2 .RatingsBandBody-row2-Card{
-    width: 30%;
+    width: 32%;
     /* border: 1px solid red; */
 }
 

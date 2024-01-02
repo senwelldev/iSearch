@@ -1,5 +1,5 @@
 import "./Paid.css";
-import "./Structure.css"
+import "./Structure.css";
 import React, { useEffect, useRef, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Accordion, AccordionItem } from "react-bootstrap";
@@ -11,14 +11,12 @@ import PPC from "../../../Images/Services/Paid/PPC reseller services.png";
 import Social from "../../../Images/Services/Paid/Social Media ADsa.png";
 import check from "../../../Images/Services/Paid/check.png";
 import cross from "../../../Images/Services/Paid/cross.png";
-import HelpYouWin from '../../Home/LetsFind';
+import HelpYouWin from "../../Home/LetsFind";
 import { useNavigate } from "react-router-dom";
 
-
 function Paid() {
-
   const navigate = useNavigate();
-  
+
   const [isScrolled, setIsScrolled] = useState(false);
   const initialScrollPosition = useRef(0);
 
@@ -78,8 +76,10 @@ function Paid() {
               brand awareness and overall ROI
             </h6>
 
-            <button type="button" className="btn button "
-            onClick={() => navigate("/contact")}
+            <button
+              type="button"
+              className="btn button "
+              onClick={() => navigate("/contact")}
             >
               Schedule a meeting
             </button>
@@ -162,7 +162,6 @@ function Paid() {
             </h3>
           </div>
           <div className="col-md-12 social-lp ">
-          
             <h4 className="text-center">
               Here is our historic achievements so far
             </h4>
@@ -574,9 +573,11 @@ function Paid() {
           </AccordionItem>
         </Accordion>
       </div>
-      <br/>
-      <br/>
-      <HelpYouWin/>
+      <br />
+      <br />
+      <HelpYouWin />
+      <br />
+      <br />
     </div>
   );
 }

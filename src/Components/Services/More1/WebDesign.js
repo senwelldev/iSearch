@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./WebDesign.css";
-import "./Structure.css"
+import "./Structure.css";
 import { Accordion, AccordionItem } from "react-bootstrap";
 import { Tabs, Tab } from "react-bootstrap";
 import js from "../../../Images/Services/WebDesign/javascript.svg";
@@ -25,13 +25,10 @@ import LongTerm from "../../../Images/Services/WebDesign/LongTerm.png";
 import Prices from "../../../Images/Services/WebDesign/PreciesApproach.png";
 import WebSite from "../../../Images/Services/WebDesign/WebsiteDesign.png";
 import WebDesingLeft from "../../../Images/Services/WebDesign/front-image.png";
-import HelpYouWin from '../../Home/LetsFind';
+import HelpYouWin from "../../Home/LetsFind";
 import { useNavigate } from "react-router-dom";
 
-
-
 function WebDesign() {
-
   const navigate = useNavigate();
 
   const [isScrolled, setIsScrolled] = useState(false);
@@ -98,8 +95,10 @@ function WebDesign() {
               Pune, offers top-notch features for your business website.
             </h6>
 
-            <button type="button" className="btn button "
-            onClick={() => navigate("/contact")}
+            <button
+              type="button"
+              className="btn button "
+              onClick={() => navigate("/contact")}
             >
               Schedule a meeting
             </button>
@@ -421,7 +420,11 @@ function WebDesign() {
             <div class="col-md-6 my-3">
               <div class="card">
                 <div class="icon mx-4 mt-4">
-                  <img src={CostEffective} class="webDesignCardIcon" alt="..." />
+                  <img
+                    src={CostEffective}
+                    class="webDesignCardIcon"
+                    alt="..."
+                  />
                 </div>
                 <div class="text">
                   <h3 class="mt-3 mx-3">Cost-Effective Pricing</h3>
@@ -458,8 +461,7 @@ function WebDesign() {
 
       <div className="container-fluid  pt-5 pb-5 achievement">
         <div class="row tex-white d-flex justify-content-between">
-
-        <div className="col-md-12 social-rp">
+          <div className="col-md-12 social-rp">
             <h3 className="mb-4 Is-GlobalC-right">
               “iSearch is not just another Digital Marketing company, we are a
               company which helps businesses globally to get the services they
@@ -470,27 +472,23 @@ function WebDesign() {
           </div>
 
           <div className="col-md-12 social-lp ">
-            <h4 className=" text-center">
-            Our Historic Results so far:
-            </h4>
+            <h4 className=" text-center">Our Historic Results so far:</h4>
 
             <div className="stats row">
               <div className="d-flex flex-column align-items-center col-md-4 text-center">
-              <strong>25000+</strong>
-              <p className="fs-5">Web Pages Created</p>
+                <strong>25000+</strong>
+                <p className="fs-5">Web Pages Created</p>
               </div>
               <div className="d-flex flex-column align-items-center col-md-4 text-center">
-              <strong>90%</strong>
-              <p className="fs-5">Customer Retention</p>
+                <strong>90%</strong>
+                <p className="fs-5">Customer Retention</p>
               </div>
               <div className="d-flex flex-column align-items-center col-md-4 text-center">
-              <strong>50+</strong>
-              <p className="fs-5">Global Clients</p>
+                <strong>50+</strong>
+                <p className="fs-5">Global Clients</p>
               </div>
             </div>
           </div>
-          
-      
         </div>
       </div>
 
@@ -504,12 +502,12 @@ function WebDesign() {
               <h4>How does website design impact SEO?</h4>
             </Accordion.Header>
             <Accordion.Body>
-                <p className="text-left">
-                  Search engines favor websites with good design and user
-                  experience. A well-optimized, mobile-friendly, and
-                  fast-loading website contributes positively to search engine
-                  rankings, leading to increased visibility and organic traffic.
-                </p>
+              <p className="text-left">
+                Search engines favor websites with good design and user
+                experience. A well-optimized, mobile-friendly, and fast-loading
+                website contributes positively to search engine rankings,
+                leading to increased visibility and organic traffic.
+              </p>
             </Accordion.Body>
           </AccordionItem>
 
@@ -519,121 +517,55 @@ function WebDesign() {
             </Accordion.Header>
             <Accordion.Body>
               <p className="text-left">
-                  Analytics tools, such as Google Analytics, provide valuable
-                  insights into user behavior, traffic sources, and website
-                  performance. Design decisions can be informed by analytics
-                  data to enhance user experience and achieve marketing goals.
+                Analytics tools, such as Google Analytics, provide valuable
+                insights into user behavior, traffic sources, and website
+                performance. Design decisions can be informed by analytics data
+                to enhance user experience and achieve marketing goals.
               </p>
             </Accordion.Body>
           </AccordionItem>
 
           <AccordionItem eventKey="2">
             <Accordion.Header>
-              <h4>What is the impact of website speed on user experience and SEO?</h4>
+              <h4>
+                What is the impact of website speed on user experience and SEO?
+              </h4>
             </Accordion.Header>
             <Accordion.Body>
               <p className="text-left">
-                Slow-loading websites frustrate users and lead to higher
-                bounce rates. Additionally, search engines consider page speed
-                as a ranking factor. Optimizing images, leveraging browser
-                caching, and using content delivery networks (CDNs) can
-                improve website speed.
+                Slow-loading websites frustrate users and lead to higher bounce
+                rates. Additionally, search engines consider page speed as a
+                ranking factor. Optimizing images, leveraging browser caching,
+                and using content delivery networks (CDNs) can improve website
+                speed.
               </p>
             </Accordion.Body>
           </AccordionItem>
 
           <AccordionItem eventKey="3">
             <Accordion.Header>
-              <h4> What are the key metrics to monitor in web analytics for digital marketing?</h4>
+              <h4>
+                {" "}
+                What are the key metrics to monitor in web analytics for digital
+                marketing?
+              </h4>
             </Accordion.Header>
             <Accordion.Body>
               <p className="text-left">
                 Key metrics include website traffic, bounce rate, conversion
                 rate, average session duration, and traffic sources. These
-                metrics provide insights into user engagement, the
-                effectiveness of marketing channels, and overall website
-                performance.
+                metrics provide insights into user engagement, the effectiveness
+                of marketing channels, and overall website performance.
               </p>
             </Accordion.Body>
           </AccordionItem>
         </Accordion>
       </div>
-      <br/>
-      <br/>
-      <HelpYouWin/>
-
-      {/* <div className="Isearch-Asked">
-        <div className="container faq">
-          <h1 className="text-center mt-4 mb-4 pb-4">
-            Frequently Asked Questions about Organic Social
-          </h1>
-          <Accordion id="accordionExample">
-            <AccordionItem eventKey="0">
-              <Accordion.Header>
-                <h4> How does website design impact SEO?</h4>
-              </Accordion.Header>
-              <Accordion.Body>
-                <p className="text-left">
-                  Search engines favor websites with good design and user
-                  experience. A well-optimized, mobile-friendly, and
-                  fast-loading website contributes positively to search engine
-                  rankings, leading to increased visibility and organic traffic.
-                </p>
-              </Accordion.Body>
-            </AccordionItem>
-
-            <AccordionItem eventKey="1">
-              <Accordion.Header>
-                <h4>What is the role of analytics in web design?</h4>
-              </Accordion.Header>
-              <Accordion.Body>
-                <p>
-                  Analytics tools, such as Google Analytics, provide valuable
-                  insights into user behavior, traffic sources, and website
-                  performance. Design decisions can be informed by analytics
-                  data to enhance user experience and achieve marketing goals.
-                </p>
-              </Accordion.Body>
-            </AccordionItem>
-
-            <AccordionItem eventKey="2">
-              <Accordion.Header>
-                <h4>
-                  What is the impact of website speed on user experience and
-                  SEO?
-                </h4>
-              </Accordion.Header>
-              <Accordion.Body>
-                <p>
-                  Slow-loading websites frustrate users and lead to higher
-                  bounce rates. Additionally, search engines consider page speed
-                  as a ranking factor. Optimizing images, leveraging browser
-                  caching, and using content delivery networks (CDNs) can
-                  improve website speed.
-                </p>
-              </Accordion.Body>
-            </AccordionItem>
-
-            <AccordionItem eventKey="3">
-              <Accordion.Header>
-                <h4>
-                  What are the key metrics to monitor in web analytics for
-                  digital marketing?
-                </h4>
-              </Accordion.Header>
-              <Accordion.Body>
-                <p>
-                  Key metrics include website traffic, bounce rate, conversion
-                  rate, average session duration, and traffic sources. These
-                  metrics provide insights into user engagement, the
-                  effectiveness of marketing channels, and overall website
-                  performance.
-                </p>
-              </Accordion.Body>
-            </AccordionItem>
-          </Accordion>
-        </div>
-      </div> */}
+      <br />
+      <br />
+      <HelpYouWin />
+      <br />
+      <br />
     </div>
   );
 }
