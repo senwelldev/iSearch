@@ -27,6 +27,7 @@ import WebSite from "../../../Images/Services/WebDesign/WebsiteDesign.png";
 import WebDesingLeft from "../../../Images/Services/WebDesign/front-image.png";
 import HelpYouWin from "../../Home/LetsFind";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function WebDesign() {
   const navigate = useNavigate();
@@ -68,6 +69,41 @@ function WebDesign() {
 
   return (
     <div className={`container-fluid WebBody`}>
+      {/* ------Code for meta tags of this page------ */}
+
+      <Helmet>
+        <title>Web Design</title>
+        <link rel="canonical" href="https://isearch.co.in/social" />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="description"
+          content="Find our Services and expertise on Digital Marketing, SEO, Paid Adds marketing, digital and media solutions through our page"
+        />
+        <meta property="og:site_name" content="isearch" />
+        <meta property="og:title" content="Services" />
+        <meta
+          property="og:description"
+          content="Find expert insight and expertise on Digital Marketing, SEO, Paid Adds marketing, digital and media solutions through our page"
+        />
+        <meta
+          property="og:image"
+          content="https://isearch.co.in/static/media/backlinking.12d6aba19441a40b568f.png"
+        />
+        <meta
+          property="og:image"
+          content="https://isearch.co.in/static/media/backlinking.12d6aba19441a40b568f.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Services" />
+        <meta
+          name="twitter:image"
+          content="https://isearch.co.in/static/media/backlinking.12d6aba19441a40b568f.png"
+        />
+        <meta name="MobileOptimized" content="width" />
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Helmet>
+      {/* --------------------------------------------------------- */}
       <div className="row firstRow">
         <div className="col-md-6 ">
           <div

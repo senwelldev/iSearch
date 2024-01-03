@@ -11,6 +11,7 @@ import ContentCreation from "../../../Images/Services/Content/ContentCreation.pn
 import CrisisManagement from "../../../Images/Services/Content/CrisisManagement.png";
 import EmailMarketing from "../../../Images/Services/Content/EmailMarketing.png";
 import LeadGeneration from "../../../Images/Services/Content/LeadGeneration.png";
+import { Helmet } from "react-helmet";
 
 function Content() {
   const navigate = useNavigate();
@@ -51,6 +52,41 @@ function Content() {
   }, []);
   return (
     <div className={`container-fluid contentBody`}>
+      {/* ------Code for meta tags of this page------ */}
+
+      <Helmet>
+        <title>Content Marketing</title>
+        <link rel="canonical" href="https://isearch.co.in/contentServices" />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="description"
+          content="Find our Services and expertise on Digital Marketing, SEO, Paid Adds marketing, digital and media solutions through our page"
+        />
+        <meta property="og:site_name" content="isearch" />
+        <meta property="og:title" content="Services" />
+        <meta
+          property="og:description"
+          content="Find expert insight and expertise on Digital Marketing, SEO, Paid Adds marketing, digital and media solutions through our page"
+        />
+        <meta
+          property="og:image"
+          content="https://isearch.co.in/static/media/ContentCreation.99819969801e3ba43256.png"
+        />
+        <meta
+          property="og:image"
+          content="https://isearch.co.in/static/media/ContentCreation.99819969801e3ba43256.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Services" />
+        <meta
+          name="twitter:image"
+          content="https://isearch.co.in/static/media/ContentCreation.99819969801e3ba43256.png"
+        />
+        <meta name="MobileOptimized" content="width" />
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Helmet>
+      {/* --------------------------------------------------------- */}
       <div className="row firstRow">
         <div
           className="col-md-6 "

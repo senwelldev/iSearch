@@ -1,9 +1,45 @@
 import React from "react";
-import './Blog3.css';
+import "./Blog3.css";
+import { Helmet } from "react-helmet";
 
 const Blog3 = () => {
   return (
     <div className="conatiner blogBody3">
+      {/* ------Code for meta tags of this page------ */}
+
+      <Helmet>
+        <title>Blogs</title>
+        <link rel="canonical" href="https://isearch.co.in/blog/blog2" />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="description"
+          content="Find expert insight and expertise on Digital Marketing, SEO, Paid Adds marketing, digital and media solutions through our articles, white papers, blogs, analyst reports, case studies and more"
+        />
+        <meta property="og:site_name" content="isearch" />
+        <meta property="og:title" content="Blogs" />
+        <meta
+          property="og:description"
+          content="Find expert insight and expertise on Digital Marketing, SEO, Paid Adds marketing, digital and media solutions through our articles, white papers, blogs, analyst reports, case studies and more"
+        />
+        <meta
+          property="og:image"
+          content="https://isearch.co.in/static/media/BlogImage3.cf2221ef9732f00d119b.png"
+        />
+        <meta
+          property="og:image"
+          content="https://isearch.co.in/static/media/BlogImage3.cf2221ef9732f00d119b.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Blogs" />
+        <meta
+          name="twitter:image"
+          content="https://isearch.co.in/static/media/BlogImage3.cf2221ef9732f00d119b.png"
+        />
+        <meta name="MobileOptimized" content="width" />
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Helmet>
+      {/* --------------------------------------------------------- */}
       <div className="blogHeading">
         <h1>
           Difference Between Universal Analytics & Google Analytics -4: 10 Major

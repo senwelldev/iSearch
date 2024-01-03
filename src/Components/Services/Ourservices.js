@@ -5,7 +5,6 @@ import "aos/dist/aos.css";
 import { useNavigate } from "react-router-dom";
 
 const Ourservices = () => {
-
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -18,15 +17,11 @@ const Ourservices = () => {
 
   return (
     <div className="ourServicesBody">
-      <div className="ourServicesHeading" >
+      <div className="ourServicesHeading">
         <h1>
-          <b>
-            Services we provide
-          </b>
+          <b>Services we Provide</b>
         </h1>
-        <p>
-            We never met a challange we didn't like.
-        </p>
+        <p>We never met a challange we didn't like.</p>
       </div>
       <div className="flipBoxesContainer1">
         <div className="flip-box" data-aos="fade-down">
@@ -38,9 +33,12 @@ const Ourservices = () => {
               <p>Blogging</p>
               <p>Social Media Content</p>
               <p>Social Media Analytics</p>
-              <button className="btn btn-light"
-              onClick={()=> navigate('/social')}
-              >Read More</button>
+              <button
+                className="btn btn-light"
+                onClick={() => navigate("/social")}
+              >
+                Read More
+              </button>
             </div>
           </div>
         </div>
@@ -57,9 +55,12 @@ const Ourservices = () => {
               <p>Ecommerce SEO</p>
               <p>Guest Posting</p>
               <p>Backlinking</p>
-              <button className="btn btn-light"
-                onClick={()=> navigate('/seo')}
-              >Read More</button>
+              <button
+                className="btn btn-light"
+                onClick={() => navigate("/seo")}
+              >
+                Read More
+              </button>
             </div>
           </div>
         </div>
@@ -75,10 +76,11 @@ const Ourservices = () => {
               <p>Mobile Ads</p>
               <p>Amazon Ads</p>
               <p>PPC reseller Services</p>
-              <button className="btn btn-light"
-              onClick={()=> navigate('/paidAdds')}
+              <button
+                className="btn btn-light"
+                onClick={() => navigate("/paidAdds")}
               >
-              Read More
+                Read More
               </button>
             </div>
           </div>
@@ -93,9 +95,12 @@ const Ourservices = () => {
               <p>Newsletter Design</p>
               <p>Brochure Design</p>
               <p>Product Catalogue</p>
-              <button className="btn btn-light"
-              onClick={()=> navigate('/branding')}
-              >Read More</button>
+              <button
+                className="btn btn-light"
+                onClick={() => navigate("/branding")}
+              >
+                Read More
+              </button>
             </div>
           </div>
         </div>
@@ -110,9 +115,12 @@ const Ourservices = () => {
               <p>Content Management System</p>
               <p>Google Analytics</p>
               <p>Google Tag Manager Setup</p>
-              <button className="btn btn-light"
-              onClick={()=> navigate('/webDesign')}
-              >Read More</button>
+              <button
+                className="btn btn-light"
+                onClick={() => navigate("/webDesign")}
+              >
+                Read More
+              </button>
             </div>
           </div>
         </div>
@@ -127,10 +135,11 @@ const Ourservices = () => {
               <p>Industry Events</p>
               <p>Post Scheduling & Automation</p>
               <p>GMB Setup</p>
-              <button className="btn btn-light"
-              onClick={()=> navigate('/contentServices')}
+              <button
+                className="btn btn-light"
+                onClick={() => navigate("/contentServices")}
               >
-              Read More
+                Read More
               </button>
             </div>
           </div>
