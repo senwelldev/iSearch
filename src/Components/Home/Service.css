@@ -90,9 +90,14 @@
         margin-left: 10px;
     }
     
-    .homeService-RightConatiner-Img, .homeService-LeftConatiner-Img{
+    .homeService-RightConatiner-Img, .homeService-LefttContainer-Img{
        margin: 5px 0px 5px 0px;
+       border: 0px;
+       margin-top: 20px;
+       margin-bottom: 20px;
     }
+
+    /* .homeService-LefttContainer-Img */
     
     .homeService-RightConatiner-Img img{
         transform: translateX(0%) translateY(0%);

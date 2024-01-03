@@ -30,8 +30,9 @@
 /* / New Footer / */
 
 .country-logo{
-    width: 60%;
-    height: auto; 
+    width: 70px;
+    height: 40px; 
+    /* border: 1px solid red; */
 }
 
 .Exxon-Numberrow{
@@ -40,6 +41,7 @@
 
 .ExxonUnderImg{
     height: 30px !important;
+    /* border: 1px solid red; */
 }
 
 .ExxonUperpart{
@@ -92,8 +94,10 @@
     padding: 0px;
 }
 .RatingsBandBody-row1{
+    width: 100%;
     display: flex !important;
     flex-direction: row !important;
+    justify-content: space-between;
     /* border: 1px solid red; */
 }
 
@@ -134,12 +138,7 @@
     margin-top: -18px;
     margin-left: 0px;
     font-size: 10px;
-}
-
-
-.ReatingssubscribeDiv{
-    display: none;
-}
+    }
 }
 
 @media(min-width:768px) and (max-width:992px){
@@ -166,7 +165,7 @@
     .RatingsBandBody-row2{
         /* display: none; */
         /* margin: 20px; */
-        padding-top: 5px;
+        padding-top: 10px;
         /* height: 40px; */
         display: flex !important;
         flex-direction: row !important;
@@ -187,17 +186,4 @@
     .Exxon-Call{
         margin-top: -18px;
     }
-
-    .ReatingssubscribeDiv{
-        display: none;
-    }
-    
 }
-
-/* @media(max-width: 1196px) {
-    .Exxon-Call 
-    {
-        font-size:10px !important; 
-        width: 100%;
-    }
-} */

@@ -8,10 +8,10 @@ import { MdEmail } from "react-icons/md";
 import LeftImages from "../../Images/Contact/LeftImages1.png";
 import db from "../../firebase.config";
 import { collection, addDoc } from "firebase/firestore/lite";
-import Loader from './Loader';
+import Loader from "./Loader";
 import Swal from "sweetalert2";
 import "sweetalert2/dist/sweetalert2.min.css";
-
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   const [name, setName] = useState();
@@ -20,7 +20,6 @@ const Contact = () => {
   const [message, setMessage] = useState();
   const [loading, setLoading] = useState(false);
   const [isValidEmail, setIsValidEmail] = useState(true);
-
 
   // //Loader handling of Calendly------------------------------
   // const [calendlyLoading, setCalendlyLoading] = useState(false);
@@ -49,7 +48,6 @@ const Contact = () => {
   // }, []);
 
   //------------------------------------------------------
-
 
   useEffect(() => {
     const handleLoad = () => {
@@ -109,7 +107,7 @@ const Contact = () => {
         text: "Thank you for contacting us..",
         icon: "success",
       });
-      
+
       // Reset form fields
       setName("");
       setEmail("");
@@ -124,28 +122,63 @@ const Contact = () => {
 
   return (
     <div>
-      <div className="Contact-Section">
-            <div className="col-lg-6 IsearchLeft">
-              <div className="IsearchOutside">
-                <img src={LeftImages} alt="img" />
-              </div>
-            </div>
+      {/* ------Code for meta tags of this page------ */}
 
-            <div className="col-lg-6 calenderBox">
-                            {/* <div className="spinner-border text-green" role="status">
+      <Helmet>
+        <title>Contact Us</title>
+        <link rel="canonical" href="https://isearch.co.in/contact" />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="description"
+          content="We&#039;re here to help. Contact our services, sales, partner, investor, press, analyst, product and web teams. Give feedback. See our locations. Reach out."
+        />
+        <meta property="og:site_name" content="isearch" />
+        <meta property="og:title" content="Contact us" />
+        <meta
+          property="og:description"
+          content="We&#039;re here to help. Contact our services, sales, partner, investor, press, analyst, product and web teams. Give feedback. See our locations. Reach out."
+        />
+        <meta
+          property="og:image"
+          content="https://isearch.co.in/static/media/LeftImages1.76a139a6fefaa43ebdd2.png"
+        />
+        <meta
+          property="og:image"
+          content="https://isearch.co.in/static/media/LeftImages1.76a139a6fefaa43ebdd2.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact us" />
+        <meta
+          name="twitter:image"
+          content="https://isearch.co.in/static/media/LeftImages1.76a139a6fefaa43ebdd2.png"
+        />
+        <meta name="MobileOptimized" content="width" />
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Helmet>
+      {/* --------------------------------------------------------- */}
+      <div className="Contact-Section">
+        <div className="col-lg-6 IsearchLeft">
+          <div className="IsearchOutside">
+            <img src={LeftImages} alt="img" />
+          </div>
+        </div>
+
+        <div className="col-lg-6 calenderBox">
+          {/* <div className="spinner-border text-green" role="status">
                   <span className="sr-only"></span>
                 </div> */}
 
-              {loading ? (
-                <div>
-                  <Loader/>
-                </div>
-              ) : (
-                <div className="Exxon-right-Calnder">
-                  <InlineWidget url="https://calendly.com/isearch-digital/30min" />
-                </div>
-              )}
+          {loading ? (
+            <div>
+              <Loader />
             </div>
+          ) : (
+            <div className="Exxon-right-Calnder">
+              <InlineWidget url="https://calendly.com/isearch-digital/30min" />
+            </div>
+          )}
+        </div>
       </div>
       <div className="contactArea-Section">
         <div className="container">
@@ -260,14 +293,18 @@ const Contact = () => {
                 <br />
                 <li>
                   <div className="text-box">
-                    <FaPhoneAlt className="Isearch-logo" /> <a href="tel:+91 9175277758">+91 9175277758</a>
+                    <FaPhoneAlt className="Isearch-logo" />{" "}
+                    <a href="tel:+91 9175277758">+91 9175277758</a>
                   </div>
                 </li>
                 <br />
 
                 <li>
                   <div className="text-box">
-                    <MdEmail className="Isearch-logo" /> <a href="mailto:contactus@isearch.co.in">contactus@isearch.co.in</a>
+                    <MdEmail className="Isearch-logo" />{" "}
+                    <a href="mailto:contactus@isearch.co.in">
+                      contactus@isearch.co.in
+                    </a>
                   </div>
                 </li>
               </ul>

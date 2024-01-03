@@ -19,6 +19,7 @@ import Design from "../../../Images/Services/Social/CardIcons/Website Design and
 import Production from "../../../Images/Services/Social/CardIcons/Video Production.png";
 import Internet from "../../../Images/Services/Social/CardIcons/Social Media SEO    Social Media Management Services _ Thrive Internet Marketing Agency https___thriveagency.com.png";
 import HelpYouWin from "../../Home/LetsFind";
+import { Helmet } from "react-helmet";
 
 function Paid() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -57,6 +58,41 @@ function Paid() {
   }, []);
   return (
     <div className={`container-fluid Social-media-Body`}>
+      {/* ------Code for meta tags of this page------ */}
+
+      <Helmet>
+        <title>Social Media Marketing</title>
+        <link rel="canonical" href="https://isearch.co.in/social" />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="description"
+          content="Find our Services and expertise on Digital Marketing, SEO, Paid Adds marketing, digital and media solutions through our page"
+        />
+        <meta property="og:site_name" content="isearch" />
+        <meta property="og:title" content="Services" />
+        <meta
+          property="og:description"
+          content="Find expert insight and expertise on Digital Marketing, SEO, Paid Adds marketing, digital and media solutions through our page"
+        />
+        <meta
+          property="og:image"
+          content="https://isearch.co.in/static/media/Social%20Media%20ADsa.98ffb2e7f574e5a76278.png"
+        />
+        <meta
+          property="og:image"
+          content="https://isearch.co.in/static/media/Social%20Media%20ADsa.98ffb2e7f574e5a76278.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Services" />
+        <meta
+          name="twitter:image"
+          content="https://isearch.co.in/static/media/Social%20Media%20ADsa.98ffb2e7f574e5a76278.png"
+        />
+        <meta name="MobileOptimized" content="width" />
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Helmet>
+      {/* --------------------------------------------------------- */}
       <div className="row first-Row">
         <div className="col-md-6 ">
           <div

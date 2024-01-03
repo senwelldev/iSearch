@@ -146,30 +146,6 @@ const RatingsBand = () => {
                 <img src={Clutch} alt="clutch" className="ExxonUnderImg" />
               </div>
             </div>
-            {/*---------- subscribeDiv----- */}
-            <div className="ReatingssubscribeDiv">
-              <h6>Get the Estimation of your project</h6>
-              <p>
-                Most newsletters suck but this isn’t 'industry standards' and
-                'best practices' only the real stuff that moves the needle.
-              </p>
-              Email*
-              <br />
-              <input
-                type="text"
-                id="email"
-                placeholder="Enter Email-Id"
-                className={`medium-input ${isValidEmail ? "" : "invalid"}`}
-                autoFocus
-                onChange={handleEmailChange}
-              />
-              {!isValidEmail && (
-                <p className="error-message">Enter a valid email address</p>
-              )}
-              <br />
-              <button onClick={handleFormSubmit}>Submit</button>
-            </div>
-            {/* -------------------------------------- */}
           </div>
 
           <div className="col-lg-6">
@@ -178,11 +154,14 @@ const RatingsBand = () => {
                 <div className="row Exxon-Numberrow ">
                   <div
                     className="col-lg-6"
-                    style={{
-                      marginRight: "-22px",
-                      marginTop: "-9px",
-                      // marginLeft: "17px",
-                    }}
+                    style={
+                      {
+                        // marginRight: "-22px",
+                        // marginTop: "-9px",
+                        // marginLeft: "17px",
+                        // border: "1px solid red",
+                      }
+                    }
                   >
                     <img
                       src={UK}

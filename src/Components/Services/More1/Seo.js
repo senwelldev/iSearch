@@ -19,6 +19,7 @@ import Seo1 from "../../../Images/Services/Seo/Seo.png";
 import { useNavigate } from "react-router-dom";
 import { Accordion, AccordionItem } from "react-bootstrap";
 import HelpYouWin from "../../Home/LetsFind";
+import { Helmet } from "react-helmet";
 
 const Seo = () => {
   const navigate = useNavigate();
@@ -60,6 +61,41 @@ const Seo = () => {
 
   return (
     <div className="seoBody">
+      {/* ------Code for meta tags of this page------ */}
+
+      <Helmet>
+        <title>SEO</title>
+        <link rel="canonical" href="https://isearch.co.in/seo" />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="description"
+          content="Find our Services and expertise on Digital Marketing, SEO, Paid Adds marketing, digital and media solutions through our page"
+        />
+        <meta property="og:site_name" content="isearch" />
+        <meta property="og:title" content="Services" />
+        <meta
+          property="og:description"
+          content="Find expert insight and expertise on Digital Marketing, SEO, Paid Adds marketing, digital and media solutions through our page"
+        />
+        <meta
+          property="og:image"
+          content="https://isearch.co.in/static/media/onpage.b2965df72c743ea72018.png"
+        />
+        <meta
+          property="og:image"
+          content="https://isearch.co.in/static/media/onpage.b2965df72c743ea72018.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Services" />
+        <meta
+          name="twitter:image"
+          content="https://isearch.co.in/static/media/onpage.b2965df72c743ea72018.png"
+        />
+        <meta name="MobileOptimized" content="width" />
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Helmet>
+      {/* --------------------------------------------------------- */}
       <div className="row firstRow">
         <div className="col-md-6 ">
           <div
