@@ -1,14 +1,14 @@
 import React from "react";
 // import LifeAt1 from "../../Images/Career/LifeAt/LifeAt1.png";
-import LifeAt2 from "../../Images/LifeAt2.png";
-import LifeAt3 from "../../Images/LifeAt3.png";
-import LifeAt4 from "../../Images/LifeAt4.png";
-import LifeAt5 from "../../Images/LifeAt5.png";
-import LifeAt6 from "../../Images/LifeAt6.png";
-import LifeAt7 from "../../Images/LifeAt7.png";
-import LifeAt8 from "../../Images/LifeAt8.png";
-import SangramSir from "../../Images/SangramSir.png";
-import VaibhavSir from "../../Images/VaibhavSir.png";
+import LifeAt2 from "../../Images/Career/LifeAt/LifeAt2.webp";
+import LifeAt3 from "../../Images/Career/LifeAt/LifeAt3.webp";
+import LifeAt4 from "../../Images/Career/LifeAt/LifeAt4.webp";
+import LifeAt5 from "../../Images/Career/LifeAt/LifeAt5.webp";
+import LifeAt6 from "../../Images/Career/LifeAt/LifeAt6.webp";
+import LifeAt7 from "../../Images/Career/LifeAt/LifeAt7.webp";
+import LifeAt8 from "../../Images/Career/LifeAt/LifeAt8.webp";
+import SangramSir from "../../Images/Career/LifeAt/SangramSir.webp";
+import VaibhavSir from "../../Images/Career/LifeAt/VaibhavSir.webp";
 import "./CareerPage.css";
 
 const WelcomeToiSearchComponent = () => {

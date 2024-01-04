@@ -1,6 +1,6 @@
 // CareerBannerComponent.js
 import React from "react";
-import Team from "../../Images/Team.png";
+import Team from "../../Images/Career/Team.webp";
 import "./CareerPage.css";
 
 const CareerBannerComponent = () => {
