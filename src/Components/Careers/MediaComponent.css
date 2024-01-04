@@ -1,0 +1,22 @@
+.section-3 {
+  padding: 2rem;
+}
+.in-media {
+  background: #07172d;
+  width: 100%;
+  color: white;
+}
+.cardParent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+@media (min-width: 1200px) {
+  .cardParent {
+    justify-content: space-evenly;
+  }
+}
+ 

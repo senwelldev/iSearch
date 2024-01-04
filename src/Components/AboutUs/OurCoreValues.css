@@ -43,6 +43,14 @@
     color: #780583;
 }
 @media screen and (max-width: 991px) {
+    .corevaluesHeading{
+        /* border: 1px solid red; */
+    }
+    .corevaluesHeading h1{
+        font-size: 45px;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
     .coreValues-Row{
         flex-direction: column;
     }

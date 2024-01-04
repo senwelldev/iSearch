@@ -1,7 +1,7 @@
 import React from "react";
 import "./Service.css";
-import ServiceImage1 from "../../Images/Home/ServiceImg1.png";
-import ServiceImage2 from "../../Images/Home/ServiceImg2.png";
+import ServiceImage1 from "../../Images/Home/ServiceImg1.webp";
+import ServiceImage2 from "../../Images/Home/ServiceImg2.webp";
 
 import { useNavigate } from "react-router-dom";
 
@@ -35,7 +35,7 @@ const Service = () => {
               scrollToTop();
             }}
           >
-           LEARN MORE ABOUT OUR SERVICES
+            LEARN MORE ABOUT OUR SERVICES
           </button>
         </div>
         <div className="homeService-RightConatiner">
@@ -72,7 +72,7 @@ const Service = () => {
               scrollToTop();
             }}
           >
-           START YOUR MARKETING CAMPAIGN TODAY
+            START YOUR MARKETING CAMPAIGN TODAY
           </button>
         </div>
       </div>

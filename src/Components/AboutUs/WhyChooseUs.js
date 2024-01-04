@@ -1,11 +1,11 @@
 import React from "react";
 import "./WhyChooseUs.css";
-import DataDriven from "../../Images/AboutUs/DataDriven.png";
-import Tailored from "../../Images/AboutUs/Tailored.png";
-import AffordableCost from "../../Images/AboutUs/AffordableCost.png";
-import ExperiancedTeam from "../../Images/AboutUs/ExperiancedTeam.png";
-import Holistic from "../../Images/AboutUs/Holistic.png";
-import Transparancy from "../../Images/AboutUs/Transparancy.png";
+import DataDriven from "../../Images/AboutUs/DataDriven.webp";
+import Tailored from "../../Images/AboutUs/Tailored.webp";
+import AffordableCost from "../../Images/AboutUs/AffordableCost.webp";
+import ExperiancedTeam from "../../Images/AboutUs/ExperiancedTeam.webp";
+import Holistic from "../../Images/AboutUs/Holistic.webp";
+import Transparancy from "../../Images/AboutUs/Transparancy.webp";
 
 const WhyChooseUs = () => {
   return (

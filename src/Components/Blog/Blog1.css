@@ -7,7 +7,7 @@
     margin-top: -100px;
     padding: 15% 15% 5% 15%;
     color: white;
-    background: url("../../Images/Blogs/BlogImage1.png");
+    background: url("../../Images/Blogs/BlogImage1.webp");
     background-position: center;
       position: static;
     background-attachment: fixed;
@@ -47,8 +47,8 @@
     }
 
     .blogBody1 .blogHeading{
-        margin-top: -100px;
-        padding: 42% 15% 15% 15%;
+        margin-top: 0px;
+        padding: 23% 15% 15% 15%;
         /* background: blue; */
         color: white;
         background-size: contain;

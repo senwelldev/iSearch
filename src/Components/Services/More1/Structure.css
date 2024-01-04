@@ -195,7 +195,7 @@
   font-size: 2rem;
 }
 .achievement {
-  background-image: url("../../../Images/Services/Social//bg.png");
+  background-image: url("../../../Images/Services/Social/bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
  
@@ -249,12 +249,14 @@
     padding-right: 15px !important;
   }
 
-  .Services-RightConatiner-Img, .homeService-LeftConatiner-Img{
-    margin: 5px 0px 5px 0px;
+  .Services-RightConatiner-Img, .homeService-LeftConatiner-Img, .Services-LefttConatiner-Img{
+    margin: 15px 0px 15px 0px;
+    border: 0px;
  }
  
- .Services-RightConatiner-Img img{
+ .Services-RightConatiner-Img img, .Services-LefttConatiner-Img img{
      transform: translateX(0%) translateY(0%);
+     border-radius: 15px;
  }    
 
  .Services-LefttConatiner-Img img{

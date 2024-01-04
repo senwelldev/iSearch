@@ -16,7 +16,7 @@ const YourComponent = () => {
     wheel: true,
     waitForTransition: true,
     releaseWheel: true,
-    speed: 2000,
+    speed: 1000,
     arrows: false,
   };
 

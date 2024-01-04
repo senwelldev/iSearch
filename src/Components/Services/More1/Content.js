@@ -2,15 +2,15 @@ import React, { useEffect, useRef, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Accordion, AccordionItem } from "react-bootstrap";
 // import image from "../../../Images/Services/ServiceImg2.png";
-import ContentImage from "../../../Images/Services/Content/Content & PR.png";
+import ContentImage from "../../../Images/Services/Content/Content & PR.webp";
 import "./Content.css";
 import "./Structure.css";
 import { useNavigate } from "react-router-dom";
 import HelpYouWin from "../../Home/LetsFind";
-import ContentCreation from "../../../Images/Services/Content/ContentCreation.png";
-import CrisisManagement from "../../../Images/Services/Content/CrisisManagement.png";
-import EmailMarketing from "../../../Images/Services/Content/EmailMarketing.png";
-import LeadGeneration from "../../../Images/Services/Content/LeadGeneration.png";
+import ContentCreation from "../../../Images/Services/Content/ContentCreation.webp";
+import CrisisManagement from "../../../Images/Services/Content/CrisisManagement.webp";
+import EmailMarketing from "../../../Images/Services/Content/EmailMarketing.webp";
+import LeadGeneration from "../../../Images/Services/Content/LeadGeneration.webp";
 import { Helmet } from "react-helmet";
 
 function Content() {

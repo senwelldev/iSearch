@@ -1,16 +1,16 @@
 import React, { useEffect, useRef, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Accordion, AccordionItem } from "react-bootstrap";
-import image from "../../../Images/Services/Branding/BrandingServices.png";
-import image1 from "../../../Images/Services/Branding/BrandingServices.png";
+import image from "../../../Images/Services/Branding/BrandingServices.webp";
+import image1 from "../../../Images/Services/Branding/BrandingServices.webp";
 import "./Branding.css";
 import "./Structure.css";
 import HelpYouWin from "../../Home/LetsFind";
 import { useNavigate } from "react-router-dom";
-import Broucher from "../../../Images/Services/Branding/Broucher.png";
-import Logo from "../../../Images/Services/Branding/Logo.png";
-import ProductCatalog from "../../../Images/Services/Branding/ProductCatalog.png";
-import NewsLetter from "../../../Images/Services/Branding/NewsLetter.png";
+import Broucher from "../../../Images/Services/Branding/Broucher.webp";
+import Logo from "../../../Images/Services/Branding/Logo.webp";
+import ProductCatalog from "../../../Images/Services/Branding/ProductCatalog.webp";
+import NewsLetter from "../../../Images/Services/Branding/NewsLetter.webp";
 import { Helmet } from "react-helmet";
 
 function App() {

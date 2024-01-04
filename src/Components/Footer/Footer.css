@@ -11,7 +11,7 @@
   margin-top: 115px;
   width: 100%;
   height: 500px;
-  background: url("../../Images//Footer//FooterImage2.png");
+  background: url("../../Images//Footer//FooterImage2.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -83,7 +83,7 @@ footer {
   flex-direction: column;
   justify-content: left;
   align-items: center;
-  background: url("../../Images/Footer/FooterImage33.png");
+  background: url("../../Images/Footer/FooterImage33.webp");
   /* background-size: 36.5%; */
   background-size: contain;
   background-repeat: no-repeat;
@@ -104,7 +104,7 @@ footer {
     flex-direction: column;
     align-items: last baseline;
     justify-content: space-between;
-    background: url("../../Images/Footer/FooterImage1.png");
+    background: url("../../Images/Footer/FooterImage1.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import Logo from '../../Images/isearchLogo2.png';
+import Logo from "../../Images/isearchLogo2.webp";
 import "./Navbar.css";
 
 const Navbar2 = () => {

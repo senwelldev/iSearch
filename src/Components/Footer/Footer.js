@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./Footer.css";
 import { useNavigate } from "react-router-dom";
-import Logo from "../../Images/isearchLogo3.png";
-import LinkedIn from "../../Images/Footer/LinkedIn.png";
-import Fb from "../../Images/Footer/Facebook.png";
-import WP from "../../Images/Footer/WhatsApp_icon.png";
-import Insta from "../../Images/Footer/Instagram.png";
-import Youtube from "../../Images/Footer/Youtube.png";
+import Logo from "../../Images/isearchLogo3.webp";
+import LinkedIn from "../../Images/Footer/LinkedIn.webp";
+import Fb from "../../Images/Footer/Facebook.webp";
+import WP from "../../Images/Footer/WhatsApp_icon.webp";
+import Insta from "../../Images/Footer/Instagram.webp";
+import Youtube from "../../Images/Footer/Youtube.webp";
 import RatingsBand from "./RatingsBand";
 import db from "../../firebase.config";
 import { collection, addDoc } from "firebase/firestore/lite";
@@ -113,7 +113,7 @@ const Footer = () => {
       <div className="SocialMediaIcons">
         <div className="wpme">
           <a
-            href="whatsapp://send?phone=+919175277758"
+            href="https://wa.me/+919175277758"
             target="_blank"
             rel="noopener noreferrer"
           >

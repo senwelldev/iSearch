@@ -1,8 +1,8 @@
-import React, { useEffect, useState, useRef } from 'react';
-import './Video.css';
+import React, { useEffect, useState, useRef } from "react";
+import "./Video.css";
 
 const Video = () => {
-    const [isFullScreen, setFullScreen] = useState(false);
+  const [isFullScreen, setFullScreen] = useState(false);
   const videoRef = useRef(null);
 
   useEffect(() => {
@@ -15,16 +15,25 @@ const Video = () => {
       );
     };
 
-    document.addEventListener('fullscreenchange', handleFullscreenChange);
-    document.addEventListener('mozfullscreenchange', handleFullscreenChange);
-    document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
-    document.addEventListener('msfullscreenchange', handleFullscreenChange);
+    document.addEventListener("fullscreenchange", handleFullscreenChange);
+    document.addEventListener("mozfullscreenchange", handleFullscreenChange);
+    document.addEventListener("webkitfullscreenchange", handleFullscreenChange);
+    document.addEventListener("msfullscreenchange", handleFullscreenChange);
 
     return () => {
-      document.removeEventListener('fullscreenchange', handleFullscreenChange);
-      document.removeEventListener('mozfullscreenchange', handleFullscreenChange);
-      document.removeEventListener('webkitfullscreenchange', handleFullscreenChange);
-      document.removeEventListener('msfullscreenchange', handleFullscreenChange);
+      document.removeEventListener("fullscreenchange", handleFullscreenChange);
+      document.removeEventListener(
+        "mozfullscreenchange",
+        handleFullscreenChange
+      );
+      document.removeEventListener(
+        "webkitfullscreenchange",
+        handleFullscreenChange
+      );
+      document.removeEventListener(
+        "msfullscreenchange",
+        handleFullscreenChange
+      );
     };
   }, []);
 
@@ -35,7 +44,6 @@ const Video = () => {
     }
   }, [isFullScreen]);
 
-
   const fullscreen = () => {
     setFullScreen(true);
     videoRef.current.muted = false;
@@ -43,14 +51,11 @@ const Video = () => {
     // Request fullscreen
     if (videoRef.current.requestFullscreen) {
       videoRef.current.requestFullscreen();
-    } 
-    else if (videoRef.current.mozRequestFullScreen) {
+    } else if (videoRef.current.mozRequestFullScreen) {
       videoRef.current.mozRequestFullScreen();
-    } 
-    else if (videoRef.current.webkitRequestFullscreen) {
+    } else if (videoRef.current.webkitRequestFullscreen) {
       videoRef.current.webkitRequestFullscreen();
-    } 
-    else if (videoRef.current.msRequestFullscreen) {
+    } else if (videoRef.current.msRequestFullscreen) {
       videoRef.current.msRequestFullscreen();
     }
   };
@@ -58,7 +63,7 @@ const Video = () => {
   const smallScreen = () => {
     setFullScreen(false);
     videoRef.current.muted = true;
-  
+
     // Exit fullscreen if currently in fullscreen mode
     if (
       document.fullscreenElement ||
@@ -78,15 +83,28 @@ const Video = () => {
     }
   };
   return (
-    <div className='vido'>
-      <div className='vdointernal'>
-        <video ref={videoRef} src={process.env.PUBLIC_URL + '/Assets/dm v.mp4'} height="100%" width="100%" muted autoPlay loop></video>
+    <div className="vido">
+      <div className="vdointernal">
+        <video
+          ref={videoRef}
+          src={process.env.PUBLIC_URL + "/Assets/dm v.mp4"}
+          height="100%"
+          width="100%"
+          muted
+          autoPlay
+          loop
+          playsInline
+        ></video>
       </div>
-      <div id='mute' className={`mute ${isFullScreen ? 'hidden' : ''}`} onClick={fullscreen}>
+      <div
+        id="mute"
+        className={`mute ${isFullScreen ? "hidden" : ""}`}
+        onClick={fullscreen}
+      >
         <i class="fa-solid fa-volume-xmark"></i>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Video
+export default Video;

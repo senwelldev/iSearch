@@ -1,12 +1,12 @@
 import React from "react";
 import "./Planet.css";
 
-import logo from "../../../../Images/Services/Social/new-graphic-social-icon01.png";
-import logo1 from "../../../../Images/Services/Social/new-graphic-social-icon02.png";
-import logo2 from "../../../../Images/Services/Social/new-graphic-social-icon05.png";
-import logo3 from "../../../../Images/Services/Social/twitter.png";
-import logo4 from "../../../../Images/Services/Social/image_2023_12_27T10_03_29_621Z.png";
-import logo5 from "../../../../Images/Services/Social/image_2023_12_27T10_03_29_623Z.png";
+import logo from "../../../../Images/Services/Social/new-graphic-social-icon01.webp";
+import logo1 from "../../../../Images/Services/Social/new-graphic-social-icon02.webp";
+import logo2 from "../../../../Images/Services/Social/new-graphic-social-icon05.webp";
+import logo3 from "../../../../Images/Services/Social/twitter.webp";
+import logo4 from "../../../../Images/Services/Social/image_2023_12_27T10_03_29_621Z.webp";
+import logo5 from "../../../../Images/Services/Social/image_2023_12_27T10_03_29_623Z.webp";
 const Main = ({ img }) => {
   return (
     <>
@@ -19,7 +19,7 @@ const Main = ({ img }) => {
             </div>
             <div class="planet">
               <img src={logo1} alt="" />
-            </div> 
+            </div>
             <div class="planet">
               <img src={logo2} alt="" />
             </div>

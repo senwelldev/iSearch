@@ -2,13 +2,14 @@
 
 import React from "react";
 import { useParams } from "react-router-dom";
-import jobDescriptions from "../Careers/Jobs.json";
+import jobDescriptions from "./Jobs.json";
 import "./JobDetails.css";
 import { Link } from "react-router-dom";
 
 const JobDetail = () => {
   const { jobId } = useParams();
 
+  console.log(jobId);
   // Fetch job details based on the jobTitle and display them
   const jobDetails = jobDescriptions.jobs.find(
     (job) => job.jobId === parseInt(jobId, 10)
@@ -20,7 +21,7 @@ const JobDetail = () => {
   return (
     <div className="careerDetailsBody">
       <div className="Isearch-JobDesSection">
-        <div className="container-fluid" >
+        <div className="container-fluid">
           <div className="banner">
             <div className="Jobbanner-header">
               <h1>{jobDetails.jobTitle}</h1>
@@ -255,6 +256,8 @@ const JobDetail = () => {
           </div>
         </div>
       </div>
+      <br />
+      <br />
     </div>
   );
 };
