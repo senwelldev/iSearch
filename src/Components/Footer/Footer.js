@@ -123,7 +123,7 @@ const Footer = () => {
         <div className="insta">
           <a
             href="https://www.linkedin.com/company/isearch-india/people/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <img src={LinkedIn} alt="..." />
           </a>
@@ -138,12 +138,12 @@ const Footer = () => {
           </a>
         </div>
         <div className="insta">
-          <a href="https://www.instagram.com/isearch.india/" target="_blank">
+          <a href="https://www.instagram.com/isearch.india/" target="_blank" rel="noreferrer">
             <img src={Insta} alt="..." />
           </a>
         </div>
         <div className="insta">
-          <a href="https://www.youtube.com/@senwellgroup" target="_blank">
+          <a href="https://www.youtube.com/@senwellgroup" target="_blank" rel="noreferrer">
             <img src={Youtube} alt="..." />
           </a>
         </div>
@@ -261,7 +261,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://www.linkedin.com/company/isearch-india/people/"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <i class="fa-brands fa-linkedin"></i>
                   </a>
@@ -269,7 +269,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://www.facebook.com/people/Senwell-Group/100068983571168/"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <i class="fa-brands fa-square-facebook"></i>
                   </a>
@@ -277,7 +277,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://www.instagram.com/isearch.india/"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <i class="fa-brands fa-instagram"></i>
                   </a>
@@ -285,7 +285,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://www.youtube.com/@senwellgroup"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <i class="fa-brands fa-youtube"></i>
                   </a>
@@ -293,7 +293,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://twitter.com/i/flow/login?redirect_after_login=%2FiSearch_india"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <i class="fa-brands fa-x-twitter"></i>
                   </a>

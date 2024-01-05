@@ -118,7 +118,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="insta">
-          <a href="https://www.linkedin.com/company/isearch-india/people/" target="_blank">
+          <a href="https://www.linkedin.com/company/isearch-india/people/" target="_blank" rel="noreferrer">
             <img src={LinkedIn} alt="..."/>
           </a>
         </div>
@@ -128,7 +128,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="insta">
-          <a href="https://www.instagram.com/isearch_digital/" target="_blank">
+          <a href="https://www.instagram.com/isearch_digital/" target="_blank" rel="noreferrer">
             <img src={Insta} alt="..."/>
           </a>
         </div>
@@ -267,22 +267,22 @@ const Footer = () => {
               </div>
               <ul class="social_icon">
                 <li>
-                  <a href="https://www.linkedin.com/company/isearch-india/people/" target="_blank">
+                  <a href="https://www.linkedin.com/company/isearch-india/people/" target="_blank" rel="noreferrer">
                     <i class="fa-brands fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/people/Senwell-Group/100068983571168/" target="_blank">
+                  <a href="https://www.facebook.com/people/Senwell-Group/100068983571168/" target="_blank" rel="noreferrer">
                     <i class="fa-brands fa-square-facebook"></i>
                   </a>
                 </li>
                 <li>
-                <a href="https://www.instagram.com/isearch_digital/" target="_blank">
+                <a href="https://www.instagram.com/isearch_digital/" target="_blank" rel="noreferrer">
                     <i class="fa-brands fa-instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/@senwellgroup" target="_blank">
+                  <a href="https://www.youtube.com/@senwellgroup" target="_blank" rel="noreferrer">
                     <i class="fa-brands fa-youtube"></i>
                   </a>
                 </li>

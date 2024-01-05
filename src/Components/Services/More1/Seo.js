@@ -1,25 +1,23 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./Seo.css";
+import { Accordion, AccordionItem } from "react-bootstrap";
+import { Helmet } from "react-helmet";
+import { useNavigate } from "react-router-dom";
+import Seo1 from "../../../Images/Services/Seo/Seo.webp";
 import Backlinking from "../../../Images/Services/Seo/backlinking.webp";
 import ecommerce from "../../../Images/Services/Seo/ecommerce.webp";
 import guest from "../../../Images/Services/Seo/guest.webp";
-import img1 from "../../../Images/Services/Seo/img1.webp";
-import img2 from "../../../Images/Services/Seo/img2.webp";
-import keyword from "../../../Images/Services/Seo/keyword.webp";
-import link from "../../../Images/Services/Seo/link.webp";
-import local from "../../../Images/Services/Seo/local.webp";
-import Onpage from "../../../Images/Services/Seo/onpage.webp";
 import Icon1 from "../../../Images/Services/Seo/icon1.webp";
 import Icon2 from "../../../Images/Services/Seo/icon2.webp";
 import Icon3 from "../../../Images/Services/Seo/icon3.webp";
 import Icon4 from "../../../Images/Services/Seo/icon4.webp";
 import Icon5 from "../../../Images/Services/Seo/icon5.webp";
 import Icon6 from "../../../Images/Services/Seo/icon6.webp";
-import Seo1 from "../../../Images/Services/Seo/Seo.webp";
-import { useNavigate } from "react-router-dom";
-import { Accordion, AccordionItem } from "react-bootstrap";
+import img2 from "../../../Images/Services/Seo/img2.webp";
+import keyword from "../../../Images/Services/Seo/keyword.webp";
+import local from "../../../Images/Services/Seo/local.webp";
+import Onpage from "../../../Images/Services/Seo/onpage.webp";
 import HelpYouWin from "../../Home/LetsFind";
-import { Helmet } from "react-helmet";
+import "./Seo.css";
 
 const Seo = () => {
   const navigate = useNavigate();
