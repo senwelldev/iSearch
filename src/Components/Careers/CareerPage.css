@@ -3,15 +3,9 @@
 
 .CareerBanner{
   position: relative !important;
-  /* z-index: 90; */
 }
 
 .lets-create {
-  /* background-image: url("../../Images/Career/Team.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
-  /* min-height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,21 +27,17 @@
 .impact-head {
   color: white;
   height: auto;
-  /* border: 1px solid blue !important; */
 }
 .CareerBannerText{
   position: absolute !important;
   top: 2.5%;
-  width: auto;
+  width: 100%;
   height: auto;
   z-index: 100;
-
-  /* border: 1px solid red; */
 }
 
 .CareerBannerText h1 {
   font-size: 40px;
-  /* margin-top: -25%; */
   font-weight: 400;
 }
 .CareerBannerText h6 {
@@ -56,7 +46,6 @@
 
 .shapeFuture p{
   text-align: justify;
-  /* border: 1px solid red; */
 }
 .impact-head button {
   background-color: #2c74d6;
@@ -73,7 +62,6 @@
 }
 
 .join-us {
-  /* background: #f0f0f0; */
   padding: 3rem;
 }
 .right-part {
@@ -81,9 +69,6 @@
   padding: 3rem;
 }
 
-.Career-CarouselBody{
-  /* border: 1px solid red; */
-}
 .card {
   background: #fff;
   margin: 10px;
@@ -115,16 +100,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid red; */
 }
-/* .carouselContainer{
-  border: 1px silid red !important;
-} */
-
-/* .carouselBody{
-  border: 1px silid red !important;
-} */
-
 @media screen and (max-width: 450px){
   .CareerBannerText{
     top: 0%;

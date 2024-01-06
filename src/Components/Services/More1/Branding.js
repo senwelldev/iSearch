@@ -1,17 +1,16 @@
-import React, { useEffect, useRef, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import React, { useEffect, useRef, useState } from "react";
 import { Accordion, AccordionItem } from "react-bootstrap";
-import image from "../../../Images/Services/Branding/BrandingServices.webp";
-import image1 from "../../../Images/Services/Branding/BrandingServices.webp";
-import "./Branding.css";
-import "./Structure.css";
-import HelpYouWin from "../../Home/LetsFind";
+import { Helmet } from "react-helmet";
 import { useNavigate } from "react-router-dom";
+import image1 from "../../../Images/Services/Branding/BrandingServices.webp";
 import Broucher from "../../../Images/Services/Branding/Broucher.webp";
 import Logo from "../../../Images/Services/Branding/Logo.webp";
-import ProductCatalog from "../../../Images/Services/Branding/ProductCatalog.webp";
 import NewsLetter from "../../../Images/Services/Branding/NewsLetter.webp";
-import { Helmet } from "react-helmet";
+import ProductCatalog from "../../../Images/Services/Branding/ProductCatalog.webp";
+import HelpYouWin from "../../Home/LetsFind";
+import "./Branding.css";
+import "./Structure.css";
 
 function App() {
   const navigate = useNavigate();

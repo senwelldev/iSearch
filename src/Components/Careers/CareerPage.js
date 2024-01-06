@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import "./CareerPage.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -7,12 +8,17 @@ import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
 import BookIcon from "@mui/icons-material/Book";
 import JoinCard from "./JoinCard";
 import { Link } from "react-router-dom";
+// import MediaCard from "./MediaCard";
+// import OpenCard from "./OpenCard";
+// import Team from "../../Images/Career/Team.png";
+
+// import jobDescriptions from "../Careers/Jobs.json";
 import { Helmet } from "react-helmet";
 import CareerBannerComponent from "./CareerBannerComponent";
-import WelcomeToiSearchComponent from "./WelcomeToiSearchComponent";
-import MediaComponent from "./MediaComponent";
 import CarouselComponent from "./CarouselComponent";
 import JoinUsComponent from "./JoinUsComponent";
+import MediaComponent from "./MediaComponent";
+import WelcomeToiSearchComponent from "./WelcomeToiSearchComponent";
 
 const CareerPage = () => {
   return (
@@ -29,7 +35,7 @@ const CareerPage = () => {
         />
         <link
           rel="image_src"
-          href="https://isearch.co.in/static/media/ServiceImg1.d16614147757f4e5926d.webp"
+          href="https://isearch.co.in/static/media/Team.315f13dd8946ded0be17.png"
         />
         <meta
           name="description"

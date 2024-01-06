@@ -13,11 +13,13 @@
 .ServicesBannerContent{
     text-align: center;
     color: white;
+    /* border: 1px solid red; */
 }
 
 .ServicesBannerContent h1{
     letter-spacing: 3px;
     margin-bottom: 10px;
+    /* border: 1px solid red; */
 }
 
 @media screen and (max-width: 768px) {
