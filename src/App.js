@@ -5,7 +5,7 @@ import Footer from "./Components/Footer/Footer";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Services from "./Components/Services/Services";
-import Blog from "./Components/Blog/Blogs";
+import Blog from "./Components/Blog/Blogs1";
 import Careers from "./Components/Careers/CareerPage";
 import ContactUs from "./Components/ContactUs/Contact";
 import Blog1 from "./Components/Blog/Blog1";

@@ -23,17 +23,17 @@ const Blog2 = () => {
         />
         <meta
           property="og:image"
-          content="https://isearch.co.in/static/media/BlogImage2.bc8c4633a1e54e352545.png"
+          content="https://isearch.co.in/static/media/BlogImage2.2c20bd71688ed2b35d9b.webp"
         />
         <meta
-          property="og:image"
-          content="https://isearch.co.in/static/media/BlogImage2.bc8c4633a1e54e352545.png"
+          property="og:image:secure_url"
+          content="https://isearch.co.in/static/media/BlogImage2.2c20bd71688ed2b35d9b.webp"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Blogs" />
         <meta
           name="twitter:image"
-          content="https://isearch.co.in/static/media/BlogImage2.bc8c4633a1e54e352545.png"
+          content="https://isearch.co.in/static/media/BlogImage2.2c20bd71688ed2b35d9b.webp"
         />
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />

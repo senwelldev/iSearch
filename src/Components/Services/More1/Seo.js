@@ -79,17 +79,18 @@ const Seo = () => {
         />
         <meta
           property="og:image"
-          content="https://isearch.co.in/static/media/onpage.b2965df72c743ea72018.png"
+          content="https://isearch.co.in/static/media/onpage.5ba2e7b45d55be8ff915.webp"
         />
         <meta
-          property="og:image"
-          content="https://isearch.co.in/static/media/onpage.b2965df72c743ea72018.png"
+          property="og:image:secure_url"
+          content="https://isearch.co.in/static/media/onpage.5ba2e7b45d55be8ff915.webp"
         />
+
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Services" />
         <meta
           name="twitter:image"
-          content="https://isearch.co.in/static/media/onpage.b2965df72c743ea72018.png"
+          content="https://isearch.co.in/static/media/onpage.5ba2e7b45d55be8ff915.webp"
         />
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />
@@ -105,7 +106,7 @@ const Seo = () => {
           >
             <div className="img-wrapper mb-5">
               <div className="overlay"></div>
-              <img src={Seo1} alt="" />
+              <img src={Seo1} alt="" loading="lazy" />
             </div>
           </div>
         </div>
@@ -140,6 +141,7 @@ const Seo = () => {
                   src={keyword}
                   className="img-thumbnail"
                   alt="Keyword Research"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -181,6 +183,7 @@ const Seo = () => {
                   src={Onpage}
                   className="img-thumbnail"
                   alt="Onpage & Offpage SEO"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -192,6 +195,7 @@ const Seo = () => {
                   src={Backlinking}
                   className="img-thumbnail"
                   alt="Backlinking"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -223,7 +227,12 @@ const Seo = () => {
             </div>
             <div className="col-md-6 img-section">
               <div className="img">
-                <img src={local} className="img-thumbnail" alt="Local SEO" />
+                <img
+                  src={local}
+                  className="img-thumbnail"
+                  alt="Local SEO"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
@@ -234,6 +243,7 @@ const Seo = () => {
                   src={ecommerce}
                   className="img-thumbnail"
                   alt="Ecommerce SEO"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -271,6 +281,7 @@ const Seo = () => {
                   src={guest}
                   className="img-thumbnail"
                   alt="Guest Posting"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -290,7 +301,12 @@ const Seo = () => {
             <div className="col-md-4 my-2">
               <div className="card d-flex">
                 <div className="icon">
-                  <img src={Icon3} className="img-thumbnail" alt="..." />
+                  <img
+                    src={Icon3}
+                    className="img-thumbnail"
+                    alt="..."
+                    loading="lazy"
+                  />
                   <div className="text mt-3">
                     <h4>Dedicated SEO Professionals</h4>
                     <p>
@@ -310,7 +326,12 @@ const Seo = () => {
             <div className="col-md-4 my-2 ">
               <div className="card ">
                 <div className="icon">
-                  <img src={Icon1} className="img-thumbnail" alt="..." />
+                  <img
+                    src={Icon1}
+                    className="img-thumbnail"
+                    alt="..."
+                    loading="lazy"
+                  />
                   <div className="text mt-3">
                     <h4>Experience Matters</h4>
                     <p>
@@ -330,7 +351,12 @@ const Seo = () => {
             <div className="col-md-4 my-2">
               <div className="card d-flex">
                 <div className="icon ">
-                  <img src={Icon2} className="img-thumbnail" alt="..." />
+                  <img
+                    src={Icon2}
+                    className="img-thumbnail"
+                    alt="..."
+                    loading="lazy"
+                  />
                   <div className="text mt-3">
                     <h4>Relationships & Results</h4>
                     <p>

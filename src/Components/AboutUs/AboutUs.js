@@ -32,7 +32,7 @@ const AboutUs = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About Us" />
         <meta
-          name="twitter:image"
+          property="og:image:secure_url"
           content="https://isearch.co.in/static/media/Holistic.1ef9016ac9d0a5ec8752.png"
         />
         <meta name="MobileOptimized" content="width" />

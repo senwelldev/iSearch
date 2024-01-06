@@ -70,17 +70,18 @@ function App() {
         />
         <meta
           property="og:image"
-          content="https://isearch.co.in/static/media/Logo.1f7e5229e2fb22ae4a24.png"
+          content="https://isearch.co.in/static/media/Logo.4599fbf0450c48df1aa2.webp"
         />
         <meta
-          property="og:image"
-          content="https://isearch.co.in/static/media/Logo.1f7e5229e2fb22ae4a24.png"
+          property="og:image:secure_url"
+          content="https://isearch.co.in/static/media/Logo.4599fbf0450c48df1aa2.webp"
         />
+
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Services" />
         <meta
           name="twitter:image"
-          content="https://isearch.co.in/static/media/Logo.1f7e5229e2fb22ae4a24.png"
+          content="https://isearch.co.in/static/media/Logo.4599fbf0450c48df1aa2.webp"
         />
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />
@@ -155,7 +156,7 @@ function App() {
         <div className="ServicesImagesContainer">
           <div className="col-md-5 content-left ">
             <div className="Services-LefttConatiner-Img">
-              <img src={NewsLetter} alt=".." />
+              <img src={NewsLetter} alt=".." loading="lazy" />
             </div>
           </div>
           <div className="col-md-6 content-left column">
@@ -240,7 +241,7 @@ function App() {
           </div>
           <div className="col-md-5 content-left ">
             <div className="Services-RightConatiner-Img">
-              <img src={Broucher} alt=".." />
+              <img src={Broucher} alt=".." loading="lazy" />
             </div>
           </div>
         </div>
@@ -250,7 +251,7 @@ function App() {
         <div className="row d-flex justify-content-between ServicesImagesContainer">
           <div className="col-md-5 content-left ">
             <div className="Services-LefttConatiner-Img">
-              <img src={ProductCatalog} alt=".." />
+              <img src={ProductCatalog} alt=".." loading="lazy" />
             </div>
           </div>
           <div className="col-md-6 content-left column">

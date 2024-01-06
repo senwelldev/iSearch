@@ -72,17 +72,18 @@ function Paid() {
         />
         <meta
           property="og:image"
-          content="https://isearch.co.in/static/media/Social%20Media%20ADsa.98ffb2e7f574e5a76278.png"
+          content="https://isearch.co.in/static/media/AMazon%20ads.f4a5325b584b4a363131.webp"
         />
         <meta
-          property="og:image"
-          content="https://isearch.co.in/static/media/Social%20Media%20ADsa.98ffb2e7f574e5a76278.png"
+          property="og:image:secure_url"
+          content="https://isearch.co.in/static/media/AMazon%20ads.f4a5325b584b4a363131.webp"
         />
+
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Services" />
         <meta
           name="twitter:image"
-          content="https://isearch.co.in/static/media/Social%20Media%20ADsa.98ffb2e7f574e5a76278.png"
+          content="https://isearch.co.in/static/media/AMazon%20ads.f4a5325b584b4a363131.webp"
         />
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />
@@ -98,7 +99,7 @@ function Paid() {
           >
             <div className="img-wrapper mb-5">
               <div className="overlay"></div>
-              <img src={PaidMarketing} alt="" />
+              <img src={PaidMarketing} alt="" loading="lazy" />
             </div>
           </div>
         </div>
@@ -153,7 +154,7 @@ function Paid() {
           </div>
           <div className="col-md-5 ">
             <div className="Services-RightConatiner-Img">
-              <img src={Google} alt=".." />
+              <img src={Google} alt=".." loading="lazy" />
             </div>
           </div>
         </div>
@@ -162,7 +163,7 @@ function Paid() {
         <div className="row d-flex justify-content-evenly ServicesImagesContainer">
           <div className="col-md-5  ">
             <div className="Services-LefttConatiner-Img">
-              <img src={Social} alt=".." />
+              <img src={Social} alt=".." loading="lazy" />
             </div>
           </div>
           <div className="col-md-6 column">
@@ -251,7 +252,7 @@ function Paid() {
         <div className="row d-flex justify-content-evenly ServicesImagesContainer">
           <div className="col-md-5 ">
             <div className="Services-LefttConatiner-Img">
-              <img src={AMazon} alt=".." />
+              <img src={AMazon} alt=".." loading="lazy" />
             </div>
           </div>
           <div className="col-md-6  column ">
@@ -295,7 +296,7 @@ function Paid() {
           </div>
           <div className="col-md-5 ">
             <div className="Services-RightConatiner-Img">
-              <img src={PPC} alt=".." />
+              <img src={PPC} alt=".." loading="lazy" />
             </div>
           </div>
         </div>
@@ -343,6 +344,7 @@ function Paid() {
                   width={30}
                   height={30}
                   className="me-3"
+                  loading="lazy"
                 />
                 <p>
                   We actively collaborate with e-commerce ventures, optimizing
@@ -358,6 +360,7 @@ function Paid() {
                   width={30}
                   height={30}
                   className="me-3"
+                  loading="lazy"
                 />
                 <p>
                   Whether local or global, we work with a diverse array of
@@ -372,6 +375,7 @@ function Paid() {
                   width={30}
                   height={30}
                   className="me-3"
+                  loading="lazy"
                 />
                 <p>
                   Our expertise extends to technology and SaaS companies, aiding
@@ -386,6 +390,7 @@ function Paid() {
                   width={30}
                   height={30}
                   className="me-3"
+                  loading="lazy"
                 />
                 <p>
                   We collaborate with educational institutions, supporting their

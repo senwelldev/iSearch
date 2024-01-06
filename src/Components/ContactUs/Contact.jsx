@@ -5,7 +5,6 @@ import PhoneInput from "react-phone-input-2";
 import { CiLocationOn } from "react-icons/ci";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-// import LeftImages from "../../Images/Contact/LeftImages1.png";
 import db from "../../firebase.config";
 import { collection, addDoc } from "firebase/firestore/lite";
 import Loader from "./Loader";
@@ -23,34 +22,6 @@ const Contact = () => {
   const [message, setMessage] = useState();
   const [loading, setLoading] = useState(false);
   const [isValidEmail, setIsValidEmail] = useState(true);
-
-  // //Loader handling of Calendly------------------------------
-  // const [calendlyLoading, setCalendlyLoading] = useState(false);
-
-  // useEffect(() => {
-  //   const handleLoad = () => {
-  //     setCalendlyLoading(false);
-  //   };
-
-  //   window.addEventListener("load", handleLoad);
-
-  //   return () => {
-  //     window.removeEventListener("load", handleLoad);
-  //   };
-  // }, []);
-
-  // useEffect(() => {
-  //   fetch("https://calendly.com/isearch-digital/30min")
-  //     .then(() => {
-  //       setCalendlyLoading(true);
-  //     })
-  //     .catch((error) => {
-  //       console.error("Error loading Calendly: ", error);
-  //       setCalendlyLoading(true);
-  //     });
-  // }, []);
-
-  //------------------------------------------------------
 
   useEffect(() => {
     const handleLoad = () => {
@@ -143,28 +114,26 @@ const Contact = () => {
         />
         <meta
           property="og:image"
-          content="https://isearch.co.in/static/media/LeftImages1.76a139a6fefaa43ebdd2.png"
+          content="https://isearch.co.in/static/media/LeftImages1.5fca7e95525d776d6118.webp"
         />
         <meta
-          property="og:image"
-          content="https://isearch.co.in/static/media/LeftImages1.76a139a6fefaa43ebdd2.png"
+          property="og:image:secure_url"
+          content="https://isearch.co.in/static/media/LeftImages1.5fca7e95525d776d6118.webp"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Contact us" />
         <meta
           name="twitter:image"
-          content="https://isearch.co.in/static/media/LeftImages1.76a139a6fefaa43ebdd2.png"
+          content="https://isearch.co.in/static/media/LeftImages1.5fca7e95525d776d6118.webp"
         />
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Helmet>
       {/* --------------------------------------------------------- */}
-      <ContactBanner></ContactBanner>
-      <ContactForm></ContactForm>
-      <LocationMap></LocationMap>
-
-      {/* /*--------------------------------------------------------------*/}
+      <ContactBanner />
+      <ContactForm />
+      <LocationMap />
     </div>
   );
 };

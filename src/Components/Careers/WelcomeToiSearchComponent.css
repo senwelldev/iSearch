@@ -1,3 +1,15 @@
-.section-4 {
-  padding: 2rem;
+.welcomeToIsearchBody{
+  /* border: 1px solid red !important; */
+}
+
+@media screen and (max-width:768px) {
+  .welcomeToIsearchBody{
+    padding: 0px;
+    /* border: 1px solid red !important; */
+  } 
+
+  .shapeFuture{
+    padding: 0px 0px 10px 0px;
+    /* border: 1px solid red; */
+  }
 }

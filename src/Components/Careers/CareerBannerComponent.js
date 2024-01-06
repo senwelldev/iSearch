@@ -7,7 +7,7 @@ const CareerBannerComponent = () => {
   return (
     <div className="container-fluid lets-create pb-5 pt-5">
       <div className="row text-white lets-createpage">
-        <img src={Team} className="img-fluid" alt="..." />
+        <img src={Team} className="img-fluid" alt="..." loading="lazy" />
         <div className="impact-head text-center pb-5 pt-5 CareerBannerText">
           <h1 className="display-4">
             <b>Transform Your Passion into Profession</b>

@@ -76,17 +76,18 @@ function Paid() {
         />
         <meta
           property="og:image"
-          content="https://isearch.co.in/static/media/Social%20Media%20ADsa.98ffb2e7f574e5a76278.png"
+          content="https://isearch.co.in/static/media/Social%20Media%20ADsa.c1e6b09f02c386bac399.webp"
         />
         <meta
-          property="og:image"
-          content="https://isearch.co.in/static/media/Social%20Media%20ADsa.98ffb2e7f574e5a76278.png"
+          property="og:image:secure_url"
+          content="https://isearch.co.in/static/media/Social%20Media%20ADsa.c1e6b09f02c386bac399.webp"
         />
+
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Services" />
         <meta
           name="twitter:image"
-          content="https://isearch.co.in/static/media/Social%20Media%20ADsa.98ffb2e7f574e5a76278.png"
+          content="https://isearch.co.in/static/media/Social%20Media%20ADsa.c1e6b09f02c386bac399.webps"
         />
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />

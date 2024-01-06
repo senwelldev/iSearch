@@ -6,13 +6,8 @@ import DevicesOtherIcon from "@mui/icons-material/DevicesOther";
 import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
 import BookIcon from "@mui/icons-material/Book";
 import JoinCard from "./JoinCard";
-// import MediaCard from "./MediaCard";
-// import OpenCard from "./OpenCard";
-// import Team from "../../Images/Career/Team.png";
 import { Link } from "react-router-dom";
-
-// import jobDescriptions from "../Careers/Jobs.json";
-// import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet";
 import CareerBannerComponent from "./CareerBannerComponent";
 import WelcomeToiSearchComponent from "./WelcomeToiSearchComponent";
 import MediaComponent from "./MediaComponent";
@@ -21,7 +16,6 @@ import JoinUsComponent from "./JoinUsComponent";
 
 const CareerPage = () => {
   return (
-    // ---------------Lets Create Impactfull--------------
     <div className="career-page ">
       {/* ------Code for meta tags of this page------ */}
 
@@ -35,7 +29,7 @@ const CareerPage = () => {
         />
         <link
           rel="image_src"
-          href="https://isearch.co.in/static/media/Team.315f13dd8946ded0be17.png"
+          href="https://isearch.co.in/static/media/ServiceImg1.d16614147757f4e5926d.webp"
         />
         <meta
           name="description"
@@ -50,15 +44,15 @@ const CareerPage = () => {
         />
         <meta
           property="og:image"
-          content="https://isearch.co.in/static/media/Team.315f13dd8946ded0be17.png"
+          content="https://isearch.co.in/static/media/ServiceImg1.d16614147757f4e5926d.webp"
         />
         <meta
           property="og:image:url"
-          content="https://isearch.co.in/static/media/Team.315f13dd8946ded0be17.png"
+          content="https://isearch.co.in/static/media/ServiceImg1.d16614147757f4e5926d.webp"
         />
         <meta
           property="og:image:secure_url"
-          content="https://isearch.co.in/static/media/Team.315f13dd8946ded0be17.png"
+          content="https://isearch.co.in/static/media/ServiceImg1.d16614147757f4e5926d.webp"
         />
         <meta property="og:image:type" content="png" />
         <meta
@@ -69,7 +63,7 @@ const CareerPage = () => {
         <meta name="twitter:title" content="Careers at Amdocs" />
         <meta
           name="twitter:image"
-          content="https://isearch.co.in/static/media/Team.315f13dd8946ded0be17.png"
+          content="https://isearch.co.in/static/media/ServiceImg1.d16614147757f4e5926d.webp"
         />
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />
@@ -78,23 +72,13 @@ const CareerPage = () => {
           content="width=device-width, initial-scale=1.0"
         />{" "}
       </Helmet>
-      {/* --------------------------------------------------------- */}
 
-      <CareerBannerComponent></CareerBannerComponent>
-
-      {/* ----------------------Join Coditas------------------ */}
-
-      <JoinUsComponent></JoinUsComponent>
-
-      {/* ---------------------Coditas Media------------------- */}
-      <MediaComponent></MediaComponent>
-      {/* <-----------------------> */}
-
-      {/*  */}
-      <WelcomeToiSearchComponent></WelcomeToiSearchComponent>
-
-      {/* ---------------OPEN POSITIONS-------------------- */}
-      <CarouselComponent></CarouselComponent>
+      <CareerBannerComponent />
+      <JoinUsComponent />
+      <MediaComponent />
+      <WelcomeToiSearchComponent />
+      <CarouselComponent />
+      <br />
     </div>
   );
 };

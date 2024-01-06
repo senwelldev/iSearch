@@ -22,7 +22,7 @@ const ConactBanner = () => {
     <div className="Contact-Section">
       <div className="col-lg-6 IsearchLeft">
         <div className="IsearchOutside">
-          <img src={LeftImages} alt="img" />
+          <img src={LeftImages} alt="img" loading="lazy" />
         </div>
       </div>
 
@@ -37,7 +37,10 @@ const ConactBanner = () => {
           </div>
         ) : (
           <div className="Exxon-right-Calnder">
-            <InlineWidget url="https://calendly.com/isearch-digital/30min" />
+            <InlineWidget
+              url="https://calendly.com/isearch-digital/30min"
+              overflow="hidden"
+            />
           </div>
         )}
       </div>

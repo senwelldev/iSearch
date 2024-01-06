@@ -2,7 +2,7 @@
     background-color: #151823;
     padding: 7% 2% 2% 2%;
     width: 100%;
-    height: auto;
+    height: 750px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -264,6 +264,7 @@
 
   @media screen and (max-width:768px) {
     .Contact-Section{
+      height: auto;
       padding: 7% 2% 2% 2%;
       flex-direction: column;
       justify-content: space-between;
@@ -290,4 +291,11 @@
       /* border: 1px solid red; */
     }
   
+  }
+
+  @media (min-width:1300px) and (max-width:1600px) {
+    .calenderBox{
+      padding: 0px;
+      /* border: 1px solid red; */
+    }
   }

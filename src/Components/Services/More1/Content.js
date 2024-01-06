@@ -70,17 +70,18 @@ function Content() {
         />
         <meta
           property="og:image"
-          content="https://isearch.co.in/static/media/ContentCreation.99819969801e3ba43256.png"
+          content="https://isearch.co.in/static/media/NewsLetter.5effca76faebe41c72f8.webp"
         />
         <meta
-          property="og:image"
-          content="https://isearch.co.in/static/media/ContentCreation.99819969801e3ba43256.png"
+          property="og:image:secure_url"
+          content="https://isearch.co.in/static/media/NewsLetter.5effca76faebe41c72f8.webp"
         />
+
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Services" />
         <meta
           name="twitter:image"
-          content="https://isearch.co.in/static/media/ContentCreation.99819969801e3ba43256.png"
+          content="https://isearch.co.in/static/media/NewsLetter.5effca76faebe41c72f8.webp"
         />
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />
@@ -99,7 +100,7 @@ function Content() {
           >
             <div className="img-wrapper mb-5">
               <div className="overlay"></div>
-              <img src={ContentImage} alt="" />
+              <img src={ContentImage} alt="" loading="lazy" />
             </div>
           </div>
         </div>
@@ -150,7 +151,7 @@ function Content() {
           </div>
           <div className="col-md-5 content-left ">
             <div className="Services-RightConatiner-Img">
-              <img src={CrisisManagement} alt=".." />
+              <img src={CrisisManagement} alt=".." loading="lazy" />
             </div>
           </div>
         </div>
@@ -159,7 +160,7 @@ function Content() {
         <div className="row d-flex justify-content-evenly ServicesImagesContainer">
           <div className="col-md-5 content-left ">
             <div className="Services-LefttConatiner-Img">
-              <img src={LeadGeneration} alt=".." />
+              <img src={LeadGeneration} alt=".." loading="lazy" />
             </div>
           </div>
           <div className="col-md-6 content-left column ">
@@ -244,7 +245,7 @@ function Content() {
           </div>
           <div className="col-md-5 content-left ">
             <div className="Services-RightConatiner-Img">
-              <img src={ContentCreation} alt=".." />
+              <img src={ContentCreation} alt=".." loading="lazy" />
             </div>
           </div>
         </div>
@@ -254,7 +255,7 @@ function Content() {
         <div className="row d-flex justify-content-evenly ServicesImagesContainer">
           <div className="col-md-5 content-left ">
             <div className="Services-LefttConatiner-Img">
-              <img src={EmailMarketing} alt=".." />
+              <img src={EmailMarketing} alt=".." loading="lazy" />
             </div>
           </div>
           <div className="col-md-6 content-left column">

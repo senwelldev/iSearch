@@ -10,10 +10,11 @@ import LifeAt8 from "../../Images/Career/LifeAt/LifeAt8.webp";
 import SangramSir from "../../Images/Career/LifeAt/SangramSir.webp";
 import VaibhavSir from "../../Images/Career/LifeAt/VaibhavSir.webp";
 import "./CareerPage.css";
+import "./WelcomeToiSearchComponent.css";
 
 const WelcomeToiSearchComponent = () => {
   return (
-    <div className="container-fluid ">
+    <div className="container-fluid welcomeToIsearchBody">
       <div className="row  section-4  -flex align-items-center">
         {/* Left Part */}
         <div className="col-md-6  ">
@@ -49,19 +50,31 @@ const WelcomeToiSearchComponent = () => {
                   src={LifeAt7}
                   className="d-block w-100"
                   alt="Wild Landscape"
+                  loading="lazy"
                 />
               </div>
               <div className="carousel-item">
-                <img src={SangramSir} className="d-block w-100" alt="Camera" />
+                <img
+                  src={SangramSir}
+                  className="d-block w-100"
+                  alt="Camera"
+                  loading="lazy"
+                />
               </div>
               <div className="carousel-item">
-                <img src={VaibhavSir} className="d-block w-100" alt="Camera" />
+                <img
+                  src={VaibhavSir}
+                  className="d-block w-100"
+                  alt="Camera"
+                  loading="lazy"
+                />
               </div>
               <div className="carousel-item">
                 <img
                   src={LifeAt3}
                   className="d-block w-100"
                   alt="Exotic Fruits"
+                  loading="lazy"
                 />
               </div>
               <div className="carousel-item">
@@ -69,6 +82,7 @@ const WelcomeToiSearchComponent = () => {
                   src={LifeAt4}
                   className="d-block w-100"
                   alt="Exotic Fruits"
+                  loading="lazy"
                 />
               </div>
               <div className="carousel-item">
@@ -76,6 +90,7 @@ const WelcomeToiSearchComponent = () => {
                   src={LifeAt5}
                   className="d-block w-100"
                   alt="Exotic Fruits"
+                  loading="lazy"
                 />
               </div>
               <div className="carousel-item">
@@ -83,6 +98,7 @@ const WelcomeToiSearchComponent = () => {
                   src={LifeAt6}
                   className="d-block w-100"
                   alt="Exotic Fruits"
+                  loading="lazy"
                 />
               </div>
               <div className="carousel-item">
@@ -90,10 +106,16 @@ const WelcomeToiSearchComponent = () => {
                   src={LifeAt8}
                   className="d-block w-100"
                   alt="Exotic Fruits"
+                  loading="lazy"
                 />
               </div>
               <div className="carousel-item">
-                <img src={LifeAt2} className="d-block w-100" alt="Camera" />
+                <img
+                  src={LifeAt2}
+                  className="d-block w-100"
+                  alt="Camera"
+                  loading="lazy"
+                />
               </div>
             </div>
             <button

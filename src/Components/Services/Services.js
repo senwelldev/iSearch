@@ -28,17 +28,17 @@ const Services = () => {
         />
         <meta
           property="og:image"
-          content="https://isearch.co.in/static/media/ServiceImg1.4164b95b218d197f5b68.png"
+          content="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
         />
         <meta
-          property="og:image"
-          content="https://isearch.co.in/static/media/ServiceImg1.4164b95b218d197f5b68.png"
+          property="og:image:secure_url"
+          content="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Services" />
         <meta
           name="twitter:image"
-          content="https://isearch.co.in/static/media/ServiceImg1.4164b95b218d197f5b68.png"
+          content="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
         />
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />

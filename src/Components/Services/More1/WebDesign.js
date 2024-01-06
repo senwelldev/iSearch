@@ -87,17 +87,18 @@ function WebDesign() {
         />
         <meta
           property="og:image"
-          content="https://isearch.co.in/static/media/backlinking.12d6aba19441a40b568f.png"
+          content="https://isearch.co.in/static/media/Google%20&%20FB%20Adas.1b2546e9a31a0c04ff5a.webp"
         />
         <meta
-          property="og:image"
-          content="https://isearch.co.in/static/media/backlinking.12d6aba19441a40b568f.png"
+          property="og:image:secure_url"
+          content="https://isearch.co.in/static/media/Google%20&%20FB%20Adas.1b2546e9a31a0c04ff5a.webp"
         />
+
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Services" />
         <meta
           name="twitter:image"
-          content="https://isearch.co.in/static/media/backlinking.12d6aba19441a40b568f.png"
+          content="https://isearch.co.in/static/media/Google%20&%20FB%20Adas.1b2546e9a31a0c04ff5a.webp"
         />
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />

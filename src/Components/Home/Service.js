@@ -40,14 +40,14 @@ const Service = () => {
         </div>
         <div className="homeService-RightConatiner">
           <div className="homeService-RightConatiner-Img">
-            <img src={ServiceImage1} alt=".." />
+            <img src={ServiceImage1} alt=".." loading="lazy" />
           </div>
         </div>
       </div>
       <div className="homeServiceBody-row2">
         <div className="homeService-RightConatiner">
           <div className="homeService-LefttContainer-Img">
-            <img src={ServiceImage2} alt=".." />
+            <img src={ServiceImage2} alt=".." loading="lazy" />
           </div>
         </div>
         <div className="homeService-LeftConatiner">
