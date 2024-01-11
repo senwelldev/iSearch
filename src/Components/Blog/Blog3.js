@@ -9,7 +9,6 @@ const Blog3 = () => {
 
       <Helmet>
         <title>Blogs</title>
-        <link rel="canonical" href="https://isearch.co.in/blog/blog2" />
         <meta name="robots" content="index, follow" />
         <meta
           name="description"

@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 // import MediaCard from "./MediaCard";
 // import OpenCard from "./OpenCard";
 // import Team from "../../Images/Career/Team.png";
+import Team from "../../Images/Career/Team.webp";
 
 // import jobDescriptions from "../Careers/Jobs.json";
 import { Helmet } from "react-helmet";
@@ -27,16 +28,12 @@ const CareerPage = () => {
 
       <Helmet>
         <title>Careers</title>
-        <link rel="canonical" href="https://isearch.co.in/careers" />
         <meta name="robots" content="index, follow" />
         <meta
           name="news_keywords"
           content="isearch careers, careers, isearch"
         />
-        <link
-          rel="image_src"
-          href="https://isearch.co.in/static/media/Team.315f13dd8946ded0be17.png"
-        />
+        <link rel="image_src" href={Team} />
         <meta
           name="description"
           content="Discover opportunities that exceed your expectations. Let&#039;s stay connected for career opportunities in isearch."
@@ -48,18 +45,9 @@ const CareerPage = () => {
           property="og:description"
           content="Discover opportunities that exceed your expectations. Let&#039;s stay connected for career opportunities in isearch."
         />
-        <meta
-          property="og:image"
-          content="https://isearch.co.in/static/media/ServiceImg1.d16614147757f4e5926d.webp"
-        />
-        <meta
-          property="og:image:url"
-          content="https://isearch.co.in/static/media/ServiceImg1.d16614147757f4e5926d.webp"
-        />
-        <meta
-          property="og:image:secure_url"
-          content="https://isearch.co.in/static/media/ServiceImg1.d16614147757f4e5926d.webp"
-        />
+        <meta property="og:image" content={Team} />
+        <meta property="og:image:url" content={Team} />
+        <meta property="og:image:secure_url" content={Team} />
         <meta property="og:image:type" content="png" />
         <meta
           property="og:image:alt"
@@ -67,10 +55,7 @@ const CareerPage = () => {
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Careers at Amdocs" />
-        <meta
-          name="twitter:image"
-          content="https://isearch.co.in/static/media/ServiceImg1.d16614147757f4e5926d.webp"
-        />
+        <meta name="twitter:image" content={Team} />
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />
         <meta

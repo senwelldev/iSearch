@@ -20,7 +20,7 @@ const Home = () => {
         <meta name="news_keywords" content="isearch.india" />
         <link
           rel="image_src"
-          href="https://isearch.co.in/static/media/Team.315f13dd8946ded0be17.png"
+          href="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
         />
         <meta
           name="description"
@@ -103,35 +103,26 @@ const Home = () => {
         Digital Transformation"
         />
         <meta property="og:site_name" content="isearch.india" />
-        <meta
-          property="og:title"
-          content="isearch.india digital marketing solutions"
-        />
+        <meta property="og:title" content="isearch.india" />
         <meta
           property="og:description"
           content="isearch.india is a leading Digital Marketing &amp; services provider, providing innovative solutions, intelligent operations &amp; delivery expertise."
         />
         <meta
           property="og:image"
-          content="https://isearch.co.in/static/media/Team.e1738621a9a95165d272.webp"
+          content="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
         />
-        <meta
-          property="og:image:url"
-          content="https://isearch.co.in/static/media/Team.e1738621a9a95165d272.webp"
-        />
+        <meta property="og:url" content="isearch.co.in" />
         <meta
           property="og:image:secure_url"
-          content="https://isearch.co.in/static/media/Team.e1738621a9a95165d272.webp"
+          content="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
         />
-        <meta property="og:image:type" content="png" />
+        <meta property="og:image:type" content="webp" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="isearch.india digital marketing solutions"
-        />
+        <meta name="twitter:title" content="isearch.co.in" />
         <meta
           name="twitter:image"
-          content="https://isearch.co.in/static/media/Team.e1738621a9a95165d272.webp"
+          content="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
         />
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />

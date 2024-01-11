@@ -6,6 +6,7 @@ import ServicesBanner from "./ServicesBanner";
 import IndustriesWeServe from "./IndustriesWeServe";
 import Greet2 from "./Greet2";
 import { Helmet } from "react-helmet";
+import ServiceImage2 from "../../Images/Home/ServiceImg2.webp";
 
 const Services = () => {
   return (
@@ -14,7 +15,6 @@ const Services = () => {
 
       <Helmet>
         <title>Services</title>
-        <link rel="canonical" href="https://isearch.co.in/services" />
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -26,20 +26,11 @@ const Services = () => {
           property="og:description"
           content="Find expert insight and expertise on Digital Marketing, SEO, Paid Adds marketing, digital and media solutions through our page"
         />
-        <meta
-          property="og:image"
-          content="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
-        />
-        <meta
-          property="og:image:secure_url"
-          content="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
-        />
+        <meta property="og:image" content={ServiceImage2} />
+        <meta property="og:image:secure_url" content={ServiceImage2} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Services" />
-        <meta
-          name="twitter:image"
-          content="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
-        />
+        <meta name="twitter:image" content={ServiceImage2} />
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

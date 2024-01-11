@@ -14,13 +14,12 @@ const Blogs1 = () => {
 
       <Helmet>
         <title>Blogs</title>
-        <link rel="canonical" href="https://isearch.co.in/blog" />
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Find expert insight and expertise on Digital Marketing, SEO, Paid Adds marketing, digital and media solutions through our articles, white papers, blogs, analyst reports, case studies and more"
         />
-        <meta property="og:site_name" content="isearch" />
+        <meta property="og:site_name" content="isearch.co.in" />
         <meta property="og:title" content="Blogs" />
         <meta
           property="og:description"

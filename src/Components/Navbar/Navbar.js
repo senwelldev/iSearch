@@ -78,7 +78,7 @@ const Navbar2 = () => {
             onClick={() => handleTabClick("/blog")}
             className={activeTab === "/blog" ? "active" : ""}
           >
-            Blog
+            Blogs
           </div>
           <div
             onClick={() => handleTabClick("/careers")}
@@ -113,7 +113,7 @@ const Navbar2 = () => {
         <div onClick={() => handleTabClick("/")}>Home</div>
         <div onClick={() => handleTabClick("/about")}>About Us</div>
         <div onClick={() => handleTabClick("/services")}>Services</div>
-        <div onClick={() => handleTabClick("/blog")}>Blog</div>
+        <div onClick={() => handleTabClick("/blog")}>Blogs</div>
         <div onClick={() => handleTabClick("/careers")}>Careers</div>
         <div onClick={() => handleTabClick("/contact")}>Contact Us</div>
       </div>
