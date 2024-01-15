@@ -18,14 +18,20 @@ const Home = () => {
         <meta name="robots" content="index, follow" />
         <link rel="shortlink" href="https://isearch.co.in/" />
         <meta name="news_keywords" content="isearch.india" />
-        <link
-          rel="image_src"
-          href="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
+
+        <meta name="title" property="og:title" content="isearch.co.in" />
+        <meta
+          name="image"
+          property="og:image"
+          content="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
         />
         <meta
           name="description"
+          property="og:description"
           content="isearch.india is a leading Digital Marketing &amp; services provider, providing innovative solutions, intelligent operations &amp; delivery expertise."
         />
+        <meta name="author" content="isearch.co.in" />
+
         <meta
           name="keywords"
           content="Digital Marketing and Web Development Pune,
@@ -102,31 +108,6 @@ const Home = () => {
         NFT Marketing,
         Digital Transformation"
         />
-        <meta property="og:site_name" content="isearch.india" />
-        <meta property="og:title" content="isearch.india" />
-        <meta
-          property="og:description"
-          content="isearch.india is a leading Digital Marketing &amp; services provider, providing innovative solutions, intelligent operations &amp; delivery expertise."
-        />
-        <meta
-          property="og:image"
-          content="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
-        />
-        <meta property="og:url" content="isearch.co.in" />
-        <meta
-          property="og:image:secure_url"
-          content="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
-        />
-        <meta property="og:image:type" content="webp" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="isearch.co.in" />
-        <meta
-          name="twitter:image"
-          content="https://isearch.co.in/static/media/ServiceImg2.7a43cece28f1b566d782.webp"
-        />
-        <meta name="MobileOptimized" content="width" />
-        <meta name="HandheldFriendly" content="true" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Helmet>
       <Video />
       <Scrollspy />

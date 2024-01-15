@@ -493,6 +493,22 @@ footer .pointing{
   padding: 0% 0% 0% 1.5%;
   left: 16%;
 }
+
+.subscribeDiv input{
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  width: 180px !important;
+  height: 35px;
+  /* font-size: 10px; */
+}
+.subscribeDiv .time{
+  font-size: 11px !important;
+  padding: 0px 17px 0px 1px ;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
 }
 
 @media (min-width: 1300px) and (max-width: 2000px){
