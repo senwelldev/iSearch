@@ -17,7 +17,7 @@ const Blog1 = () => {
       />
       <meta
         property="og:image"
-        content="https://isearch.co.in/static/media/BlogImage1.b7208fdf67c4182d5e70.webp"
+        content="https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media&token=679823db-4804-4f86-b381-2d8a143a2bd7"
       />
       {/* Adjust og:image:width and og:image:height according to your image dimensions */}
       <meta property="og:image:width" content="1200" />
