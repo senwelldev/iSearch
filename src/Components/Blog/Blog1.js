@@ -1,53 +1,29 @@
 import React from "react";
 import "./Blog1.css";
-import { Helmet } from "react-helmet";
 
 const Blog1 = () => {
   return (
     <div className="conatiner blogBody1">
-      {/* ------Code for meta tags of this page------ */}
-
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>iSearch || Blog1</title>
-        <meta
-          name="description"
-          content="Learn about SEO: Technical, On-Page & Off-Page and how it impacts your website's visibility in search engines."
-        />
-        <link rel="canonical" href="https://isearch.co.in/blog/blog1"></link>
-        {/* Open Graph meta tags */}
-        <meta property="og:title" content="iSearch || Blog1" />
-        <meta
-          property="og:description"
-          content="Learn about SEO: Technical, On-Page & Off-Page and how it impacts your website's visibility in search engines."
-        />
-        <meta
-          property="og:image"
-          content="https://isearch.co.in/static/media/BlogImage1.b7208fdf67c4182d5e70.webp"
-        />
-        <meta property="og:image:alt" content="Learn about SEO" />
-        <meta property="og:image:width" content="1200"></meta>
-        <meta property="og:image:height" content="532"></meta>
-        <meta
-          property="og:url"
-          content="https://isearch.co.in/blog/blog1"
-        />{" "}
-        {/* Replace with the actual URL of your blog */}
-        <meta property="og:type" content="article" />
-        <meta property="og:site_name" content="iSearch" />
-        {/* LinkedIn specific */}
-        <meta property="linkedin:title" content="iSearch || Blog1" />
-        <meta
-          property="linkedin:description"
-          content="Learn about SEO: Technical, On-Page & Off-Page and how it impacts your website's visibility in search engines."
-        />
-        <meta property="linkedin:image" content={ogImage} />
-        <meta
-          property="linkedin:url"
-          content="https://isearch.co.in/blog/blog1"
-        />
-      </Helmet>
-      {/* --------------------------------------------------------- */}
+      {/* Open Graph Meta Tags */}
+      <meta
+        property="og:title"
+        content="Understanding SEO: Technical, On-Page & Off-Page"
+      />
+      <meta
+        property="og:description"
+        content="SEO stands for search engine optimization..."
+      />
+      <meta
+        property="og:image"
+        content="https://isearch.co.in/static/media/BlogImage1.b7208fdf67c4182d5e70.webp"
+      />
+      {/* Adjust og:image:width and og:image:height according to your image dimensions */}
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      {/* Adjust the URL to your actual blog post */}
+      <meta property="og:url" content="https://isearch.co.in/blog/blog1" />
+      <meta property="og:type" content="article" />
+      {/* End of Open Graph Meta Tags */}
       <div className="blogHeading">
         <h1>Understanding SEO: Technical, On-Page & Off-Page</h1>
       </div>
