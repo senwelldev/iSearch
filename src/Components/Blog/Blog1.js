@@ -5,10 +5,12 @@ const Blog1 = () => {
   return (
     <div className="conatiner blogBody1">
       {/* Open Graph Meta Tags */}
+      <title>iSearch || Blog1</title>
       <meta
         property="og:title"
         content="Understanding SEO: Technical, On-Page & Off-Page"
       />
+      <link rel="canonical" href="https://isearch.co.in/blog/blog1" />
       <meta
         property="og:description"
         content="SEO stands for search engine optimization..."
@@ -20,6 +22,7 @@ const Blog1 = () => {
       {/* Adjust og:image:width and og:image:height according to your image dimensions */}
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
+      <meta property="og:image:type" content="image/webp"></meta>
       {/* Adjust the URL to your actual blog post */}
       <meta property="og:url" content="https://isearch.co.in/blog/blog1" />
       <meta property="og:type" content="article" />
