@@ -1,6 +1,7 @@
 import React from "react";
 import "./Blog1.css";
 import { Helmet } from "react-helmet";
+import ogImage from "../../Images/Blogs/BlogImage1.webp";
 
 const Blog1 = () => {
   return (
@@ -8,34 +9,38 @@ const Blog1 = () => {
       {/* ------Code for meta tags of this page------ */}
 
       <Helmet>
-        <title>Blogs</title>
+        <meta charSet="utf-8" />
+        <title>iSearch || Blog1</title>
         <meta
           name="description"
-          content="Find expert insight and expertise on Digital Marketing, SEO, Paid Adds marketing, digital and media solutions through our articles, white papers, blogs, analyst reports, case studies and more"
+          content="Learn about SEO: Technical, On-Page & Off-Page and how it impacts your website's visibility in search engines."
         />
-        <meta property="og:site_name" content="isearch.co.in" />
-        <meta property="og:title" content="Blogs" />
+        {/* Open Graph meta tags */}
+        <meta property="og:title" content="iSearch || Blog1" />
         <meta
           property="og:description"
-          content="Find expert insight and expertise on Digital Marketing, SEO, Paid Adds marketing, digital and media solutions through our articles, white papers, blogs, analyst reports, case studies and more"
+          content="Learn about SEO: Technical, On-Page & Off-Page and how it impacts your website's visibility in search engines."
         />
+        <meta property="og:image" content={ogImage} />
+        <meta property="og:image:alt" content="Learn about SEO" />
         <meta
-          property="og:image"
-          content="https://isearch.co.in/static/media/BlogImage1.b7208fdf67c4182d5e70.webp"
-        />
+          property="og:url"
+          content="https://isearch.co.in/blog/blog1"
+        />{" "}
+        {/* Replace with the actual URL of your blog */}
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="iSearch" />
+        {/* LinkedIn specific */}
+        <meta property="linkedin:title" content="iSearch || Blog1" />
         <meta
-          property="og:image:secure_url"
-          content="https://isearch.co.in/static/media/BlogImage1.b7208fdf67c4182d5e70.webp"
+          property="linkedin:description"
+          content="Learn about SEO: Technical, On-Page & Off-Page and how it impacts your website's visibility in search engines."
         />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Blogs" />
+        <meta property="linkedin:image" content={ogImage} />
         <meta
-          name="twitter:image"
-          content="https://isearch.co.in/static/media/BlogImage1.b7208fdf67c4182d5e70.webp"
+          property="linkedin:url"
+          content="https://isearch.co.in/blog/blog1"
         />
-        <meta name="MobileOptimized" content="width" />
-        <meta name="HandheldFriendly" content="true" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Helmet>
       {/* --------------------------------------------------------- */}
       <div className="blogHeading">
