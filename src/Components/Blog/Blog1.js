@@ -1,7 +1,6 @@
 import React from "react";
 import "./Blog1.css";
 import { Helmet } from "react-helmet";
-import ogImage from "../../Images/Blogs/BlogImage1.webp";
 
 const Blog1 = () => {
   return (
@@ -15,14 +14,20 @@ const Blog1 = () => {
           name="description"
           content="Learn about SEO: Technical, On-Page & Off-Page and how it impacts your website's visibility in search engines."
         />
+        <link rel="canonical" href="https://isearch.co.in/blog/blog1"></link>
         {/* Open Graph meta tags */}
         <meta property="og:title" content="iSearch || Blog1" />
         <meta
           property="og:description"
           content="Learn about SEO: Technical, On-Page & Off-Page and how it impacts your website's visibility in search engines."
         />
-        <meta property="og:image" content={ogImage} />
+        <meta
+          property="og:image"
+          content="https://isearch.co.in/static/media/BlogImage1.b7208fdf67c4182d5e70.webp"
+        />
         <meta property="og:image:alt" content="Learn about SEO" />
+        <meta property="og:image:width" content="1200"></meta>
+        <meta property="og:image:height" content="532"></meta>
         <meta
           property="og:url"
           content="https://isearch.co.in/blog/blog1"
