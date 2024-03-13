@@ -5,27 +5,49 @@ const Blog1 = () => {
   return (
     <div className="conatiner blogBody1">
       {/* Open Graph Meta Tags */}
-      <title>iSearch || Blog1</title>
+      {/*Primary Meta Tags */}
+      <title>Understanding SEO: Technical, On-Page & Off-Page</title>
+      <meta
+        name="title"
+        content="Understanding SEO: Technical, On-Page & Off-Page"
+      />
+      <meta
+        name="description"
+        content="SEO stands for “search engine optimization.” In simple terms, SEO means the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines ......"
+      />
+
+      {/*Open Graph / Facebook*/}
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://isearch.co.in/blog/blog1" />
       <meta
         property="og:title"
         content="Understanding SEO: Technical, On-Page & Off-Page"
       />
-      <link rel="canonical" href="https://isearch.co.in/blog/blog1" />
       <meta
         property="og:description"
-        content="SEO stands for search engine optimization..."
+        content="SEO stands for “search engine optimization.” In simple terms, SEO means the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines ......"
       />
       <meta
         property="og:image"
         content="https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media&token=679823db-4804-4f86-b381-2d8a143a2bd7"
       />
-      {/* Adjust og:image:width and og:image:height according to your image dimensions */}
-      <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="630" />
-      <meta property="og:image:type" content="image/webp"></meta>
-      {/* Adjust the URL to your actual blog post */}
-      <meta property="og:url" content="https://isearch.co.in/blog/blog1" />
-      <meta property="og:type" content="article" />
+
+      {/* Twitter */}
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://isearch.co.in/blog/blog1" />
+      <meta
+        property="twitter:title"
+        content="Understanding SEO: Technical, On-Page & Off-Page"
+      />
+      <meta
+        property="twitter:description"
+        content="SEO stands for “search engine optimization.” In simple terms, SEO means the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines ......"
+      />
+      <meta
+        property="twitter:image"
+        content="https://metatags.io/images/meta-tags.png"
+      />
+
       {/* End of Open Graph Meta Tags */}
       <div className="blogHeading">
         <h1>Understanding SEO: Technical, On-Page & Off-Page</h1>
