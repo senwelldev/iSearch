@@ -21,6 +21,7 @@ import Social from "./Components/Services/More1/Social";
 import JobDetail from "./Components/Careers/JobDetails";
 import Login from "./Components/Admin/Login/Login";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
+import SitemapData from "./Sitemap";
 
 export function ScrollToTop() {
   const { pathname } = useLocation();
@@ -55,6 +56,10 @@ const App = () => {
           <Route path="/jobapplication" element={<JobApplicationForm />} />
           <Route path="/career/job/:jobId" element={<JobDetail />} />
           <Route path="/admin/login" element={<Login />} />
+          <Route
+            path="/sitemap.xml"
+            element={<SitemapData></SitemapData>}
+          ></Route>
           <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />
