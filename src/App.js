@@ -21,7 +21,7 @@ import Social from "./Components/Services/More1/Social";
 import JobDetail from "./Components/Careers/JobDetails";
 import Login from "./Components/Admin/Login/Login";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
-import Sitemap from "../Sitemap";
+import Sitemap from "./Sitemap";
 
 export function ScrollToTop() {
   const { pathname } = useLocation();
