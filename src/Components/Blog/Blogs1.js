@@ -14,6 +14,9 @@ const Blogs1 = () => {
 
       <Helmet>
         <title>Blogs</title>
+        <meta charSet="utf-8" />
+
+        <link rel="canonical" href="https://isearch.co.in/blog/blog1" />
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -27,17 +30,17 @@ const Blogs1 = () => {
         />
         <meta
           property="og:image"
-          content="https://isearch.co.in/static/media/guest.36a15616312ea08cc690.webp"
+          content="https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media&token=679823db-4804-4f86-b381-2d8a143a2bd7"
         />
         <meta
           property="og:image:secure_url"
-          content="https://isearch.co.in/static/media/guest.36a15616312ea08cc690.webp"
+          content="https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media&token=679823db-4804-4f86-b381-2d8a143a2bd7"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Blogs" />
         <meta
           name="twitter:image"
-          content="https://isearch.co.in/static/media/guest.36a15616312ea08cc690.webp"
+          content="https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media&token=679823db-4804-4f86-b381-2d8a143a2bd7"
         />
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />
