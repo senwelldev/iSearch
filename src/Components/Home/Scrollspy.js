@@ -30,6 +30,7 @@ const Scrollspy = () => {
       data-bs-target="#list-example"
       data-bs-offset="0"
       class=" scrollspy-parent"
+      
     >
       <div class="container text-white container-Scroll">
         <div class="row">

@@ -1,43 +1,43 @@
 body {
-    position: relative;
-  }
-  
-  .scrollspy-parent{
-    margin-top: -8px;
-    padding: 6% 0 2% 0;
-    z-index: 10;
-    background: url("../../Images//ScrollSpy//ScrollImg.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* border: 2px solid red; */
-    border-top: 15px solid black;
-    border-bottom: 2px solid black;
+  position: relative;
 }
 
-.container-Scroll{
+.scrollspy-parent {
+  margin-top: -8px;
+  padding: 6% 0 2% 0;
+  z-index: 10;
+  background: url("../../Images//ScrollSpy//ScrollImge.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* border: 2px solid red; */
+  border-top: 15px solid black;
+  border-bottom: 2px solid black;
+}
+
+.container-Scroll {
   background: transparent !important;
   /* border: 2px solid red; */
 }
 
-.list-group{
+.list-group {
   background: transparent !important;
 }
 
-  .scrollspy-example {
-    position: relative;
-    overflow: auto;
-    height: 300px; 
-    scrollbar-width: thin;
-    scrollbar-color: transparent transparent;
-    /* border: 1px solid red; */
-  }
+.scrollspy-example {
+  position: relative;
+  overflow: auto;
+  height: 300px;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  /* border: 1px solid red; */
+}
 
-  .scrollspy-example h4{
-    font-size: 30px;
-  }
-  
-  /* .scrollspy-example p, h4{
+.scrollspy-example h4 {
+  font-size: 30px;
+}
+
+/* .scrollspy-example p, h4{
     background: white;
     color: black;
     &:nth-of-type(2){
@@ -46,33 +46,33 @@ body {
     }
   } */
 
-  .scrollspy-example::-webkit-scrollbar {
-    width: 5px; 
-  }
-  
-  .scrollspy-example::-webkit-scrollbar-thumb {
-    background-color: transparent;
-  }
+.scrollspy-example::-webkit-scrollbar {
+  width: 5px;
+}
 
-  .list-group-item{
-    color: rgb(168, 168, 168) !important;
-    background: transparent !important;
-  }
-  
-  .list-group-item.active{
-    color: white !important;
-    /* text-decoration: underline ; */
-  }
+.scrollspy-example::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
 
-  .list-group{
-    width: 55%;
-  }
+.list-group-item {
+  color: rgb(168, 168, 168) !important;
+  background: transparent !important;
+}
 
-  .list-group a{
-    font-size: 25px;
-  }
+.list-group-item.active {
+  color: white !important;
+  /* text-decoration: underline ; */
+}
 
-  /* #list-item-1{
+.list-group {
+  width: 55%;
+}
+
+.list-group a {
+  font-size: 25px;
+}
+
+/* #list-item-1{
     background: url("../../Images//ScrollSpy//Scroll1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,13 +103,14 @@ body {
     padding-bottom: 20%;
   } */
 
-@media screen and (max-width: 991px){
-    .list-group{
-        width: 100%;
-    }    
-    .list-group a{
-        font-size: 15px;
+@media screen and (max-width: 991px) {
+  .list-group {
+    width: 100%;
+  }
 
-        /* background: linear-gradient(90deg, white, black); */
-    }    
+  .list-group a {
+    font-size: 15px;
+
+    /* background: linear-gradient(90deg, white, black); */
+  }
 }

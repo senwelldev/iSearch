@@ -6,16 +6,20 @@ const Blog1 = () => {
   return (
     <div className="conatiner blogBody1">
       <Helmet>
-      
         {}
         <title>isearch||Blog1</title>
         <link rel="canonical" href="https://isearch.co.in/blog/blog1" />
         <meta name="robots" content="index, follow" />
         <link rel="shortlink" href="https://isearch.co.in/blog/blog1" />
         <meta name="news_keywords" content="SEO Techniques" />
+
         {/* Open Graph Meta Tags */}
         {/*Primary Meta Tags */}
         <title>Understanding SEO: Technical, On-Page & Off-Page</title>
+        <meta
+          name="google-site-verification"
+          content="lJtqzp787OKYZ5BSKwXzEB5SnmXrNeNs6kiS8DNUpbg"
+        />
         <meta
           name="title"
           content="Understanding SEO: Technical, On-Page & Off-Page"

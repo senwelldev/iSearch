@@ -18,6 +18,10 @@ const Home = () => {
         <meta name="robots" content="index, follow" />
         <link rel="shortlink" href="https://isearch.co.in/" />
         <meta name="news_keywords" content="isearch.india" />
+        <meta
+          name="google-site-verification"
+          content="lJtqzp787OKYZ5BSKwXzEB5SnmXrNeNs6kiS8DNUpbg"
+        />
 
         <meta name="title" property="og:title" content="isearch.co.in" />
         <meta
