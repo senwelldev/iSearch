@@ -6,23 +6,171 @@ const Blog1 = () => {
   return (
     <div className="conatiner blogBody1">
       <Helmet>
+        <title>isearch||Blog1</title>
+        <link rel="canonical" href="https://isearch.co.in/blog/blog1" />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+          <meta name="language" content="English" />
+        </meta>
+        <link rel="shortlink" href="https://isearch.co.in/blog/blog1" />
+        <meta name="news_keywords" content="SEO Techniques" />
+
+        {/* Open Graph Meta Tags */}
+        {/*Primary Meta Tags */}
+        <title>Understanding SEO: Technical, On-Page & Off-Page</title>
+        <meta
+          name="google-site-verification"
+          content="lJtqzp787OKYZ5BSKwXzEB5SnmXrNeNs6kiS8DNUpbg"
+        />
         <meta
           name="title"
           content="Understanding SEO: Technical, On-Page & Off-Page"
         />
         <meta
           name="description"
-          content="SEM stands for Search Engine Marketing or as it is commonly known, Search Engine Marketing. Search engine marketing is a form of digital marketing. This is a generic term for a combination of SEO and PPC activities aimed at driving traffic from organic search and paid search. Put simply, search engine marketing is the process of gaining traffic and visibility on search engines through paid and unpaid activities."
+          content="SEO stands for “search engine optimization.” In simple terms, SEO means the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines ......"
         />
         <meta
-          name="keywords"
-          content="Digital Marketing Strategies,          SEO Techniques,          Social Media Marketing,          Content Marketing,          Pay-Per-Click Advertising,          Email Marketing,          Online Reputation Management,          Local SEO,          E-commerce Marketing,          Digital Marketing and Web Development Pune,        Integrated Marketing Solutions Maharashtra,        SEO and Website Design Services,        Social Media Marketing and Web Development,        Full-Service Digital Marketing Agency Pune,        Maharashtra Web Design and SEO,        Website Development and Branding Services,        Comprehensive Digital Marketing Solutions,        Custom Web Design Maharashtra,        SEO-Optimized Website Development,        Social Media Management and Web Design,        Professional Digital Marketing Company Pune,        E-commerce Website Development Maharashtra,        Content Marketing and Web Development,        SEO and Mobile-Friendly Website Design,        Social Media Optimization and Web Design,        Digital Marketing Strategy Consulting,        Responsive Web Design Pune"
+          name="title"
+          property="og:title"
+          content="isearch.co.in/blog/blog1"
         />
-        <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="language" content="English" />
-        <meta name="revisit-after" content=" days" />
-        <meta name="author" content="iSearch" />
+        <meta
+          name="image"
+          property="og:image"
+          content="https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media&token=679823db-4804-4f86-b381-2d8a143a2bd7"
+        />
+        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:height" content="600px" />
+        <meta
+          name="description"
+          property="og:description"
+          content="SEO stands for “search engine optimization.” In simple terms, SEO means the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines whenever people search"
+        />
+        <meta name="author" content="isearch.co.in" />
+        {/*Open Graph / Facebook*/}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://isearch.co.in/blog/blog1" />
+        <meta
+          property="og:title"
+          content="Understanding SEO: Technical, On-Page & Off-Page"
+        />
+        <meta
+          property="og:description"
+          content="SEO stands for “search engine optimization.” In simple terms, SEO means the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines ......"
+        />
+        <meta
+          property="og:image"
+          content="https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media&token=679823db-4804-4f86-b381-2d8a143a2bd7"
+        />
+        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:height" content="600px" />
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://isearch.co.in/blog/blog1"
+        />
+        <meta
+          property="twitter:title"
+          content="Understanding SEO: Technical, On-Page & Off-Page"
+        />
+        <meta
+          property="twitter:description"
+          content="SEO stands for “search engine optimization.” In simple terms, SEO means the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines ......"
+        />
+        <meta
+          property="twitter:image"
+          content="https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media&token=679823db-4804-4f86-b381-2d8a143a2bd7"
+        />
+        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:height" content="600px" />
+        <meta
+          name="keywords"
+          content="Digital Marketing Strategies,
+        SEO Techniques,
+        Social Media Marketing,
+        Content Marketing,
+        Pay-Per-Click Advertising,
+        Email Marketing,
+        Online Reputation Management,
+        Local SEO,
+        E-commerce Marketing,
+        Digital Marketing and Web Development Pune,
+      Integrated Marketing Solutions Maharashtra,
+      SEO and Website Design Services,
+      Social Media Marketing and Web Development,
+      Full-Service Digital Marketing Agency Pune,
+      Maharashtra Web Design and SEO,
+      Website Development and Branding Services,
+      Comprehensive Digital Marketing Solutions,
+      Custom Web Design Maharashtra,
+      SEO-Optimized Website Development,
+      Social Media Management and Web Design,
+      Professional Digital Marketing Company Pune,
+      E-commerce Website Development Maharashtra,
+      Content Marketing and Web Development,
+      SEO and Mobile-Friendly Website Design,
+      Social Media Optimization and Web Design,
+      Digital Marketing Strategy Consulting,
+      Responsive Web Design Pune,
+      Paid Marketing Campaigns and Web Development,
+      Branding, SEO, and Website Design Pune,
+      Digital Advertising and Custom Web Development,
+      Analytics-Driven Marketing Services Maharashtra,
+      Website Redesign and SEO Optimization,
+      Social Media Engagement and Web Design,
+      PR Marketing, Web Development, and SEO,
+      Digital Marketing Pune,
+      Social Media Marketing Services,
+      SEO Company Maharashtra,
+      Paid Marketing Solutions,
+      Branding Services Pune,
+      Web Design and Analytics,
+      Content Marketing Agency,
+      PR Marketing Solutions,
+      Online Marketing Pune,
+      Internet Marketing Services,
+      Search Engine Optimization Maharashtra,
+      Social Media Management Pune,
+      PPC Advertising Services,
+      Brand Development Pune,
+      Website Design and Development Maharashtra,
+      Analytics Consulting Services,
+      Content Creation and Marketing,
+      Public Relations Agency Pune,
+      Maharashtra Digital Marketing Firm,
+      Pune Marketing Solutions,
+      Digital Advertising Agency,
+      Online Branding Services,
+      Maharashtra Web Design Company,
+      Social Media Optimization Pune,
+      SEO Optimization Services,
+      Voice Search Optimization,
+      Video Marketing,
+      Influencer Marketing,
+      User Experience (UX) Design,
+      Augmented Reality (AR),
+      Virtual Reality (VR),
+      Mobile Optimization,
+      Chatbot Development,
+      Local SEO,
+      Online Reputation Management (ORM),
+      Conversion Rate Optimization (CRO),
+      E-commerce SEO,
+      Blockchain Marketing,
+      Sustainable Marketing,
+      Mobile App Development,
+      Progressive Web Apps (PWAs),
+      Cybersecurity in Web Development,
+      Voice User Interface (VUI),
+      Social Commerce,
+      Dark Mode Design,
+      5G Technology Impact,
+      NFT Marketing,
+      Digital Transformation,
+        Conversion Rate Optimization"
+        />
       </Helmet>
 
       <div className="blogHeading">
