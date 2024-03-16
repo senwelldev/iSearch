@@ -9,9 +9,9 @@ const Blog1 = () => {
         <title>isearch||Blog1</title>
         <link rel="canonical" href="https://isearch.co.in/blog/blog1" />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-          <meta name="language" content="English" />
-        </meta>
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+        <meta name="language" content="English" />
+
         <link rel="shortlink" href="https://isearch.co.in/blog/blog1" />
         <meta name="news_keywords" content="SEO Techniques" />
 
