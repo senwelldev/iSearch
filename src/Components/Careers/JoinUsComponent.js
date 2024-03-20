@@ -1,10 +1,6 @@
 import React from "react";
 import "./CareerPage.css";
 import JoinCard from "./JoinCard";
-import ManageAccountsIcon from "@mui/icons-material/ManageAccounts";
-import DevicesOtherIcon from "@mui/icons-material/DevicesOther";
-import BookIcon from "@mui/icons-material/Book";
-import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
 
 const JoinUsComponent = () => {
   return (

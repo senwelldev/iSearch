@@ -13,7 +13,6 @@ const Blog1 = () => {
         <meta name="language" content="English" />
 
         <link rel="shortlink" href="https://isearch.co.in/blog/blog1" />
-        <meta name="news_keywords" content="SEO Techniques" />
 
         {/* Open Graph Meta Tags */}
         {/*Primary Meta Tags */}
@@ -40,7 +39,7 @@ const Blog1 = () => {
           property="og:image"
           content="https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media&token=679823db-4804-4f86-b381-2d8a143a2bd7"
         />
-        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:width" content="800px" />
         <meta property="og:image:height" content="600px" />
         <meta
           name="description"
@@ -63,7 +62,7 @@ const Blog1 = () => {
           property="og:image"
           content="https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media&token=679823db-4804-4f86-b381-2d8a143a2bd7"
         />
-        <meta property="og:image:width" content="1200px" />
+        <meta property="og:image:width" content="800px" />
         <meta property="og:image:height" content="600px" />
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />

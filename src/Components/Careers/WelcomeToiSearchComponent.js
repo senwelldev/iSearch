@@ -1,5 +1,4 @@
 import React from "react";
-// import LifeAt1 from "../../Images/Career/LifeAt/LifeAt1.png";
 import LifeAt2 from "../../Images/Career/LifeAt/LifeAt2.webp";
 import LifeAt3 from "../../Images/Career/LifeAt/LifeAt3.webp";
 import LifeAt4 from "../../Images/Career/LifeAt/LifeAt4.webp";

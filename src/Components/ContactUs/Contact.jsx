@@ -1,13 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Contact.css";
-import { InlineWidget } from "react-calendly";
-import PhoneInput from "react-phone-input-2";
-import { CiLocationOn } from "react-icons/ci";
-import { FaPhoneAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 import db from "../../firebase.config";
 import { collection, addDoc } from "firebase/firestore/lite";
-import Loader from "./Loader";
 import Swal from "sweetalert2";
 import "sweetalert2/dist/sweetalert2.min.css";
 import { Helmet } from "react-helmet";

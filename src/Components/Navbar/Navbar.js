@@ -47,7 +47,7 @@ const Navbar2 = () => {
     <div>
       <nav className="navbarBody" style={navbarStyle}>
         <div className="navLogo" onClick={() => handleTabClick("/")}>
-          <img src={Logo} className="img-thumbnail" alt="..." />
+          <img src={Logo} className="img-thumbnail" alt="..." loading="lazy" />
         </div>
         <div
           className="toggleContainer"

@@ -1,19 +1,6 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import "./CareerPage.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import ManageAccountsIcon from "@mui/icons-material/ManageAccounts";
-import DevicesOtherIcon from "@mui/icons-material/DevicesOther";
-import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
-import BookIcon from "@mui/icons-material/Book";
-import JoinCard from "./JoinCard";
-import { Link } from "react-router-dom";
-// import MediaCard from "./MediaCard";
-// import OpenCard from "./OpenCard";
-// import Team from "../../Images/Career/Team.png";
 import Team from "../../Images/Career/Team.webp";
-
-// import jobDescriptions from "../Careers/Jobs.json";
 import { Helmet } from "react-helmet";
 import CareerBannerComponent from "./CareerBannerComponent";
 import CarouselComponent from "./CarouselComponent";

@@ -21,6 +21,7 @@ import Social from "./Components/Services/More1/Social";
 import JobDetail from "./Components/Careers/JobDetails";
 import Login from "./Components/Admin/Login/Login";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export function ScrollToTop() {
   const { pathname } = useLocation();
