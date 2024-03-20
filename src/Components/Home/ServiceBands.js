@@ -10,7 +10,7 @@ const ServiceBands = () => {
       <div className="serviceBands-row">
         <div className="serviceBands-row-Left">
           <video
-            src="Assets/ServiceVideos/Paid Ads Campaign.mp4"
+            src="Assets/ServiceVideos/Paid Ads Campaign.webm"
             height="100%"
             width="100%"
             muted
@@ -32,7 +32,7 @@ const ServiceBands = () => {
       <div className="serviceBands-row">
         <div className="serviceBands-row-Left">
           <video
-            src="Assets/ServiceVideos/Social media marketing.mp4"
+            src="Assets/ServiceVideos/Social media marketing.webm"
             height="100%"
             width="100%"
             muted
@@ -54,7 +54,7 @@ const ServiceBands = () => {
       <div className="serviceBands-row">
         <div className="serviceBands-row-Left">
           <video
-            src="Assets/ServiceVideos/Search Engine Optimization.mp4"
+            src="Assets/ServiceVideos/Search Engine Optimization.webm"
             height="100%"
             width="100%"
             muted
@@ -76,7 +76,7 @@ const ServiceBands = () => {
       <div className="serviceBands-row">
         <div className="serviceBands-row-Left">
           <video
-            src="Assets/ServiceVideos/Branding Services.mp4"
+            src="Assets/ServiceVideos/Branding Services.webm"
             height="100%"
             width="100%"
             muted
@@ -98,7 +98,7 @@ const ServiceBands = () => {
       <div className="serviceBands-row">
         <div className="serviceBands-row-Left">
           <video
-            src="/Assets/ServiceVideos/Content & PR Marketing.mp4"
+            src="/Assets/ServiceVideos/Content & PR Marketing.webm"
             height="100%"
             width="100%"
             muted
@@ -120,7 +120,7 @@ const ServiceBands = () => {
       <div className="serviceBands-row">
         <div className="serviceBands-row-Left">
           <video
-            src="Assets/ServiceVideos/Web Design & Analytics.mp4"
+            src="Assets/ServiceVideos/Web Design & Analytics.webm"
             height="100%"
             width="100%"
             muted
