@@ -1,5 +1,4 @@
 import React from "react";
-import "./AboutUs.css";
 import Vision from "./Vision";
 import OurCoreValues from "./OurCoreValues";
 import WhyChooseUs from "./WhyChooseUs";

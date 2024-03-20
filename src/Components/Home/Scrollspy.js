@@ -2,13 +2,7 @@ import React, { useEffect } from "react";
 import "./Scrollspy.css";
 
 const Scrollspy = () => {
-  // useEffect(() => {
-  //     const scrollSpy = new window.bootstrap.ScrollSpy(document.body, {
-  //       target: "#list-example",
-  //     });
-  //     scrollSpy.refresh(); // Refresh the ScrollSpy after initialization
-  //   }, []); // Empty dependency array ensures the effect runs once when the component mounts
-  useEffect(() => {
+    useEffect(() => {
     const scrollSpy = new window.bootstrap.ScrollSpy(document.body, {
       target: "#list-example",
     });

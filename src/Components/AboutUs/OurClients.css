@@ -2,9 +2,6 @@
     padding: 3% 8% 3% 8%;
 }
 
-.OurClients-Heading{
-    /* border: 1px solid red; */
-}
 
 .OurClients-Heading h1{
     font-size: 50px;
@@ -13,9 +10,7 @@
     font-family: var(--bs-font-sans-serif);
 }
 
-.OurClients-Content{
-    /* border: 1px solid red; */
-}
+
 
 .OurClients-Card{
     height: 380px;

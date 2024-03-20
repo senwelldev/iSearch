@@ -1,146 +1,71 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ServiceBands.css";
 import { useNavigate } from "react-router-dom";
 
-const ServiceBands = () => {
+const ServiceBand = () => {
   const navigate = useNavigate();
+
+  const BandData = [
+    {
+      title: "Paid Ads Campaign",
+      videoSource: "Assets/ServiceVideos/Paid Ads Campaign.webm",
+      route: "/paidAdds",
+    },
+    {
+      title: "Social Media Marketing",
+      videoSource: "Assets/ServiceVideos/Social media marketing.webm",
+      route: "/social",
+    },
+    {
+      title: "Search Engine Optimization",
+      videoSource: "Assets/ServiceVideos/Search Engine Optimization.webm",
+      route: "/seo",
+    },
+    {
+      title: "Branding Services",
+      videoSource: "Assets/ServiceVideos/Branding Services.webm",
+      route: "/branding",
+    },
+    {
+      title: "Content & PR Marketing",
+      videoSource: "Assets/ServiceVideos/Content & PR Marketing.webm",
+      route: "/contentServices",
+    },
+    {
+      title: "Web Design & Analytics",
+      videoSource: "Assets/ServiceVideos/Web Design & Analytics.webm",
+      route: "/webDesign",
+    },
+  ];
 
   return (
     <div className="serviceBandsBody">
-      <div className="serviceBands-row">
-        <div className="serviceBands-row-Left">
-          <video
-            src="Assets/ServiceVideos/Paid Ads Campaign.webm"
-            height="100%"
-            width="100%"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
+      {BandData.map((item, index) => (
+        <div className="serviceBands-row" key={index}>
+          <div className="serviceBands-row-Left">
+            <video
+              src={item.videoSource}
+              height="100%"
+              width="100%"
+              muted
+              autoPlay
+              loop
+              playsInline
+            ></video>
+          </div>
+          <div className="serviceBands-row-Right">
+            <h1>{item.title}</h1>
+            <button
+              className="Services-Bands-btn"
+              onClick={() => navigate(item.route)}
+            >
+              <b>Read More</b>
+            </button>
+          </div>
         </div>
-        <div className="serviceBands-row-Right">
-          <h1>Paid Ads Campaign</h1>
-          <button
-            className="Services-Bands-btn"
-            onClick={() => navigate("/paidAdds")}
-          >
-            <b>Read More</b>
-          </button>
-        </div>
-      </div>
-      <div className="serviceBands-row">
-        <div className="serviceBands-row-Left">
-          <video
-            src="Assets/ServiceVideos/Social media marketing.webm"
-            height="100%"
-            width="100%"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
-        </div>
-        <div className="serviceBands-row-Right">
-          <h1>Social Media Marketing</h1>
-          <button
-            className="Services-Bands-btn"
-            onClick={() => navigate("/social")}
-          >
-            <b>Read More</b>
-          </button>
-        </div>
-      </div>
-      <div className="serviceBands-row">
-        <div className="serviceBands-row-Left">
-          <video
-            src="Assets/ServiceVideos/Search Engine Optimization.webm"
-            height="100%"
-            width="100%"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
-        </div>
-        <div className="serviceBands-row-Right">
-          <h1>Search Engine Optimization</h1>
-          <button
-            className="Services-Bands-btn"
-            onClick={() => navigate("/seo")}
-          >
-            <b>Read More</b>
-          </button>
-        </div>
-      </div>
-      <div className="serviceBands-row">
-        <div className="serviceBands-row-Left">
-          <video
-            src="Assets/ServiceVideos/Branding Services.webm"
-            height="100%"
-            width="100%"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
-        </div>
-        <div className="serviceBands-row-Right">
-          <h1>Branding Services</h1>
-          <button
-            className="Services-Bands-btn"
-            onClick={() => navigate("/branding")}
-          >
-            <b>Read More</b>
-          </button>
-        </div>
-      </div>
-      <div className="serviceBands-row">
-        <div className="serviceBands-row-Left">
-          <video
-            src="/Assets/ServiceVideos/Content & PR Marketing.webm"
-            height="100%"
-            width="100%"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
-        </div>
-        <div className="serviceBands-row-Right">
-          <h1>Content & PR Marketing</h1>
-          <button
-            className="Services-Bands-btn"
-            onClick={() => navigate("/contentServices")}
-          >
-            <b>Read More</b>
-          </button>
-        </div>
-      </div>
-      <div className="serviceBands-row">
-        <div className="serviceBands-row-Left">
-          <video
-            src="Assets/ServiceVideos/Web Design & Analytics.webm"
-            height="100%"
-            width="100%"
-            muted
-            autoPlay
-            loop
-            playsInline
-          ></video>
-        </div>
-        <div className="serviceBands-row-Right">
-          <h1>Web Design & Analytics</h1>
-          <button
-            className="Services-Bands-btn"
-            onClick={() => navigate("/webDesign")}
-          >
-            <b>Read More</b>
-          </button>
-        </div>
-      </div>
+      ))}
     </div>
   );
 };
 
-export default ServiceBands;
+export default ServiceBand;

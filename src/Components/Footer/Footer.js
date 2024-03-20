@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import "./Footer.css";
 import { useNavigate } from "react-router-dom";
 import Logo from "../../Images/isearchLogo3.webp";
-import LinkedIn from "../../Images/Footer/LinkedIn.webp";
-import Fb from "../../Images/Footer/Facebook.webp";
-import WP from "../../Images/Footer/WhatsApp_icon.webp";
-import Insta from "../../Images/Footer/Instagram.webp";
-import Youtube from "../../Images/Footer/Youtube.webp";
+import LinkedIn from "../../Images/Footer/Icon/LinkedIn.webp";
+import Fb from "../../Images/Footer/Icon/Facebook.webp";
+import WP from "../../Images/Footer/Icon/WhatsApp_icon.webp";
+import Insta from "../../Images/Footer/Icon/Instagram.webp";
+import Youtube from "../../Images/Footer/Icon/Youtube.webp";
 import RatingsBand from "./RatingsBand";
 import db from "../../firebase.config";
 import { collection, addDoc } from "firebase/firestore/lite";
@@ -123,7 +123,8 @@ const Footer = () => {
         <div className="insta">
           <a
             href="https://www.linkedin.com/company/isearch-india/people/"
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
           >
             <img src={LinkedIn} alt="..." />
           </a>
@@ -138,12 +139,20 @@ const Footer = () => {
           </a>
         </div>
         <div className="insta">
-          <a href="https://www.instagram.com/isearch.india/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/isearch.india/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={Insta} alt="..." />
           </a>
         </div>
         <div className="insta">
-          <a href="https://www.youtube.com/@senwellgroup" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.youtube.com/@senwellgroup"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={Youtube} alt="..." />
           </a>
         </div>
@@ -261,7 +270,8 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://www.linkedin.com/company/isearch-india/people/"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <i class="fa-brands fa-linkedin"></i>
                   </a>
@@ -269,7 +279,8 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://www.facebook.com/people/Senwell-Group/100068983571168/"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <i class="fa-brands fa-square-facebook"></i>
                   </a>
@@ -277,7 +288,8 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://www.instagram.com/isearch.india/"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <i class="fa-brands fa-instagram"></i>
                   </a>
@@ -285,7 +297,8 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://www.youtube.com/@senwellgroup"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <i class="fa-brands fa-youtube"></i>
                   </a>
@@ -293,7 +306,8 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://twitter.com/i/flow/login?redirect_after_login=%2FiSearch_india"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <i class="fa-brands fa-x-twitter"></i>
                   </a>
