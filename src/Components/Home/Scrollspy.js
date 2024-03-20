@@ -31,7 +31,7 @@ const Scrollspy = () => {
       data-bs-offset="0"
       class=" scrollspy-parent"
     >
-      <div class="container text-white container-Scroll " loding="lazy">
+      <div class="container text-white container-Scroll " >
         <div class="row">
           <div class="col-md-12">
             <div class="row">

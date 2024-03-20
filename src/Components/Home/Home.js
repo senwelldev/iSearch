@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Home.css";
 import Scrollspy from "./Scrollspy";
 import Video from "./Video";
@@ -10,6 +10,18 @@ import Counts from "./Counts";
 import { Helmet } from "react-helmet";
 
 const Home = () => {
+  const [isInteractive, setIsInteractive]=useState(false);
+  const handleScroll = () => setIsInteractive(true);
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    
+    // Clean up the event listener when component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []); // Empty dependency array means the effect runs once after the initial render
+
+ 
   return (
     <>
       <Helmet>
@@ -114,8 +126,8 @@ const Home = () => {
         />
       </Helmet>
       <Video />
-      <Scrollspy />
-      <Onboarding />
+     {isInteractive && <Scrollspy />
+     } <Onboarding />
       <Counts />
       <Service />
       <ServiceBands />

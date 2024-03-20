@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import Logo from "../../Images/isearchLogo2.webp";
+import Logo from "../../Images/isearchLogo21.webp";
+
 import "./Navbar.css";
 
 const Navbar2 = () => {
@@ -47,7 +48,14 @@ const Navbar2 = () => {
     <div>
       <nav className="navbarBody" style={navbarStyle}>
         <div className="navLogo" onClick={() => handleTabClick("/")}>
-          <img src={Logo} className="img-thumbnail" alt="..." loading="lazy" />
+          <img
+            width={170}
+            height={90}
+            src={"/Assets/isearchLogo21.webp"}
+            className="img-thumbnail"
+            alt="..."
+            loading="eager"
+          />
         </div>
         <div
           className="toggleContainer"
