@@ -88,12 +88,18 @@ const RatingsBand = () => {
       {/* <hr style={{color:'black'}}/> */}
       <div className="container-fluid">
         <div className="row" style={{ padding: "20px 1px" }}>
-          <div className="col-lg-6 RatingsBandBody-row1-Parent">
+          {/*<div className="col-lg-6 RatingsBandBody-row1-Parent">
             <div className="row RatingsBandBody-row1">
               <div className="col-lg-3 ratingCard">
                 <div className="row ExxonUperpart">
                   <div className="col-lg-6 d-flex justify-content-center align-items-center">
-                    <img src={Star} className="start-exon" alt="StartLogo" />
+                    <img
+                      height="20px"
+                      width="20px"
+                      src={Star}
+                      className="start-exon"
+                      alt="StartLogo"
+                    />
                   </div>
                   <div className="col-lg-6">
                     <span>4.7</span>
@@ -146,9 +152,42 @@ const RatingsBand = () => {
                 <img src={Clutch} alt="clutch" className="ExxonUnderImg" />
               </div>
             </div>
+  </div>*/}
+          <div className="col-lg-6 RatingsBandBody-row1-Parent">
+            <div className="row RatingsBandBody-row1">
+              {[
+                { rating: 4.7, imageSrc: StartLogo },
+                { rating: 4.8, imageSrc: GlassDoor },
+                { rating: 4.5, imageSrc: Google },
+                { rating: 4.6, imageSrc: Clutch },
+              ].map((item, index) => (
+                <div className="col-lg-3 ratingCard" key={index}>
+                  <div className="row ExxonUperpart">
+                    <div className="col-lg-6 d-flex justify-content-center align-items-center">
+                      <img
+                        height="20px"
+                        width="20px"
+                        src={Star}
+                        className="start-exon"
+                        alt="StarLogo"
+                      />
+                    </div>
+                    <div className="col-lg-6">
+                      <span>{item.rating}</span>
+                    </div>
+                  </div>
+                  <img
+                    height="30px"
+                    width="90px"
+                    src={item.imageSrc}
+                    alt={`image-${index}`}
+                    className="ExxonUnderImg"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
-
-          <div className="col-lg-6">
+          {/*<div className="col-lg-6">
             <div className="row RatingsBandBody-row2">
               <div className="col-lg-4 RatingsBandBody-row2-Card">
                 <div className="row Exxon-Numberrow ">
@@ -210,6 +249,38 @@ const RatingsBand = () => {
                   <a href="tel:+91 9175277758">+91 9175277758</a>
                 </p>
               </div>
+            </div>
+                  </div>*/}
+          <div className="col-lg-6">
+            <div className="row RatingsBandBody-row2">
+              {[
+                { country: "UK", flag: UK, phoneNumber: "+447818818981" },
+                { country: "USA", flag: USA, phoneNumber: "+1 6184237605" },
+                {
+                  country: "India",
+                  flag: India,
+                  phoneNumber: "+91 9175277758",
+                },
+              ].map((item, index) => (
+                <div className="col-lg-4 RatingsBandBody-row2-Card" key={index}>
+                  <div className="row Exxon-Numberrow ">
+                    <div className="col-lg-6">
+                      <img
+                        src={item.flag}
+                        alt={item.country}
+                        className="country-logo"
+                      />
+                    </div>
+                    <div className="col-lg-6">
+                      <p>{item.country}</p>
+                    </div>
+                  </div>
+                  <p className="Exxon-Call">
+                    <FaPhoneAlt />
+                    <a href={`tel:${item.phoneNumber}`}>{item.phoneNumber}</a>
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
         </div>

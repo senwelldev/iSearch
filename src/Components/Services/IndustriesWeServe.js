@@ -5,12 +5,12 @@ import "aos/dist/aos.css";
 const IndustriesWeServe = () => {
   return (
     <div className="IndustriesWeServe-Body">
-      <div className="IndustriesWeServe-Heading" >
+      <div className="IndustriesWeServe-Heading">
         <h1>
           <b>Industries We Serve</b>
         </h1>
       </div>
-      <div className="IndustriesCard-Container">
+      {/*<div className="IndustriesCard-Container">
         <div className="IndustriesCard" data-aos="fade-down">
           <h3>
             <b>Ecommerce</b>
@@ -41,6 +41,22 @@ const IndustriesWeServe = () => {
             <b>Gaming & Technology</b>
           </h3>
         </div>
+  </div>*/}
+      <div className="IndustriesCard-Container">
+        {[
+          { industry: "Ecommerce", aosEffect: "fade-down" },
+          { industry: "Healthcare", aosEffect: "zoom-down" },
+          { industry: "FMCG", aosEffect: "fade-down" },
+          { industry: "Fitness nutrition", aosEffect: "fade-up" },
+          { industry: "Real Estate", aosEffect: "zoom-up" },
+          { industry: "Gaming & Technology", aosEffect: "fade-up" },
+        ].map((item, index) => (
+          <div className="IndustriesCard" data-aos={item.aosEffect} key={index}>
+            <h3>
+              <b>{item.industry}</b>
+            </h3>
+          </div>
+        ))}
       </div>
     </div>
   );
