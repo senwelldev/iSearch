@@ -8,6 +8,7 @@ import db from "../../firebase.config";
 import { collection, addDoc } from "firebase/firestore/lite";
 import Swal from "sweetalert2";
 import "sweetalert2/dist/sweetalert2.min.css";
+import { useNavigate } from "react-router-dom";
 
 const ContactForm = () => {
   const [name, setName] = useState();
@@ -17,6 +18,7 @@ const ContactForm = () => {
   const [loading, setLoading] = useState(false);
   const [isValidEmail, setIsValidEmail] = useState(true);
 
+  const navigate = useNavigate();
   useEffect(() => {
     const handleLoad = () => {
       setLoading(true);
@@ -70,12 +72,14 @@ const ContactForm = () => {
       console.log("Document written with ID: ", docRef.id);
 
       // Trigger SweetAlert for success
-      Swal.fire({
+      {
+        /*Swal.fire({
         title: "Success!",
         text: "Thank you for contacting us..",
         icon: "success",
-      });
-
+      });*/
+      }
+      navigate("/thankyou");
       // Reset form fields
       setName("");
       setEmail("");

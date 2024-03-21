@@ -14,6 +14,7 @@ import {
   uploadBytesResumable,
   getDownloadURL,
 } from "firebase/storage";
+import { useNavigate } from "react-router-dom";
 
 const override = css`
   display: block;
@@ -218,11 +219,15 @@ const JobApplicationForm = () => {
         console.log("Document ID:", docRef.id);
 
         // Trigger SweetAlert for success
-        Swal.fire({
+        {
+          /*Swal.fire({
           title: "Success!",
           text: "Your application has been submitted successfully.",
           icon: "success",
-        });
+        });*/
+        }
+        const navigate = useNavigate();
+        navigate("/thankyou");
 
         const cleanup = startUpload(file, docRef.id);
         return () => {
