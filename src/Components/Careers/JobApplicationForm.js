@@ -23,6 +23,7 @@ const override = css`
 `;
 
 const JobApplicationForm = () => {
+  const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -226,7 +227,7 @@ const JobApplicationForm = () => {
           icon: "success",
         });*/
         }
-        const navigate = useNavigate();
+
         navigate("/thankyou");
 
         const cleanup = startUpload(file, docRef.id);

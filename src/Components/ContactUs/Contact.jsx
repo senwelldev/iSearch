@@ -8,6 +8,7 @@ import { Helmet } from "react-helmet";
 import ContactBanner from "./ContactBanner";
 import LocationMap from "./LocationMap";
 import ContactForm from "./ContactForm";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const [name, setName] = useState();
@@ -70,11 +71,15 @@ const Contact = () => {
       console.log("Document written with ID: ", docRef.id);
 
       // Trigger SweetAlert for success
-      Swal.fire({
+      {
+        /*Swal.fire({
         title: "Success!",
         text: "Thank you for contacting us..",
         icon: "success",
-      });
+      });*/
+      }
+      const navigate = useNavigate();
+      navigate("/thankyou");
 
       // Reset form fields
       setName("");

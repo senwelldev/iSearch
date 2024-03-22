@@ -70,6 +70,7 @@ const ContactForm = () => {
       });
 
       console.log("Document written with ID: ", docRef.id);
+      navigate("/thankyou");
 
       // Trigger SweetAlert for success
       {
@@ -79,7 +80,7 @@ const ContactForm = () => {
         icon: "success",
       });*/
       }
-      navigate("/thankyou");
+
       // Reset form fields
       setName("");
       setEmail("");

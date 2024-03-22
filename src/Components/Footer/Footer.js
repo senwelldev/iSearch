@@ -14,7 +14,7 @@ import Swal from "sweetalert2";
 import "sweetalert2/dist/sweetalert2.min.css";
 
 const Footer = () => {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -94,11 +94,15 @@ const Footer = () => {
       console.log("Document written with ID: ", docRef.id);
 
       // Trigger SweetAlert for success
-      Swal.fire({
+      {
+        /* Swal.fire({
         title: "Success!",
         text: "Thank you for contacting us..",
         icon: "success",
-      });
+      });*/
+      }
+
+      navigate("/thankyou");
       // Reset form fields
       setEmail("");
     } catch (error) {
