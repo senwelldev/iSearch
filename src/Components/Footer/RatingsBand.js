@@ -13,6 +13,7 @@ import db from "../../firebase.config";
 import { collection, addDoc } from "firebase/firestore/lite";
 import Swal from "sweetalert2";
 import "sweetalert2/dist/sweetalert2.min.css";
+import { Link, useNavigate } from "react-router-dom";
 
 const RatingsBand = () => {
   const [email, setEmail] = useState();
@@ -286,7 +287,11 @@ const RatingsBand = () => {
         </div>
       </div>
       <p className="copyright">
-        © 2023 isearch.co.in {"  |  "} All Rights Reserved |{"   "}
+        © 2023 isearch.co.in {"  |  "} All Rights Reserved |
+        <Link to="/privacy" style={{ textDecoration: "none", color: "white" }}>
+          Privacy Policy {" | "}
+        </Link>
+        {"   "}
         <a style={{ color: "white" }} href="mailto:contactus@isearch.co.in">
           contactus@isearch.co.in
         </a>

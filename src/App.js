@@ -23,6 +23,7 @@ import Login from "./Components/Admin/Login/Login";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ThankYouPage from "./Components/ThankYouPage/ThankYouPage";
+import Privacy from "./Components/Privacy/Privacy";
 
 export function ScrollToTop() {
   const { pathname } = useLocation();
@@ -58,6 +59,7 @@ const App = () => {
           <Route path="/career/job/:jobId" element={<JobDetail />} />
           <Route path="/admin/login" element={<Login />} />
           <Route path="/thankyou" element={<ThankYouPage />} />
+          <Route path="/privacy" element={<Privacy />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />
