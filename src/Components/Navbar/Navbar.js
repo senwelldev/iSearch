@@ -53,7 +53,7 @@ const Navbar2 = () => {
             height={90}
             src={"/Assets/isearchLogo21.webp"}
             className="img-thumbnail"
-            alt="..."
+            alt="iSearchLogo"
             loading="eager"
           />
         </div>
