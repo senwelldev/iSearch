@@ -1,7 +1,7 @@
 import React from "react";
 import "./Blog1.css";
 import { Helmet } from "react-helmet";
-
+import blog1 from "../../../src/Images/Blogs/BlogImage1.webp";
 const Blog1 = () => {
   return (
     <div className="conatiner blogBody1">
@@ -58,18 +58,8 @@ const Blog1 = () => {
           property="og:description"
           content="SEO stands for “search engine optimization.” In simple terms, SEO means the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines ......"
         />
-        <meta
-          property="og:image"
-          content="https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media&token=679823db-4804-4f86-b381-2d8a143a2bd7"
-        />
-        <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image:width" content="200" />
-        <meta property="og:image:height" content="200" />
 
-        <meta
-          property="og:image"
-          content="https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media&token=679823db-4804-4f86-b381-2d8a143a2bd7"
-        />
+        <meta property="og:image" content={blog1} />
         <meta property="og:image:width" content="800px" />
         <meta property="og:image:height" content="600px" />
         {/* Twitter */}
