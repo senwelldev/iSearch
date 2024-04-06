@@ -32,7 +32,7 @@ const JobApplicationForm = () => {
   const [experience, setExperience] = useState("");
   const [currentLocation, setCurrentLocation] = useState("");
   const [file, setFile] = useState(null);
-
+  
   const [firstNameError, setFirstNameError] = useState("");
   const [lastNameError, setLastNameError] = useState("");
   const [emailError, setEmailError] = useState("");
