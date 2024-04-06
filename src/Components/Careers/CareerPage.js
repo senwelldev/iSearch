@@ -20,6 +20,7 @@ const meta = {
       keywords: "react,meta,document,html,tags",
     },
     image: { Team },
+    "og:image": { Team },
     type: "article",
   },
 };
