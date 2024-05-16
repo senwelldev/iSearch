@@ -35,7 +35,7 @@ const Blog1 = () => {
               "https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media",
           },
           { property: "og:description", content: "Page 1 Description" },
-          // Any other meta tags go here as objects or you can just add children directly inside this component.
+         
         ]}
       />
       <div className="blogHeading">
