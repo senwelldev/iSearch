@@ -5,8 +5,17 @@ import { Helmet } from "react-helmet";
 const Blog1 = () => {
   return (
     <div className="conatiner blogBody1">
+      <Helmet>
+        <title>isearch</title>
+        <link rel="canonical" href="https://isearch.co.in/" />
+        <meta name="robots" content="index, follow" />
+        <link rel="shortlink" href="https://isearch.co.in/" />
+        <meta name="news_keywords" content="isearch.india" />
+
+        <meta name="title" property="og:title" content="My Blog 1" />
+      </Helmet>
       <Helmet
-        title="Home"
+        title="Blog"
         meta={[
           { property: "og:title", content: "Page1 Home" },
           {
@@ -14,7 +23,7 @@ const Blog1 = () => {
             content:
               "https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media",
           },
-          { property: "description", content: "Page 1 Description" },
+          { property: "og:description", content: "Page 1 Description" },
           // Any other meta tags go here as objects or you can just add children directly inside this component.
         ]}
       />
