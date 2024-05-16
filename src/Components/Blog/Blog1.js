@@ -1,21 +1,23 @@
 import React from "react";
 import "./Blog1.css";
 import { Helmet } from "react-helmet";
-import MetaTags from "react-meta-tags";
+import MetaTags from "react-document-meta";
 
 const Blog1 = () => {
+  const meta = {
+    title: "My Blog 1",
+    description: "Page 1 Description",
+    meta: {
+      property: {
+        "og:title": "Page1 Home",
+        "og:image":
+          "https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media",
+        "og:description": "Page 1 Description",
+      },
+    },
+  };
   return (
     <div className="conatiner blogBody1">
-      <MetaTags>
-        <title>Blog 1</title>
-        <meta name="description" content="Some description." />
-        <meta property="og:title" content="blog 1 title" />
-        <meta
-          property="og:image"
-          content="https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media"
-        />
-      </MetaTags>
-
       <Helmet>
         <title>isearch</title>
         <link rel="canonical" href="https://isearch.co.in/" />
@@ -35,9 +37,10 @@ const Blog1 = () => {
               "https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media",
           },
           { property: "og:description", content: "Page 1 Description" },
-         
         ]}
       />
+
+      <MetaTags {...meta} />
       <div className="blogHeading">
         <h1>Understanding SEO: Technical, On-Page & Off-Page</h1>
       </div>
