@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Blog1.css";
 
 const Blog1 = () => {
-  document.getElementsByTagName("META")[0].content = "My Blog";
-  document.getElementsByTagName("META")[1].content = "My Blog Description";
-  document.getElementsByTagName("META")[2].content =
-    "https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media";
+  // document.getElementsByTagName("META")[0].content = "My Blog";
+  // document.getElementsByTagName("META")[1].content = "My Blog Description";
+  // document.getElementsByTagName("META")[2].content =
+  //   "https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media";
+
+  useEffect(() => {
+    document.title = "My Blog";
+    let descMeta = document.querySelector("meta[property='og:description']");
+    debugger;
+    descMeta.setAttribute("content", "Blog Desc");
+    // let themeMeta = document.querySelector("meta[name='theme-color']");
+    // themeMeta.setAttribute("content", "#ffffff");
+  }, []);
 
   return (
     <div className="conatiner blogBody1">
