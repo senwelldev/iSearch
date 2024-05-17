@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
-import "./Home.css";
-import Scrollspy from "./Scrollspy";
-import Video from "./Video";
-import Onboarding from "./Onboarding";
-import HelpYouWin from "./LetsFind";
-import Service from "./Service";
-// import ServiceBands from "./ServiceBands";
-import Counts from "./Counts";
 import { Helmet } from "react-helmet";
+import Counts from "./Counts";
+import "./Home.css";
+import HelpYouWin from "./LetsFind";
+import Onboarding from "./Onboarding";
+import Scrollspy from "./Scrollspy";
+import Service from "./Service";
+import Video from "./Video";
 
 import ServiceBand from "./ServiceBands";
 
@@ -31,12 +30,9 @@ const Home = () => {
         <meta name="robots" content="index, follow" />
         <link rel="shortlink" href="https://isearch.co.in/" />
         <meta name="news_keywords" content="isearch.india" />
-        <meta
-          name="google-site-verification"
-          content="lJtqzp787OKYZ5BSKwXzEB5SnmXrNeNs6kiS8DNUpbg"
-        />
+        <meta name="google-site-verification" content="lJtqzp787OKYZ5BSKwXzEB5SnmXrNeNs6kiS8DNUpbg" />
 
-        <meta name="title" property="og:title" content="isearch.co.in" />
+        <meta name="title" property="og:title" content="iSearch Home" />
         <meta
           name="image"
           property="og:image"
@@ -127,7 +123,7 @@ const Home = () => {
         />
       </Helmet>
       <Video />
-      {isInteractive && <Scrollspy />} 
+      {isInteractive && <Scrollspy />}
       <Onboarding />
       <Counts />
       <Service />
