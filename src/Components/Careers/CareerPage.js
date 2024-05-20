@@ -8,7 +8,7 @@ import WelcomeToiSearchComponent from "./WelcomeToiSearchComponent";
 
 const CareerPage = () => {
   return (
-    <DocumentMeta>
+    <>
       <div className="career-page ">
         {/* ------Code for meta tags of this page------ */}
 
@@ -19,7 +19,7 @@ const CareerPage = () => {
         <CarouselComponent />
         <br />
       </div>
-    </DocumentMeta>
+    </>
   );
 };
 
