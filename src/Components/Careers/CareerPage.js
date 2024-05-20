@@ -8,18 +8,16 @@ import WelcomeToiSearchComponent from "./WelcomeToiSearchComponent";
 
 const CareerPage = () => {
   return (
-    <DocumentMeta>
-      <div className="career-page ">
-        {/* ------Code for meta tags of this page------ */}
+    <div className="career-page ">
+      {/* ------Code for meta tags of this page------ */}
 
-        <CareerBannerComponent />
-        <JoinUsComponent />
-        <MediaComponent />
-        <WelcomeToiSearchComponent />
-        <CarouselComponent />
-        <br />
-      </div>
-    </DocumentMeta>
+      <CareerBannerComponent />
+      <JoinUsComponent />
+      <MediaComponent />
+      <WelcomeToiSearchComponent />
+      <CarouselComponent />
+      <br />
+    </div>
   );
 };
 

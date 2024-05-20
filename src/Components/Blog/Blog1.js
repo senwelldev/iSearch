@@ -8,10 +8,10 @@ const Blog1 = () => {
   //   "https://firebasestorage.googleapis.com/v0/b/isearch-130324/o/Blog-images%2FBlogImage1.webp?alt=media";
 
   useEffect(() => {
-    document.title = "My Blog";
-    let descMeta = document.querySelector("meta[property='og:description']");
-    debugger;
-    descMeta.setAttribute("content", "Blog Desc");
+    // document.title = "My Blog";
+    // let descMeta = document.querySelector("meta[property='og:description']");
+    // debugger;
+    // descMeta.setAttribute("content", "Blog Desc");
     // let themeMeta = document.querySelector("meta[name='theme-color']");
     // themeMeta.setAttribute("content", "#ffffff");
   }, []);

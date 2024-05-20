@@ -2,16 +2,20 @@
   "hosting": {
     "public": "build",
     "site": "sn-isearch",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "function": "webApi"
       }
     ]
-  }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": ["node_modules", ".git", "firebase-debug.log", "firebase-debug.*.log"],
+      "predeploy": ["npm --prefix \"$RESOURCE_DIR\" run build"]
+    }
+  ]
 }

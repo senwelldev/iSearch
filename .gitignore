@@ -11,6 +11,10 @@
 # production
 /build
 
+# function
+
+/functions/lib/*
+
 # misc
 .DS_Store
 .env.local

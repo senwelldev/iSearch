@@ -14,6 +14,8 @@
     "apexcharts": "^3.45.1",
     "bootstrap": "^5.3.2",
     "firebase": "^10.7.0",
+    "firebase-admin": "^12.1.0",
+    "node-fetch": "^3.3.2",
     "react": "^18.2.0",
     "react-apexcharts": "^1.4.1",
     "react-bootstrap": "^2.9.2",
@@ -31,11 +33,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "react-scripts build && firebase deploy",
+    "build": "react-scripts build && cp -r build functions/lib",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint --fix --ext .js,.jsx ."
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
